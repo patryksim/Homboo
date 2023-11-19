@@ -1,0 +1,33 @@
+.masonite{
+	background-color: #ffa441;
+	margin-right: 4px;
+	margin-left: 0px;
+}
+.feather_river{
+	
+	background-color: #ff8502;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+p.service-box {
+    height: 75px;
+    text-align: left;
+    font-size: 11px;
+    line-height: 14px;
+    font-family: OpenSans;
+}
+
+.masonite h3 {
+	height: 25px;
+}
+.price {
+	margin-top: 9px !important;
+	margin-bottom: 0px;
+}
+.price2{
+	margin-top: 0px !important;
+	margin-bottom: 0px;
+}
+.title-service-box{
+	margin-top: 20px;
+}

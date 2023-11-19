@@ -1,0 +1,332 @@
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url(../fonts/font-homboo/Open_Sans/OpenSans-Italic.ttf);
+}
+
+.btn-finance{
+	/*padding-left: 40px !important;	
+  	padding-right: 40px !important;	*/
+  	font-family: Oswald-Regular;
+	font-size: 16.5px;
+	padding: 0px 0px;
+	height: 35px;
+	width: 170px;
+}
+.btn-finance2{
+	/*padding-left: 40px !important;	
+  	padding-right: 40px !important;	*/
+  	font-family: Oswald-Regular;
+	font-size: 12px;
+	padding: 0px 0px;
+	height: 27px;
+	width: 127px;
+}
+.btn-finance-more {
+	font-family: Oswald-Regular;
+	font-size: 14.5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	height:27px;
+	width: 105px;
+	line-height:14.5px;
+}
+.btn-service-box{
+	float: left !important;
+	margin-left: 14px;
+	margin-top: 214px;
+}
+.buttom_apply{
+	text-align: center;
+	margin-top: 27px;
+	margin-bottom: 27px;
+}
+
+.buttom_sing_in{
+	text-align: right;
+	margin-top: 17px;
+}
+.center {
+    margin: auto;
+}
+.container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+div.left-side{
+	width: 130px;
+	height: 264px;
+	float: left !important;
+}
+/* h2 is used for main-titles*/
+h2{
+	font-family: Oswald-Regular;
+	font-size: 27.5px;
+	color: #666666;
+	margin-top: 27px;
+	margin-bottom: 54px;
+	font-weight: bolder;
+}
+/* h3 is used for sub-titles*/
+h3{
+	font-family: Oswald-Regular;
+	color: #666666;
+	font-size: 21px;
+	margin-top: 54px;
+	margin-bottom: 27px;
+	font-weight: bolder;
+}
+h4 {
+	font-size: 14px;
+	font-family: Oswald-Regular;
+	text-align: justify;
+}
+.home-css header .services-btn{
+	padding-left: 39px;
+}
+.home-css nav {
+	background-color: #87C900 !important;
+}
+.header-cont{
+	margin-bottom: 2px;
+}
+
+.header-in-bc {
+	padding-left: 0px;
+}
+.img-service-box{
+	float: right;
+}
+.insurance{
+	background-color: #666666;
+	margin-left: 5px;
+}
+li{
+	color: #505050;
+	font-family: OpenSans;
+	font-size: 12px;
+  	src: url(../fonts/font-homboo/Open_Sans/OpenSans-Regular.ttf);
+  	text-align: justify;
+}
+.loans{
+	background-color: #999999;
+	margin-right: 5px;
+}
+.logo {
+	padding-top: 14px;
+	padding-bottom: 24px;
+}
+.nav2{
+	width: 240px;
+}
+p{
+	color: #505050;
+	font-family: OpenSans;
+	font-size: 12px;
+  	src: url(../fonts/font-homboo/Open_Sans/OpenSans-Regular.ttf);
+  	text-align: justify;
+}
+p.service-box{
+	float: left !important;
+	margin-left: 14px;
+	width: 130px;
+	color: white;
+}
+section.breadcrumbs{
+	color: #666;
+	font-family: OpenSans;
+	font-size: 11px;
+  	src: url(../fonts/font-homboo/Open_Sans/OpenSans-Regular.ttf);
+	height: 40px;
+	padding-top: 10px;	
+	
+}
+.service-box{
+	width: 364px;
+	height: 264px;
+	display: inline-block;
+	
+}
+.service-description{
+	color: #505050;
+	font-family: OpenSans;
+	font-size: 12px;
+  	src: url(../fonts/font-homboo/Open_Sans/OpenSans-Regular.ttf);
+  	text-align: justify;
+	line-height: 14px;
+}
+.social-links{
+	width: 42px;
+	position: absolute;
+	top: 147px;
+}
+.title-service-box{
+	float: left !important;
+	font-family: Oswald-Regular;
+	margin-left: 14px;
+	color: white;
+}
+
+.btn-form-primary {
+  	font-family: Oswald-Regular;
+	font-size: 14.02px;
+	padding: 0px 0px;
+	height: 27px;
+	width: 156px;
+	margin-bottom: 27px;
+}
+
+
+.tab {
+	padding-top: 8px; 
+	padding-left: 14px; 
+	padding-right: 14px; 
+	padding-bottom: 8px; 
+	font-family: Oswald-Regular; 
+	font-size: 15px; 
+	color: #909090; 
+	margin-bottom: 0;
+}
+
+.tab.selected {
+	color: #5e5e5e; 
+	border-top: solid 1px  #909090; 
+	border-left: solid 1px  #909090; 
+	border-right: solid 1px;  #909090
+}
+
+.form-element {
+	height:30px; 
+	font-size:12px; 
+	padding-left: 7px; 
+	margin-right: 27px; 
+	margin-left: 0;
+	font-family: Oswald-Regular;
+}
+
+.form-element.final {
+	margin-right: 0;
+}
+
+.selectParent{
+	height:28px;
+    overflow:hidden;
+	border: solid 1px #909090;
+    background: #ffffff;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+.selectParent select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2px 2px 2px 2px;
+    border: none;
+    background: transparent url(../img/dropdown_arrow.png) no-repeat right 3px;
+	color: #ababab;
+}
+
+.selectParent select option{
+	color: black;
+}
+
+.custom-checkbox-text {
+	font-family: OpenSans;
+	font-size: 12px;
+	color: #666666;
+	margin-left: 10px
+}
+
+.btn.transparent {
+	color: #666666;
+	background-color: transparent;
+	width: 82px;
+}
+
+.finance-background {
+	background: #87C900;
+	color: white;
+}
+
+.btn.finance-color {
+	color: #87C900;
+}
+
+.finance-color {
+	color: #87C900;
+}
+
+.espacio2 {
+	margin-top: 27px;
+}
+.sign-in-section {
+	height: 28px; 
+	border: solid 1px #999999;
+	width: 758px;
+	margin: auto;
+}
+.sign-in-text{
+	line-height: 28px; 
+	font-family: Oswald-Regular; 
+	font-size: 14px; 
+	padding-left: 10px; 
+	color: #666666; 
+	font-weight: bold;
+}
+
+
+
+.nav>li>a {
+	padding-top: 8px;
+	padding-bottom: 7px;
+}
+	
+	
+input[type='radio'] {
+  -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+  -webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+  background: white;
+  outline: 1px solid #666666;
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 12px;
+  height: 12px;
+}
+
+input[type='radio']:checked {
+  background: #333;
+}
+
+.home-css header .logo a {
+	font-family: OpenSans-Italic;
+	font-size: 15px;
+	color: #999999;
+	vertical-align: bottom;
+}
+
+.home-css .services-list img {
+  width: 100%;
+  -webkit-filter: grayscale(100%) opacity(40%);
+          filter: grayscale(100%) opacity(40%);
+}
+.home-css .services-list img:hover {
+  -webkit-filter: grayscale(0) opacity(100%);
+          filter: grayscale(0) opacity(100%);
+}
+
+.nav-pills > li > a:hover {
+	background-color: transparent;
+}
+
+.breadcrumbs a {
+	color: #666;
+}

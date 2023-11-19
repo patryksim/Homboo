@@ -1,0 +1,5 @@
+poner todas las estrellas con glyphicon
+enlaces del logo sin subrayado
+agregar estilo de animacion al dropdown del menu en los navbars
+quitar transicion automatica del carusel del slide show
+quitar efecto de sombreado sobre los link de service-list en nav2

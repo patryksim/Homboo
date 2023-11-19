@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title ng-bind="(gPage.pageTitle | available:'')"></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/vendors-bc42d84b.css">
+    <link rel="stylesheet" href="css/jquery/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/architecture.css">
+
+    
+    <!-- Custom jquery -->
+    <script "js/bootstrap.min.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+</head>
+
+<body>
+	
+<script src="js/vendors-8c770cac.js"></script>
+<script src="js/jquery/jquery-ui.min.js"></script>
+<script src="js/custom-vendors.min.js"></script>
+  
+  
+<!-- Main Wrapper -->
+<div class="architecture_home-css fixes-css"> 
+
+<!-- Anim Container -->
+
+<nav id="barra" class="homboo-navfinal navbar navbar-default navbar-fixed-top">
+    <div class="container nav-bc-container">
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+          </button>
+        </div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu lock" src="img/lock.png">MY ACCOUNT <span class="caret"></span></a>
+			  </li>
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu pencil" src="img/Pencil.png">MY HOMBOO <span class="caret"></a>
+			  </li>
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu cart" src="img/cart.png">CART <span class="badge">0</span></a>
+			  </li>
+			  <li class="fix-img">
+				  <a href="#">
+					  <img class="img-menu" src="img/search.png">
+				  </a>
+			  </li>
+		   </ul>
+		</div>
+    </div>
+</nav>
+
+<header class="container-fluid homboo-headerfinal">
+    <div class="container-fluid navAnim">
+        <div class="container">
+        </div>
+    </div>
+    <div class="container headerCont" >
+        <div class="row headerIn">
+            <div class="logo-cont">
+                <a href="#">
+                    <img src="img/homboo.png" alt="...">    
+                </a>  
+                <a href="architecture_home.html" >ARCHITECTURE</a>
+            </div>
+        </div>
+
+        <div class="row headerMenu">
+            <div class="navHeader">
+                <ul class="headerList" >
+                    <li><a href="#">SELF SERVICE</a></li>
+                    <li><a href="#">TURNKEY</a></li>
+                    <li><a href="#">PROJECT OPTIONS</a></li>
+                    <li><a href="#">MY PROJECT</a></li>
+                    <li><a href="#">OUR ARCHITECTS</a></li>
+                    <li><a href="#">BUILDING CODES</a></li>
+                    <li><a href="#">NEWS</a></li>
+
+                    <li class="visible-mobile" ><a href="#">LIVE SUPPORT</a></li>
+                </ul>            
+            </div>
+            <div class="navHeaderRight services-btn hidden-sm hidden-xs">
+                <ul class="nav nav-pills" >
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-plain orange live"><img src="img/live_support.png" >LIVE SUPPORT</button>
+                            <button id="drop-down-menu-btn" type="button" class="btn btn-plain gray serv" data-toggle="dropdown" >HOMBOO services<span class="caret"></span></button>
+                            <ul class="dropdown-menu services-list" role="menu">
+                                <li>
+                                    <a href="#"><img src="img/dropdown/land.png"></a>
+                                    <a href="#"><h4>LAND</h4></a>
+                                    <hr class="color2" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/archi.png"></a>
+                                    <a href="#"><h4>ARCHITECTURE</h4></a>
+                                    <hr class="color1" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/management.png"></a>
+                                    <a href="#"><h4>MANAGEMENT</h4></a>
+                                    <hr class="color3" />
+                                </li>
+
+                                <li>
+                                    <a href="#"><img src="img/dropdown/materials.png"></a>
+                                    <a href="#"><h4>MATERIALS</h4></a>
+                                    <hr class="color4" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/prof.png"></a>
+                                    <a href="#"><h4>PROFESSIONALS</h4></a>
+                                    <hr class="color5" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/finance.png"></a>
+                                    <a href="#"><h4>FINANCE</h4></a>
+                                    <hr class="color6" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/furniture.png"></a>
+                                    <a href="#"><h4>FURNITURE</h4></a>
+                                    <hr class="color7" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/supp.png"></a>
+                                    <a href="#"><h4>SUPPORT</h4></a>
+                                    <hr class="color8" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/com.png"></a>
+                                    <a href="#"><h4>COMMUNITY</h4></a>
+                                    <hr class="color9" />
+                                </li>
+
+                            </ul>
+                        </div>
+                </ul>       
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Section Social-Links -->
+<div class="social-links">
+    <a href="https://www.facebook.com/fcbarcelona"><img src="img/icons-big/face.png"></a>
+    <a href="#"><img src="img/icons-big/print.png"></a>
+    <a href="https://twitter.com/fcbarcelona_es" target="_blank"><img src="img/icons-big/twitter.png"></a>
+    <a href="https://plus.google.com/+FCBarcelona"><img src="img/icons-big/plus.png"></a>
+</div>
+<!-- Section Banner -->
+<section id="banner" class="container-fluid" style="min-height: 0;">
+</section>
+        
+
+
+<!-- Section Principal Container -->                
+<section id="banner2" class="home-css ">  
+      <form>
+       <section class="breadcrumbs container"style="margin-bottom:10px";>
+          <div class="" style="padding-left: 0; width: auto;margin-bottom: 10px;">
+            <a href="#">Homboo</a> / <a href="#">Architecture</a> / Our Architects 
+          </div>
+          <div id="contact_1">
+            <p class="text_1" style="margin-top: 0px;margin-left: 0px;"><big>OUR PROFESSIONALS:</big><splan class="sign-in-text" style="font-size:24px;"> APPOINMENTS REQUEST FORM</splan></p>
+          </div>
+      </section>
+
+<div class="container" style="padding:0px" >        
+        <div id="menu_1"class="row"> 
+
+        <div class="col-xs-12 col-md-3" style="padding:0px">
+          <div class="ancho_2" >
+               <p  style="font-size: 12px; margin-bottom:0px;" ><b>Registration Form</b></p>
+                <div class="selectParent" style="heigh: 24px; position:relative;"> 
+                    <select class="form-element" style=" font-family: Oswald-Regular; font-size: 13px;">
+                      <option style="font-family: OpenSans-Light; font-size: 12px;" value="" selected disabled>CUSTOM HOME CLIENT</option>
+                      <option style="font-family: OpenSans-Light; font-size: 12px;">Option 1</option>
+                      <option style="font-family: OpenSans-Light; font-size: 12px;">Option 2</option>
+                      <option style="font-family: OpenSans-Light; font-size: 12px;">Option 3</option>
+                    </select>
+                </div>
+        </div>
+      </div>
+    </div>
+
+
+<div id="cont_tab" class="tabs-container product-tabs" >
+    <div id="Tabs" role="tabpanel" class="tabs-container product-tabs">
+        <!-- Nav tabs -->
+        <ul id="menu_1" class="nav nav-tabs nav_1" role="tablist">
+            <li ><a href="#" aria-controls="land_info" role="presentation" class="tab" >
+                LAND INFORMATION</a></li>
+            <li><a href="#" aria-controls="house_gen" role="presentation" class="tab">HOUSE GENERAL DESCRIPTION</a></li>
+            <li class="active"><a href="#house_plan" aria-controls="house_plan" role="presentation" class="tab" data-toggle="tab">HOUSE PLAN STYLE</a></li>
+
+        </ul>
+        <!-- Tab panes -->
+                  <div class="tab-content contenido_tab" style="padding-top: 20px;margin-left:15px;">
+                    <!-- Tab 1-->
+                        <!-- panel 3-->
+                      <div role="tabpanel" class="tab-pane active" id="house_plan">
+					                 <div class="row ancho_2" > 
+
+                					  <div class="col-xs-12 col-md-3" style="padding:0px;"> <!-- col 1 -->
+                					    <p  style="font-size: 12px; margin-bottom:0px;"><b>House Plan Style</b></p>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  A-Frame</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Bungalow & Job Accounting</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Cape Cod</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Chalet</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Colonial</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Colonial Revival</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Conemporary</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Cottage</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Country</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Craftsman</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Dutch</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  English Cottage</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  European</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Farmhouse</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Florida</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  French Country</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Georgian</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Gothic Revival</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Greek Revival</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Italianate</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Log Houses</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Mediterranean</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Mission</span>
+                					    </div>
+
+                				</div> <!-- Fin col 1 -->
+
+                				  <div class="col-xs-12 col-md-3" style="padding:0px;margin-top:37px"> <!-- col 2-->
+
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Modern</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Neoclassical</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  New American</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Norman</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Plantation</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Tudor</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Prairie</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Pueblo</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Queen Anne</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Victorian</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Ranch</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Salt Box</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Second Empire</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Shed</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Shingle</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Southwest</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Spanish</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Spanish Revival</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Split Level</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Tidewater</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Traditional</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Victorian Eclectic</span>
+                					    </div>
+
+
+                				</div> <!-- fin col 2-->
+
+                				<div class="col-xs-12 col-md-3" style="padding:0px; "> <!-- col 3-->
+                					    <p  style="font-size: 12px; margin-bottom:0px;"><b>Room Requirements</b></p>
+
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Apartament or inia Suite</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Atrium or GreenHpuse</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Bonus Space</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Den/Study/Officce</span>
+                					    </div>
+                							<div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Formal Living Room</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Formal Dining Room</span>
+                					    </div>
+
+                					    <p  style="font-size: 12px; margin-bottom:10px;margin-top:10px;"><b>Kitchen Requirements</b></p>
+
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Breakfast Nook</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Country/Family Kitchen</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Kitchen-Breakfast</span>
+                					    </div>
+
+                					     <p  style="font-size: 12px; margin-bottom:10px;margin-top:10px;"><b>Miscellaneous</b></p>
+
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Built-Ins</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  FirePlaces</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Formal Dining Room</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Formal Living Room</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  LoundryRoom-2nd Floor</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Loundry Room-2nd Floor</span>
+                					    </div>         					    
+
+                			</div> <!-- fin col 3-->
+
+                			 <div class="col-xs-12 col-md-3" style="padding:0px;margin-top:37px"> <!-- col 4-->
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Game/Recreation Room</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Game/Family Room</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Laundry Room-2nd Floor</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Laundry Room-Main Floor</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Media Room</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Workshop</span>
+                					    </div>
+
+                					    </br>
+
+                					    <div>
+                					    <div style="margin-top: 18px;">
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Kitchen-Island</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Kitchen-Walk-in Pantry</span>
+                					    </div>
+                					  </div>
+
+                					  </br>
+
+                					    <div>
+                					    <div id="check_porches">
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Porches</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Pitched roofs</span>
+                					    </div>
+
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Flat roofs</span>
+                					    </div>
+                					  </div>
+
+                  				</div>
+                  				</div>
+
+                				  <div class="row ancho_2" style="margin-buttom:40px;margin-top:20px;"> 
+
+                					  <div class="col-xs-12 col-md-3" style="padding:0px;">
+                				    	<p  style="font-size: 12px; margin-bottom:0px;"><b>Fundation Type</b></p>
+                					    <div>
+                					   	<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Block</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                			   			  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Crawl Space</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Daylight Basement</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                					   	  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Finished Basement</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Finished Walkout Basement</span>
+                					    </div>
+                					</div>
+
+                					  <div class="col-xs-12 col-md-9" style="padding:0px;margin-top:35px;margin-buttom:40px;">
+
+                							<div>
+                						<input type="checkbox"></input>
+                						    <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Pier/Piling</span>
+                					    </div>
+                					     <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Slab</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						   <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Unfinished Basement</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Unfinished Walkout Basement</span>
+                					    </div>
+                					  </div>
+                				</div>
+
+                		 <div class="row ancho_2" style="margin-top:20px;">
+                					<div class="col-xs-12 col-md-12" style="padding:0px;">
+                					    <p style="font-size: 12px; margin-bottom:0px;"><b>Do you want a green / sustainable construction design and methods?</b></p>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Yes</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  No</span>
+                					    </div>
+                					</div>
+
+                				      <div class="col-xs-12 col-md-12" style="padding:0px;">
+                					    <p style="font-size: 12px; margin-bottom:0px;"><b>Do you specify, purchase or influence the selections of products used by your company?</b></p>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  Yes</span>
+                					    </div>
+                					    <div>
+                						<input type="checkbox"></input>
+                						  <span style="margin-left:10px; font-family: OpenSans-Light; font-size: 12px;">  No</span>
+                					    </div>
+                					</div>
+                		 </div>
+              </div> <!-- FIN PANEL 3 -->
+          </div>  <!-- Tab panes-->
+      </div>  <!-- Tabs -->
+    </div> <!-- Panel -->
+
+      <div>
+        <p style="margin-top:20px">* Fields are mandatory</p>
+      </div>
+
+    <div class="row ancho_2">
+      <div style="float:right;width: 370px;">
+        <div class="col-xs-5 col-md-6" style="padding:0px;margin-top:15px;width: 150px;">
+          <a style="text-decoration:none;font-family: Oswald-Regular; font-size: 14px;float:right;color:#666666 "href="#"><img style="padding-bottom:5px;"src="img/arrow_4.png">  BACK</a>
+
+        </div>
+        <div class="col-xs-5 col-md-6" style="padding-left:10px;margin-top:15px;width: 150px;padding-right:16px;float:right;">
+        <button type="button" class="btn btn-plain btn-continue green2" data-toggle="modal" data-target="#modal_1">CONTINUE<img align="right" src="img/arrow_3.png">
+        </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL -->
+   <div class="modal fade" id="modal_1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div id="modal_2"class="modal-content">
+        <div id="modal_3" class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          
+        </div>
+        <div id="modal_4"class="modal-body">
+          <p class="text_7">CONFIRMATION APPOINTMENT</p>
+          <p id="modal_p">Your appointment request has been successfully sent. One of our architects would ba contact you very soon.</p>
+
+        </div>
+        <div  id="modal_5" class="modal-footer">
+                <button type="button" class="btn btn-plain btn-continue green2"><big>ACCEPT</big>
+                </button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+    <!-- FIN MODAL -->
+
+
+<!-- FIN -->
+</div>
+</form>
+</section>
+ 
+
+        
+<!-- Section Footer -->
+<footer class="container-fluid footer-main" style="margin-top: 25px;padding-right: 0px;padding-left: 0px;">  
+    <!-- Footer Menu -->
+    <section id="footer-menu" class="container-fluid" style="margin-bottom: 17px;margin-top: -21px; ">
+        
+        <div class="container">     
+            <div class="row">
+                <div class="col-lg-9 col-md-8 footer-text">
+                    Homboo 2012- All rights reserved - <a href="#">Go to top</a> | <a href="#">About homboo</a> | <a href="#">The project</a> | <a href="#">How it works</a>| <a href="#">FAQ</a> |<a href="#">Support</a> | <a href="#">Contacts</a>
+                </div>
+                <div class="col-lg-3 col-md-4 followus" >
+                    Follow Us:&nbsp;
+                    <span class="social-small-list">
+                        <a href="https://www.facebook.com/fcbarcelona" target="_blank" ><img src="img/social/fb.png"></a>
+                        <a href="http://culepersempre.tumblr.com/" target="_blank" ><img src="img/social/tumblr.png"></a>
+                        <a href="https://www.linkedin.com/company/fc-barcelona" target="_blank" ><img src="img/social/ld.png"></a>
+                        <a href="https://www.youtube.com/user/fcbarcelona" target="_blank" ><img src="img/social/youtube.png"></a>
+                        <a href="https://www.flickr.com/groups/fcbarcelona/" target="_blank" ><img src="img/social/social1.png"></a>
+                        <a href="https://delicious.com/" target="_blank" ><img src="img/social/social2.png"></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div class="container">        
+        <div class="row footer-list">     
+        <div class="col-xs-5 col-md-1">
+
+          <div class="ancho" >
+               <h4 class="fuente tam1 " >LAND</h4>
+               <hr class="color2 movhr2" />
+               <a href="#" >Documents</a> <br>
+               <a href="#" >Add Your Land</a> <br>
+               <a href="#">My Saved Land</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">ARQUITECTURE</h4>
+               <hr class="color1 movhr2"/>
+               <a href="#">Project Options</a> <br>
+               <a href="#">My Project</a> <br>
+               <a href="#">User's Guide</a><br>
+               <a href="#">Contact our Architect</a><br>
+               <a href="#">Guide Lines</a><br>
+               <a href="#">FAQ</a><br>
+               <a href="#">News</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">MANAGEMENT</h4>
+               <hr class="color3 movhr2" />
+               <a href="#">Estimating</a> <br>
+               <a href="#">Scheduling</a> <br>
+               <a href="#">My Projects</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">MATERIALS</h4>
+               <hr class="color4 movhr2"/>
+               <a  href="#">Best Sellers</a> <br>
+               <a  href="#">Deal of the Day</a> <br>
+               <a  href="#">News Arrivals</a><br>
+               <a  href="#">On sale</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">PROFESSIONALS</h4>
+               <hr class="color5 movhr2"/>
+               <a href="#">My Professionals</a> <br>
+               <a href="#">My Reviews</a> <br>
+               <a href="#">Post your Resume</a><br>
+               <a href="#">My Resume</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FINANCE</h4>
+               <hr class="color6 movhr2"/>
+               <a href="#">Loans and <br> Mortgages</a> <br>
+               <a href="#">Home Insurance</a> <br>
+
+
+          </div>
+
+        </div>
+
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FURNITURE</h4>
+               <hr class="color7 movhr2"/>
+               <a href="#"> Best Sellers</a> <br>
+               <a href="#">Deal of the Day</a> <br>
+               <a href="#">News Arrivals</a><br>
+               <a href="#">On sale</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">SUPORT</h4>
+               <hr class="color8 movhr2"/>
+               <a href="#">Clients</a> <br>
+               <a href="#">Home builders</a> <br>
+               <a href="#">Construction</a><br>
+               <a href="#">Books</a><br>
+               <a href="#">Videos</a><br>
+               <a href="#">FAQ</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">COMMUNITY</h4>
+               <hr class="color9 movhr2" />
+               <a href="#">Land</a> <br>
+               <a href="#">Architecture</a> <br>
+               <a href="#">Management</a> <br>
+               <a href="#" >Home Construction</a> <br>
+               <a href="#">Materials</a> <br>
+               <a href="#">Decorating</a> <br>
+               <a href="#">Landscaping</a> <br>
+               <a href="#">Furniture</a> <br>
+               <a href="#">Finance</a> <br>
+               <a href="#">Support</a> <br>                 
+
+          </div>
+
+        </div>
+        </div> 
+    </div>
+</footer>
+
+</div>
+
+    
+
+<script>
+    function lista() {
+        document.getElementById("product-grid-container").style.display = "none";
+        document.getElementById("product-list-container").style.display = "block";
+
+        document.getElementById("grid").className = "gray-icon";
+        document.getElementById("list").className = "black-icon";
+    }
+
+    function grilla() {
+        document.getElementById("product-list-container").style.display = "none";
+        document.getElementById("product-grid-container").style.display = "block";
+
+        document.getElementById("grid").className = "black-icon";
+        document.getElementById("list").className = "gray-icon";
+    }
+
+    $(".title-faq").click(function() {
+        $(this).parent().find(".content-faq").toggle();
+        $(this).parent().find(".mas").toggle();
+        $(this).parent().find(".menos").toggle();
+    });
+    $('#Recentlyresponsive').carousel({
+    interval: false
+    });
+
+    $('#recently').carousel({
+    interval: false
+    });
+    $("#boton-sign-in").click(function() {
+    $(this).parent().toggle();
+    if (window.innerWidth < 447) {
+    $("#Recentlyresponsive").toggle();
+    } else {
+    $("#recientes").toggle();
+    }
+    });
+    $(document).ready(function () {
+        $("#slider-range").slider({
+          range: true,
+          min: 0,
+          max: 1000,
+          values: [ 0, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount1" ).val( "$" + ui.values[ 0 ]);
+            $( "#amount2" ).val( "$" + ui.values[ 1 ]);
+          }
+        });
+        $( "#amount1" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ));
+        $( "#amount2" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ));
+    });
+    $(document).ready(function () {
+    var scroll_menu = parseInt($('.headerIn').offset().top);
+    var scroll_banner = parseInt($('#banner').offset().top);
+    var height_nav_anim = $('.navAnim').outerHeight();
+    var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+    var header_bar = TweenLite.from($('.navAnim'), 0.5, {top:"-"+height_nav_anim+"px",paused:true});
+    var going_down = true;
+    $(window).scroll(function(){
+       var scroll_lvl = $(window).scrollTop();
+       if((scroll_lvl >= scroll_banner && going_down)){
+           going_down = false;
+           nav_bar.play();
+           header_bar.play();
+           $('.headerMenu').appendTo('.navAnim .container');
+          // tween_tabs.play();
+       }
+       
+       if((scroll_lvl < (scroll_banner)) && !going_down){
+           going_down = true;
+           nav_bar.reverse();
+           header_bar.reverse();
+           $('.headerMenu').appendTo('.headerCont');
+          //tween_tabs.reverse();
+       }
+    });
+    });
+    $(document).ready(function () {
+        $('.architecture-dropdown,.dropdown-title').hide();
+        var architecture = {
+            displayed: false,
+            toggle_dropdown: function(e){
+                e.preventDefault();                                 
+                if(screen.width<768){
+                    return;
+                }
+                if(this.displayed){
+                    $('.architecture-dropdown,.dropdown-title').hide();
+                    this.displayed = false;
+                }
+                else{
+                    $('.architecture-dropdown,.dropdown-title').show();
+                    this.displayed = true;
+                }
+            }
+        };
+        
+        $('#dropdown-cat').on('click',architecture.toggle_dropdown);
+        
+        $(window).on('click',function(e){
+            
+            if(screen.width<768){
+                return;
+            }
+            if(!$(e.target).is('li.dropdown-cat a')) {
+                $('.architecture-dropdown,.dropdown-title').hide();
+                architecture.displayed = false;
+            }
+        });
+        
+        $('button.serv').on('click',function(){
+            if(screen.width<768){
+                return;
+            }
+            $('.architecture-dropdown,.dropdown-title').hide();
+            architecture.displayed = false;
+        });
+    });
+    $(document).ready(function(){
+    $("#li1").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category1.png')");
+    });
+    $("#li2").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category2.png')");
+    });
+    $("#li3").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category3.png')");
+    });
+    $("#li4").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category4.png')");
+    });
+    $("#li5").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category5.png')");
+    });
+    $("#li6").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category6.png')");
+    });
+    $("#li7").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category7.png')");
+    });
+    $("#li8").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category8.png')");
+    });
+    $("#li9").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category9.png')");
+    });
+    $("#li10").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category10.png')");
+    });
+    $("#li11").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category11.png')");
+    });
+    $("#li12").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category12.png')");
+    });
+    });
+</script>
+
+</body>
+</html>

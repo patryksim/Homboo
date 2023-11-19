@@ -1,0 +1,1648 @@
+/**********************************************************************
+*                   Colors for Modules Temporaly                      *
+**********************************************************************/
+/*.background-color {
+  background-color: #CACACA;
+}
+.letter-color {
+  color: #CACACA;
+}*/
+/**********************************************************************
+*                    General Colors for Modules                       *
+**********************************************************************/
+.land-color {
+  border-color: #007925;
+  background-color: #007925;
+}
+.arquitecture-color {
+  border-color: #1a8c22;
+  background-color: #1a8c22;
+}
+.management-color {
+  border-color: #369a15;
+  background-color: #369a15;
+}
+.materials-color {
+  border-color: #59ab12;
+  background-color: #59ab12;
+}
+.professionals-color {
+  border-color: #75bd0a;
+  background-color: #75bd0a;
+}
+.finance-color {
+  border-color: #87c900;
+  background-color: #87c900;
+}
+.furniture-color {
+  border-color: #9ed700;
+  background-color: #9ed700;
+}
+.support-color {
+  border-color: #ff8502 !important;
+  background-color: #ff8502 !important;
+}
+.letter-support-color {
+  color: #ff8502 !important;
+}
+.community-color {
+  border-color: #114c9b;
+  background-color: #114c9b;
+}
+.dark-gray {
+  border-color: #999999;
+  background-color: #999999;
+}
+html {
+  background-color: #f5f5f5;
+  font-family: Oswald-Light;
+  font-size: 16px;
+  color: #666;
+}
+body {
+  background-color: #f5f5f5;
+  font-family: Oswald-Light;
+  font-size: 16px;
+  color: #666;
+}
+.max-width {
+  max-width: 758px;
+  margin: 0 auto;
+}
+.min-width {
+  min-width: 758px;
+  margin: 0 auto;
+}
+.clear-padding {
+  padding: 0;
+}
+.glyphicon-flip {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.btn {
+  border-radius: 0;
+}
+.btn:focus {
+  outline:0;
+}
+.form-control:focus {
+  box-shadow:none;
+}
+.form-control:focus { 
+  outline:0;
+}
+/**********************************************************************
+*                        General Fonts Styles                         *
+**********************************************************************/
+@font-face {
+  font-family: Oswald-Light;
+  src: url("../fonts/font-homboo/Oswald/Oswald-Light.ttf");
+}
+@font-face {
+  font-family: Oswald-Bold;
+  src: url("../fonts/font-homboo/Oswald/Oswald-Bold.ttf");
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: url("../fonts/font-homboo/Oswald/Oswald-Regular.ttf");
+}
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/font-homboo/Open_Sans/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("../fonts/font-homboo/Open_Sans/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url("../fonts/font-homboo/Open_Sans/OpenSans-Semibold.ttf");
+}
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url("../fonts/font-homboo/Open_Sans/OpenSans-Italic.ttf");
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url("../fonts/font-homboo/Open_Sans/OpenSans-Light.ttf");
+}
+/**********************************************************************
+*                        Styles for header                           *
+**********************************************************************/
+.homboo-header .homboo-nav-content {
+  background-color: #fff;
+}
+/* Nav Bar 1 */
+.homboo-navbar1.navbar{
+  margin: 0;
+  border-radius: 0px;
+  color: #fff;
+  width: 100%;
+  min-height: 32px;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  border-color: transparent;
+}
+.homboo-navbar1 .container-fluid {
+  padding-right: 0px;
+}
+.homboo-navbar1 a {
+  color: white !important;
+  font-family: Oswald-Light;
+  font-size: 13px;
+  font-weight: bolder;
+  padding: 5px 20px 5px 0px !important;
+}
+.homboo-navbar1 .badge {
+  vertical-align: baseline;
+  margin-left: 5px;
+}
+.homboo-navbar1 li:last-child a {
+  padding: 5px 0px 5px 0px !important;
+}
+.homboo-navbar1 .navbar-right .dropdown-menu {
+  right: auto;
+}
+.homboo-navbar1 .dropdown-menu {
+  border-radius: 0;
+}
+.homboo-navbar1 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+  background-color: transparent;
+}
+.homboo-navbar1 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+  /*background-color: transparent;*/
+}
+
+/* Header + Logo */
+.homboo-header .homboo-nav-content .navHeader {
+  background-color: #fff;
+  color: #999;
+  margin-top: 32px;
+  margin-bottom: 5px;
+}
+.homboo-header .homboo-nav-content .navHeader .homboo-logo {
+  height: 70px;
+  padding-top: 2.2em;
+}
+.homboo-header .homboo-nav-content .navHeader .homboo-logo .hombo-image {
+  display: inline-block;
+}
+.homboo-header .homboo-nav-content .navHeader .homboo-logo .homboo-seccion {
+  vertical-align: bottom;
+  font-family: OpenSans-Italic;
+  font-size: 20px;
+  color: #999;
+  color: #999;
+  text-decoration: none;
+  padding-left: 7px;
+}
+
+
+/* Nav Bar 2 */
+.homboo-navbar2.navbar {
+  margin: 0;
+  border-radius: 0px;
+  min-height: 32px;
+  background-color: #FFFFFF;
+  border-color: transparent;
+  width: 100%;
+}
+.homboo-navbar2 .navbar-nav-menu {
+  width: 100%;
+}
+.homboo-navbar2.navbar-default .navbar-nav>li>a {
+  padding: 5px 20px 5px 0px;
+  font-family: Oswald-Light;
+  font-size: 12px;
+  color: black;
+}
+.homboo-navbar2 .navbar-nav-menu a:hover {
+  font-weight: bold;
+}
+.homboo-navbar2 .navbar-right {
+  bottom: -1px;
+}
+.homboo-navbar2 .btn {
+  font-size: 11px;
+  height: 25px;
+  padding: 2px 20px 5px 20px;
+  border-radius: 0;
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+.homboo-navbar2 .services-list {
+  list-style: none;
+  padding: 0px;
+  border-radius: 0px;
+  border: none;
+}
+.homboo-navbar2 .services-list ul {
+  width:  758px;
+}
+.homboo-navbar2 .services-list li {
+  width: 11.11%;
+  display: inline-block;
+  float: left;
+  padding-left: 1px;
+}
+.homboo-navbar2 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
+  background-color: transparent;
+}
+.homboo-navbar2 .services-list h1 {
+  font-family: Oswald-Regular;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 4px;
+  font-size: 11px;
+}
+.homboo-navbar2 .services-list hr {
+  margin: 0;
+}
+.homboo-navbar2 .services-list a {
+  color: black;
+  padding: 0;
+}
+.homboo-navbar2 .services-list img {
+  width: 100%;
+  -webkit-filter: grayscale(100%) opacity(40%);
+          filter: grayscale(100%) opacity(40%);
+}
+.homboo-navbar2 .services-list img:hover {
+  -webkit-filter: grayscale(0) opacity(100%);
+          filter: grayscale(0) opacity(100%);
+}
+
+/**********************************************************************
+*                     Styles for Social Links                         *
+**********************************************************************/
+.social-links {
+  position: absolute;
+  top: auto;
+  left: 0;
+  width: 48px;
+  z-index: 999;
+}
+.social-links a {
+  display: block;
+}
+.social-links img {
+  width: 36px;
+}
+/**********************************************************************
+*                           Home Slide Show                           *
+**********************************************************************/
+.home-slider {
+  margin: 0;
+}
+.home-slider img {
+  width: 100%;
+  min-height: 250px;
+}
+/*.home-slider h1 {
+  font-size: 29px;
+  font-family: Oswald-Bold;
+  text-align: justify;
+  color: #666666;
+  text-shadow: 0 0 3px #FFFFFF, 0 0 5px #CFCFCF;
+}
+.home-slider h2 {
+  font-size: 17px;
+  font-family: Oswald-Bold;
+  text-align: justify;
+  color: #666666;
+  text-shadow: 0 0 3px #FFFFFF, 0 0 5px #CFCFCF;
+  margin-bottom: 20px;
+}*/
+.home-slider .searchbar {
+  margin: -55px 0px 0px 0px;
+  padding: 11px 0px 11px 0px;
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  text-align: justify;
+  background: rgba(0, 0, 0, 0.5);
+}
+.home-slider .text {
+  text-align: right;
+}
+.home-slider .text h3 {
+  margin: 0;
+  line-height: 36px;
+  color: #fff;
+  font-size: 16px;
+  font-family: OpenSans-Bold;
+}
+.home-slider .btn {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+.home-slider .form-control {
+  color: black;
+  font-family: OpenSans;
+  background-color: white;
+  border: 1px solid white;
+}
+.home-slider .carousel-indicators {
+  bottom: -37px;
+}
+/*.home-slider .carousel-indicators .active {
+  background-color: #CACACA;
+}*/
+/**********************************************************************
+*                     Styles for Search Column                        *
+**********************************************************************/
+.search-column h1 {
+  font-family: Oswald-Regular;
+  margin-top: 4px;
+  font-size: 27.5px;
+  font-weight: bolder;
+}
+.search-column .result {
+  text-align: right;
+  margin-top: 20px;
+}
+.search-column .result p {
+  font-family: OpenSans; 
+  font-size: 12px;
+  vertical-align: -10px;
+}
+.search-column .result span {
+  font-family: OpenSans-Bold;
+  color: red;
+  text-align: right;
+}
+.search-column .filters {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+.search-column .filters .title {
+  width: 100%;
+  height: 50px;
+  font: 20px Oswald-Regular;
+  padding: 10px;
+  color: #FFFFFF;
+}
+.search-column .filters .input {
+  border-radius: 0;
+  border: solid 1px #909090;
+  margin: 0px 0px;
+}
+.search-column .filters .input .form-control {
+  font-size: 12px;
+  font-family: Oswald-Regular;
+  border-color: transparent;
+}
+.search-column .filters .range {
+  width: 100%;
+  background-color: white;
+  padding: 20px 10px;
+}
+.search-column .filters .range .slide.input {
+  border-color: blue;
+}
+.search-column .filters .range .slide.input .form-control {
+  border-color: blue;
+  border-radius: 0;
+}
+.search-column .filters .range div {
+  margin-bottom:15px;
+}
+.search-column .filters .range p {
+  font-family: OpenSans-Semibold;
+  font-size: 14.5px;
+  color: #333;
+}
+.search-column .filters .range .homboo-checkbox {
+  text-align: left;
+}
+.search-column .filters .range .homboo-checkbox span {
+  font-size: 14px;
+  margin-left: 5px;
+  font-family: OpenSans-Semibold;
+  font-size: 14.5px;
+  color: #333;
+}
+.search-column .filters .range .search {
+  text-align: left;
+}
+.search-column .filters .range .search .btn {
+  font-family: Oswald-Regular;
+  font-size: 13.5px;
+  padding: 0px 0px;
+  height: 30px;
+  width: 80px;
+  color: #FFFFFF;
+}
+.search-column .filters .live-suport {
+  width: 100%;
+  height: 135px;
+  margin: 10px 0;
+  padding: 20px 10px;
+}
+.search-column .filters .live-suport p {
+  font: 25px Oswald-Regular;
+  color: #FFFFFF;
+  line-height: 15px;
+}
+.search-column .filters .live-suport .btn {
+  border-radius: 0;
+  margin-top: 11px;
+  color: white;
+  font-weight: bold;
+  line-height: 14px;
+}
+.search-column .filters .questions {
+  width: 100%;
+  background-color: white;
+  padding: 20px 10px;
+}
+.search-column .filters .questions .container {
+  width: inherit;
+  margin-top: 10px;
+}
+.search-column .filters .questions .question h1 {
+  font-family: OpenSans-Bold;
+  font-size: 12px;
+  color: #666666;
+  cursor: pointer;
+}
+.search-column .filters .questions .question .text {
+  text-align: justify;
+}
+.search-column .filters .questions .question .text p {
+  color: #505050;
+  font-family: OpenSans;
+  font-size: 12px;
+}
+.search-column .filters .more {
+  text-align: center;
+}
+.search-column .filters .questions button {
+  color: #666666;
+  font-family: Oswald-Regular;
+  font-size: 15px;
+  background-color: transparent;
+  width: 100px;
+  height: 34px;
+}
+.search-column .products .container {
+  width: initial;
+}
+.search-column .products .controls {
+  margin-bottom: 10px;
+}
+.search-column .products .controls .gang {
+  padding-left: 5px;
+}
+.search-column .products .controls img {
+  height: 36px;
+  width: 36px;
+}
+.search-column .products .controls .paginator {
+  float: right;
+  padding-right: 5px;
+  line-height: 28px;
+  display: -webkit-inline-box;
+}
+.search-column .products .controls .paginator .glyphicon {
+  color: #959595;
+}
+.search-column .products .controls .paginator div {
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+.search-column .products .controls .input {
+  border-radius: 0;
+  border: solid 1px #909090;
+}
+.search-column .products .controls .input .form-control {
+  font-size: 12px;
+  font-family: Oswald-Regular;
+  border-color: transparent;
+}
+.search-column .products .grid .sub-product {
+  padding: 0px 5px 10px 5px;
+}
+.search-column .products .grid .sub-product .item-for-you {
+  background-color: #FFFFFF;
+  padding: 0.5em 0;
+  min-height: 380px;
+}
+.search-column .products .grid .sub-product .item-for-you .tittle {
+  font-family: Oswald-Bold;
+  font-size: 17px;
+  text-align: left;
+  padding: 0.5em;
+  margin-bottom: 20px;
+}
+.search-column .products .grid .sub-product .item-for-you .image-content img {
+  width: 100%;
+  height: 117px;
+  vertical-align: middle;
+}
+.search-column .products .grid .sub-product .item-for-you .price {
+  text-align: center;
+  color: #f03;
+  font-size: 17px;
+  font-family: Oswald-Bold;
+  padding: 0.7em 0;
+}
+.search-column .products .grid .sub-product .item-for-you .detail {
+  text-align: center;
+  padding: 0.3em 0;
+}
+.search-column .products .grid .sub-product .item-for-you .detail .btn {
+  color: #fff;
+  font-family: Oswald-Regular;
+  border-radius: 0px;
+}
+.search-column .products .grid .sub-product .item-for-you .w-list {
+  text-align: center;
+  background-color: #ffd247;
+  color: #333;
+  width: 100%;
+  margin: 5px 0px 10px 0px;
+}
+.search-column .products .grid .sub-product .item-for-you .w-list a {
+  color: #000;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+.search-column .products .grid .sub-product .item-for-you .w-list a img {
+  width: 25px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+.search-column .products .grid .sub-product .item-for-you .w-list a:hover {
+  font-weight: bold;
+}
+.search-column .products .grid .sub-product .item-for-you .homboo-checkbox {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 0px;
+}
+.search-column .products .grid .sub-product .item-for-you .homboo-checkbox span {
+  font-size: 14px;
+}
+.search-column .products .grid .sub-product .item-for-you .califications {
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.search-column .products .grid .sub-product .item-for-you .califications .glyphicon {
+  color: #999;
+  font-size: 13px;
+}
+.search-column .products .grid .sub-product .item-for-you .califications .yellow {
+  color: #ffce54 !important;
+}
+.search-column .products .list .sub-product {
+  padding: 0px 5px 10px 5px;
+}
+.search-column .products .list .sub-product .item-for-you {
+  background-color: #FFFFFF;
+  padding: 0.5em 0;
+  min-height: 133px;
+  width: 100%;
+}
+.search-column .products .list .sub-product .item-for-you .tittle {
+  color: black;
+  font-family: Oswald-Bold;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0;
+  margin-bottom: 0px;
+}
+.search-column .products .list .sub-product .item-for-you .image-content img {
+  width: 100%;
+  height: 117px;
+  vertical-align: middle;
+}
+.search-column .products .list .sub-product .item-for-you .price {
+  text-align: left;
+  color: #f03;
+  font-size: 17px;
+  font-family: Oswald-Bold;
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
+.search-column .products .list .sub-product .item-for-you .detail {
+  text-align: left;
+  padding-top: 24px;
+  padding-bottom: 0px;
+}
+.search-column .products .list .sub-product .item-for-you .detail .btn {
+  color: #fff;
+  font-family: Oswald-Regular;
+  border-radius: 0px;
+}
+.search-column .products .list .sub-product .item-for-you .choice {
+  margin: 62px 0px 10px 0px;
+}
+.search-column .products .list .sub-product .item-for-you .choice .homboo-checkbox {
+  text-align: left;
+  padding-right: 0px;
+}
+.search-column .products .list .sub-product .item-for-you .choice .homboo-checkbox span {
+  font-size: 14px;
+}
+.search-column .products .list .sub-product .item-for-you .choice .califications {
+  text-align: right;
+  padding-left: 0px;
+}
+.search-column .products .list .sub-product .item-for-you .choice .califications .glyphicon {
+  color: #999;
+
+}
+.search-column .products .list .sub-product .item-for-you .choice .califications .yellow {
+  color: #ffce54 !important;
+}
+.search-column .products .list .sub-product .item-for-you .w-list {
+  text-align: center;
+  background-color: #ffd247;
+  color: #333;
+  width: 100%;
+  margin: 5px 0px 0px 0px;
+  padding-left: 0px;
+}
+.search-column .products .list .sub-product .item-for-you .w-list a {
+  color: #000;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+.search-column .products .list .sub-product .item-for-you .w-list a img {
+  width: 25px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+.search-column .products .list .sub-product .item-for-you .w-list a:hover {
+  font-weight: bold;
+}
+/**********************************************************************
+*                        Styles for Details                           *
+**********************************************************************/
+.details {
+  width: 100%;
+  background-color: #E1E1E1;
+}
+.details .img-detail-big {
+  max-height: 352px;
+  width: 100%;
+  border: 9px solid #FFFFFF;
+}
+.details .img-detail-short {
+  max-height: 85px;
+  width: 100%;
+  border: 3px solid #FFFFFF;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.details .col-md-3 {
+  padding: 3px;
+}
+.details .col-md-3:last-child {
+  padding-right: 0px;
+}
+.details .col-md-4 {
+  padding-right: 0px;
+}
+.details .item-for-you {
+  max-height: 352px;
+}
+.details .item-for-you .tittle {
+  font-family: Oswald-Bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  line-height: 1em;
+}
+.details .item-for-you .information {
+  vertical-align: left;
+  margin: 0;
+}
+.details .item-for-you .information p {
+  font-size: 12px;
+  font-family: OpenSans;
+  line-height: 13px;
+}
+.details .item-for-you .price {
+  text-align: left;
+  color: #f03;
+  font-size: 25px;
+  font-family: Oswald-Bold;
+  padding: 0.7em 0;
+}
+.details .item-for-you .save {
+  text-align: center;
+  padding: 0.3em 0;
+}
+.details .item-for-you .save button {
+  width: 100%;
+  border-radius: 0;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-family: Oswald-Regular;
+}
+.details .item-for-you .detail .btn {
+  color: #fff;
+  font-family: Oswald-Regular;
+  border-radius: 0px;
+}
+.details .item-for-you .w-list {
+  text-align: center;
+  background-color: #ffd247;
+  color: #333;
+  width: 100%;
+  margin: 5px 0px 10px 0px;
+}
+.details .item-for-you .w-list a {
+  color: #000;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+.details .item-for-you .w-list a img {
+  width: 25px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+.details .item-for-you .w-list a:hover {
+  font-weight: bold;
+}
+.details .item-for-you .homboo-checkbox {
+  text-align: left;
+}
+.details .item-for-you .homboo-checkbox span {
+  font-size: 14px;
+}
+.details .item-for-you .califications {
+  text-align: right;
+}
+.details .item-for-you .califications .glyphicon {
+  color: #999;
+}
+.details .item-for-you .califications .yellow {
+  color: #ffce54 !important;
+}
+/**********************************************************************
+*                        Styles for Social Box                        *
+**********************************************************************/
+.social-box {
+  padding: 30px 0px 30px 0px;
+}
+.social-box .div-social-box {
+  display: inline-block;
+  padding: 10px 0;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 4px;
+}
+.social-box .div-social-box span {
+  display: inline-block;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  vertical-align: middle;
+  line-height: 40px;
+  font-size: 10px;
+  line-height: 30px;
+  font-family: OpenSans;
+  color: #9c9c9c;
+}
+.social-box .div-social-box .share-icon {
+  margin-left: 10px;
+  width: 35px;
+  border-right: 1px solid #9c9c9c;
+  background-position: left center;
+  background-image: url("../img/social-box/social-box1.png");
+  background-size: 15px auto;
+}
+.social-box .div-social-box .facebook-icon {
+  width: 60px;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-right: 1px solid #9c9c9c;
+  background-image: url("../img/social-box/social-box2.png");
+  background-size: 15px auto;
+}
+.social-box .div-social-box .twitter-icon {
+  width: 73px;
+  vertical-align: middle;
+  margin-left: 17px;
+  padding-left: 40px;
+  padding-right: 20px;
+  background-image: url("../img/social-box/social-box3.png");
+}
+/**********************************************************************
+*                        Square with Triangle                         *
+**********************************************************************/
+.square-with-triangle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.square-with-triangle .homboo-triangle {
+  margin-bottom: 0.5em;
+}
+.square-with-triangle .homboo-triangle:first-child {
+  padding-left: 0;
+  padding-right: 5px;
+}
+.square-with-triangle .homboo-triangle:last-child {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.square-with-triangle h1 {
+  font-size: 20px;
+  font-family: Oswald-Bold;
+  margin: 0;
+  color: #fff;
+}
+.square-with-triangle p {
+  font-size: 11px;
+  font-family: OpenSans;
+  position: relative;
+  color: #fff;
+}
+.square-with-triangle h2 {
+  font-family: Oswald-light;
+  margin: 0;
+  color: #fff;
+  font-size: 14px;
+}
+.square-with-triangle .triangle-box {
+  width: 100%;
+  height: 264px;
+  padding: 20px 15px;
+  position: relative;
+  z-index: 200;
+}
+.square-with-triangle .triangle-box:after {
+  border-style: solid;
+  border-width: 15px 0 15px 17px;
+  content: "";
+  position: absolute;
+  left: 98%;
+  top: 44%;
+  display: inline-block;
+  z-index: 200;
+}
+.square-with-triangle .light-color {
+  background-color: #ffa441;
+}
+.square-with-triangle .dark-color {
+  background-color: #ff8502;
+  border-color: transparent transparent transparent #ff8502;
+}
+.square-with-triangle .triangle-box.light-color:after {
+  border-color: transparent transparent transparent #ffa441;
+}
+.square-with-triangle .triangle-box.dark-color:after {
+  border-color: transparent transparent transparent #ff8502;
+}
+.square-with-triangle button {
+  width: 106px;
+  font-size: 14px;
+  border-radius: 0px;
+  font-family: Oswald-Light;
+  color: #fff;
+}
+.square-with-triangle table {
+  height: 100%;
+}
+.square-with-triangle tr {
+  height: 56px;
+  vertical-align: top;
+}
+.square-with-triangle tr:last-child {
+  vertical-align: bottom;
+}
+.square-with-triangle img {
+  width: 100%;
+  height: 264px;
+}
+/**********************************************************************
+*                          Static Carousel                            *
+**********************************************************************/
+.static-carousel .title h1 {
+  font-family: Oswald-Bold;
+  color: #666666;
+  font-size: 26px;
+}
+.static-carousel .title span {
+  font-family: Oswald-Regular;
+  font-size: 11px;
+  font-size: 11px;
+  color: black;
+  text-decoration: none;
+}
+.static-carousel .title img {
+  margin-top: -9px;
+}
+.static-carousel .item-for-you {
+  background-color: #FFFFFF;
+  padding: 0.5em 0;
+}
+.static-carousel .item-for-you .tittle {
+  font-family: Oswald-Bold;
+  font-size: 17px;
+  text-align: left;
+  padding: 0.5em;
+  margin-bottom: 20px;
+}
+.static-carousel .item-for-you .image-content img {
+  width: 100%;
+  height: 117px;
+  vertical-align: middle;
+}
+.static-carousel .item-for-you .price {
+  text-align: center;
+  color: #f03;
+  font-size: 17px;
+  font-family: Oswald-Bold;
+  padding: 0.7em 0;
+}
+.static-carousel .item-for-you .detail {
+  text-align: center;
+  padding: 0.3em 0;
+}
+.static-carousel .item-for-you .detail .btn {
+  color: #fff;
+  font-family: Oswald-Regular;
+  border-radius: 0px;
+}
+.static-carousel .item-for-you .w-list {
+  text-align: center;
+  background-color: #ffd247;
+  color: #333;
+  width: 100%;
+  margin: 5px 0px 10px 0px;
+}
+.static-carousel .item-for-you .w-list a {
+  color: #000;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+.static-carousel .item-for-you .w-list a img {
+  width: 25px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+.static-carousel .item-for-you .w-list a:hover {
+  font-weight: bold;
+}
+.static-carousel .item-for-you .homboo-checkbox {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 0px;
+}
+.static-carousel .item-for-you .homboo-checkbox span {
+  font-size: 14px;
+}
+.static-carousel .item-for-you .califications {
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.static-carousel .item-for-you .califications .glyphicon {
+  color: #999;
+}
+.static-carousel .item-for-you .califications .yellow {
+  color: #ffce54 !important;
+}
+.static-carousel .owl-control-homboo {
+  position: relative;
+}
+.static-carousel .owl-control-homboo span {
+  position: absolute;
+  top: 50%;
+}
+
+.static-carousel .button-final {
+  text-align: center;
+  padding-top: 10px;
+}
+.static-carousel .button-final button {
+  color: #FFFFFF;
+  font-family: Oswald-Regular;
+  font-size: 16px;
+  border-radius: 0px;
+  width: 200px;
+}
+.static-carousel .button-final button .glyphicon {
+  float: right;
+}
+.static-carousel .button-final button .glyphicon-triangle-right:before {
+  vertical-align: middle;
+}
+/**********************************************************************
+*                               Route                                 *
+**********************************************************************/
+.route {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+}
+.route {
+  color: #666;
+  font-family: OpenSans;
+  font-size: 11px;
+}
+.route a {
+  color: #666;
+  font-family: OpenSans;
+  font-size: 11px;
+}
+/**********************************************************************
+*                             Tabs Form                               *
+**********************************************************************/
+.tabs-form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.tabs-form .title h1 {
+  font-family: Oswald-Regular;
+  font-size: 27.5px;
+  margin: 10px 0px 30px 0px;
+}
+.tabs-form .nav-tabs {
+  border-bottom: 2px solid #a4a4a4;
+}
+.tabs-form .nav-tabs li.active a {
+  font-family: Oswald-Regular;
+  font-size: 17px;
+  color: #5e5e5e;
+  background-color: #f5f5f5;
+  border: 2px solid #a4a4a4;
+  border-bottom-color: transparent;
+}
+.tabs-form .nav-tabs li:first-child {
+  margin-left: 15px;
+}
+.tabs-form .nav-tabs li {
+  margin-bottom: -3px;
+}
+.tabs-form .nav-tabs a {
+  font-family: Oswald-Regular;
+  font-size: 17px;
+  color: #909090;
+  border-radius: 0;
+}
+.tabs-form .nav-tabs a:hover {
+  border-color: transparent;
+  background-color: transparent;
+  color: #5e5e5e;
+}
+.tabs-form .tab-content {
+  margin-top: 10px;
+}
+.tabs-form .tab-content .input {
+  border-radius: 0;
+  border: solid 1px #909090;
+  margin: 5px 0px;
+}
+.tabs-form .tab-content .input .form-control {
+  font-size: 12px;
+  font-family: Oswald-Regular;
+  border-color: transparent;
+}
+.tabs-form .tab-content .input-group {
+  border-radius: 0;
+  border: solid 1px #909090;
+  margin: 5px 0px;
+}
+.tabs-form .tab-content .input-group .form-control {
+  font-size: 12px;
+  font-family: Oswald-Regular;
+  border-color: transparent;
+}
+.tabs-form .tab-content .input-group-btn {
+  background-color: white;
+  padding: 6px 12px;
+}
+.tabs-form .tab-content .input-group-btn .btn {
+  padding: 2px 9px;
+  font-size: 12px;
+}
+.tabs-form .tab-content .input-group-btn button {
+  background-color: #A8A8A8;
+  color: white;
+  border-radius: 0;
+  border-color: transparent;
+}
+.tabs-form .tab-content .input-group-btn .dropdown-menu ul li a {
+  cursor: pointer
+}
+.tabs-form .tab-content p {
+  color: #505050;
+  font-family: OpenSans;
+  font-size: 12px;
+  text-align: justify;
+}
+.tabs-form .tab-content h1 {
+  font-family: Oswald-Regular;
+  color: #666666;
+  font-size: 21px;
+  font-weight: 600;
+}
+.tabs-form .tab-content iframe {
+  width: 512px;
+  height: 360px;
+}
+.tabs-form .tab-content .reviews {
+  background-color: white;
+  margin-bottom: 10px;
+}
+.tabs-form .tab-content .reviews .row {
+  padding: 7px 0px 7px 0px;
+}
+.tabs-form .tab-content .reviews .glyphicon-arrow-right {
+  color: #63B207;
+  font-weight: bold;
+}
+.tabs-form .tab-content .reviews.transparent {
+  background-color: transparent;
+}
+.tabs-form .tab-content .paginator {
+  float: right;
+  display: -webkit-inline-box;
+}
+.tabs-form .tab-content .paginator .glyphicon {
+  color: #959595;
+}
+.tabs-form .tab-content .paginator div {
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #000000;
+  height: 23px;
+  width: 23px;
+  background-color: white;
+  text-align: center;
+}
+.tabs-form #map {
+  width: 100%;
+  min-height: 295px;
+}
+.tabs-form .button-final {
+  text-align: left;
+  padding-top: 5px;
+}
+.tabs-form .button-final button {
+  color: #FFFFFF;
+  font-family: Oswald-Regular;
+  font-size: 16px;
+  border-radius: 0px;
+  width: 150px;
+}
+.tabs-form .button-final button .glyphicon {
+  float: right;
+}
+.tabs-form .button-final button .glyphicon-triangle-right:before {
+  vertical-align: middle;
+}
+/**********************************************************************
+*                      Styles for Form Reviews                        *
+**********************************************************************/
+.form-reviews {
+  border-top: solid 3px #909090;
+  margin-top: 30px;
+  padding-top: 15px; 
+}
+.form-reviews .input {
+  border-radius: 0;
+  border: solid 1px #909090;
+  margin: 5px 0px;
+}
+.form-reviews textarea {
+  min-height: 85px;
+}
+.form-reviews .input .form-control {
+  font-size: 12px;
+  font-family: Oswald-Regular;
+  border-color: transparent;
+}
+.form-reviews h1 {
+  margin: 0;
+  font-family: Oswald-Bold;
+  color: #666666;
+  font-size: 21px;
+}
+.form-reviews h2 {
+  margin: 0;
+  font-size: 13px;
+  margin: 0;
+  font-family: OpenSans-Bold;
+  text-align: justify;
+}
+.form-reviews p {
+  font-size: 12px;
+  color: #505050;
+  font-family: OpenSans;
+  margin-right: 15px;
+}
+.form-reviews .book {
+  text-align: right;
+}
+.form-reviews .img-top {
+  top: 5px;
+}
+.form-reviews button {
+  font-family: Oswald-Regular;
+  font-size: 12px;
+  color: white;
+  width: 155px;
+  height: 30px;
+  margin-top: 45px;
+}
+.form-reviews .raiting {
+  display: -webkit-box;
+}
+/**********************************************************************
+*                         From Our Community                          *
+**********************************************************************/
+.our-community {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.our-community .community-header h1 {
+  font-family: Oswald-Bold;
+  color: #666666;
+  font-size: 27px;
+  margin: 0;
+  margin-top: 5px;
+  float: left;
+}
+.our-community .community-header button {
+  float: right;
+  font-family: Oswald-Regular;
+  color: white;
+  font-size: 15px;
+  background-color: #114c9b;
+  width: 176px;
+  height: 34px;
+  padding-right: 10px;
+  margin-right: 1px;
+  border: none;
+  border-radius: 0px;
+}
+.our-community .community-header button .glyphicon {
+  margin-left: 17px;
+}
+.our-community .comList {
+  margin-top: 10px;
+}
+.our-community .comList img {
+  max-width: none;
+  width: 100%;
+}
+.our-community .comList .col-md-4 {
+  padding: 0;
+  padding-left: 1px;
+  padding-right: 1px;
+}
+.our-community .comList .col-md-4:first-child {
+  padding-right: 2px;
+  padding-left: 0;
+}
+.our-community .comList .col-md-4:last-child {
+  padding-left: 2px;
+  padding-right: 0;
+}
+.our-community .comList .com-cont {
+  position: relative;
+}
+.our-community .comList .text-com {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  min-height: 55px;
+  padding: 4px 12px 4px 12px;
+}
+.our-community .comList .text-com h2 {
+  margin-top: 4px;
+  margin-bottom: 0px;
+  font-family: Oswald-Regular;
+  font-size: 17px;
+  font-weight: 100;
+  text-align: left;
+}
+.our-community .comList .text-com a {
+  color: white;
+}
+.our-community .comList .text-com a:hover {
+  text-decoration: none;
+}
+.our-community .comList .text-com a:focus {
+  text-decoration: none;
+}
+/**********************************************************************
+*                           Recently Views                            *
+**********************************************************************/
+.recently-views  {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.recently-views .input-group {
+  border-radius: 0;
+  border: solid 1px #909090;
+  width: 100%;
+}
+.recently-views .form-control {
+  border-radius: 0;
+  border: transparent;
+  padding: 8px;
+  font-family: Oswald-Regular;
+  font-size: 14px;
+  color: #666666;
+  font-weight: bold;
+  background-color: transparent;
+}
+.recently-views .input-group-addon {
+  border-radius: 0;
+  border: transparent;
+  border-left: solid 1px #909090;
+  font-family: Oswald-Regular;
+  font-size: 12px;
+  color: white;
+  width: 20%;
+}
+.recently-views .input-group-addon span {
+  float: right;
+}
+.recently-views .title h1 {
+  font-family: Oswald-Bold;
+  color: #666666;
+  font-size: 26px;
+}
+.recently-views .item-for-you {
+  background-color: #fff;
+  padding: 0.5em 0;
+}
+.recently-views .item-for-you .tittle {
+  font-family: Oswald-Bold;
+  font-size: 17px;
+  text-align: left;
+  padding: 0.5em;
+  margin-bottom: 20px;
+}
+.recently-views .item-for-you .image-content img {
+  width: 100%;
+  height: 117px;
+  vertical-align: middle;
+}
+.recently-views .item-for-you .price {
+  text-align: center;
+  color: #f03;
+  font-size: 17px;
+  font-family: Oswald-Bold;
+  padding: 0.7em 0;
+}
+.recently-views .item-for-you .detail {
+  text-align: center;
+  padding: 0.3em 0;
+}
+.recently-views .item-for-you .detail .btn {
+  color: #fff;
+  font-family: Oswald-Regular;
+}
+.recently-views .item-for-you .w-list {
+  text-align: center;
+  background-color: #ffd247;
+  color: #333;
+  width: 100%;
+  margin: 5px 0px 10px 0px;
+}
+.recently-views .item-for-you .w-list a {
+  color: #000;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+.recently-views .item-for-you .w-list a img {
+  width: 25px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 0.3em;
+}
+.recently-views .item-for-you .w-list a:hover {
+  font-weight: bold;
+}
+.recently-views .item-for-you .homboo-checkbox {
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 0px;
+}
+.recently-views .item-for-you .homboo-checkbox span {
+  font-size: 14px;
+}
+.recently-views .item-for-you .califications {
+  text-align: right;
+  padding-left: 0px;
+  padding-right: 5px;
+}
+.recently-views .item-for-you .califications .glyphicon {
+  color: #999;
+}
+.recently-views .item-for-you .califications .yellow {
+  color: #ffce54 !important;
+}
+.recently-views .owl-control-homboo {
+  position: relative;
+}
+.recently-views .owl-control-homboo span {
+  position: absolute;
+  top: 50%;
+}
+/**********************************************************************
+*                         Styles for Footer                           *
+**********************************************************************/
+.footer-main {
+  padding: 17px 0px 20px 0px;
+  background-color: white;
+  margin-top: 25px;
+}
+.footer-main .ancho {
+  line-height: 15px;
+}
+.footer-main a {
+  text-decoration: none;
+  color: black;
+  font-family: OpenSans;
+  font-size: 10px;
+  line-height: 1px;
+}
+.footer-main h4 {
+  font-family: Oswald-Regular;
+  margin-bottom: 0;
+  margin-left: 2px;
+  font-size: 11px;
+  font-weight: bolder;
+}
+.footer-main .footer-list > div hr {
+  border-top-width: 6px !important;
+  margin-top: 7px !important;
+  margin-bottom: 4px !important;
+}
+.footer-main .footer-menu {
+  padding-top: 17px;
+  margin-top: -21px;
+  margin-bottom: 17px;
+  font-family: OpenSans;
+  background-color: white;
+  font-size: 10px;
+}
+.footer-main .footer-menu .footer-text {
+  padding-left: 0px;
+  padding-top: 7px;
+}
+.footer-main .footer-menu a {
+  text-decoration: none;
+  color: black;
+}
+.footer-main .footer-menu .followus {
+  text-align: right;
+  padding-right: 1px;
+}
+.footer-main .footer-menu .social-small-list {
+  font-size: 0px;
+}
+.footer-main .footer-menu .social-small-list img {
+  vertical-align: bottom;
+  width: 20px;
+}
+
+/********************************************************************************************************************************
+*                                        Begin the Definition of Media Querys for Desktops                                      *
+********************************************************************************************************************************/
+@media  (min-width: 992px) {
+/**********************************************************************
+*                        Styles for header                           *
+**********************************************************************/
+/* Nav Bar 2 */
+.homboo-navbar2 .visible-mobile {
+  display: none;
+}
+/**********************************************************************
+*                         Styles for Footer                           *
+**********************************************************************/
+  .footer-main .footer-list> div {
+    padding: 1px;
+    width: 11.11244%;
+  }
+}
+/********************************************************************************************************************************
+*                                        Begin the Definition of Media Querys for Nexus 5                                       *
+********************************************************************************************************************************/
+@media (max-width: 800px) {
+/**********************************************************************
+*                        Styles for header                           *
+**********************************************************************/
+  .homboo-navbar2 .navbar-nav-menu {
+    padding-left: 20px;
+  }
+/**********************************************************************
+*                     Styles for Social Links                         *
+**********************************************************************/
+  .social-links {
+    display: none;
+  }
+/**********************************************************************
+*                           Home Slide Show                           *
+**********************************************************************/
+.home-slider .text {
+  display: none;
+}
+/**********************************************************************
+*                     Styles for Search Column                        *
+**********************************************************************/
+.search-column .products .controls .gang {
+  display: none;
+}
+.search-column .products .list .sub-product .item-for-you .image-content {
+  padding-right: 0px;
+}
+.search-column .products .list .sub-product .item-for-you .tittle {
+  font-size: 16px;
+}
+.search-column .products .list .sub-product .item-for-you .detail {
+  padding-top: 27px;
+}
+.search-column .products .list .sub-product .item-for-you .choice {
+  margin-top: 40px;
+}
+.search-column .products .list .sub-product .item-for-you .choice .homboo-checkbox {
+  text-align: left;
+}
+.search-column .products .list .sub-product .item-for-you .choice .califications {
+  text-align: left;
+  padding-left: 15px;
+}
+/**********************************************************************
+*                     Styles for Search Column                        *
+**********************************************************************/
+.search-column .filters {
+  padding: 30px 30px;
+}
+/**********************************************************************
+*                        Square with Triangle                         *
+**********************************************************************/
+  .square-with-triangle .homboo-triangle:first-child {
+    padding-left: 5px;
+  }
+  .square-with-triangle .homboo-triangle:last-child {
+    padding-right: 5px;
+  }
+/**********************************************************************
+*                             Tabs Form                               *
+**********************************************************************/
+.tabs-form .tab-content {
+  padding: 10px 10px;
+}
+/**********************************************************************
+*                      Styles for Form Reviews                        *
+**********************************************************************/
+.form-reviews form {
+  padding: 10px 10px;
+}
+/**********************************************************************
+*                         From Our Community                          *
+**********************************************************************/
+.our-community .community-header h1 {
+  font-size: 16px;
+  line-height: normal;
+}
+.our-community .comList .col-md-4 {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+}
+.our-community .comList .col-md-4:first-child {
+  padding: 15px;
+}
+.our-community .comList .col-md-4:last-child {
+  padding: 15px;
+}
+.our-community .community-header button {
+  font-size: 13px;
+  width: 160px;
+}
+/**********************************************************************
+*                           Recently Views                            *
+**********************************************************************/
+.recently-views .input-group-addon {
+  width: 30%;
+}
+
+}

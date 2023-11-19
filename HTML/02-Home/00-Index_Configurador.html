@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title ng-bind="(gPage.pageTitle | available:'')"></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/vendors-bc42d84b.css">
+    <link rel="stylesheet" href="css/jquery/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/configurator.css">
+
+    
+    <!-- Custom jquery -->
+    <script src="js/jquery/jquery.js"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+</head>
+
+<body>
+	
+<script src="js/vendors-8c770cac.js"></script>
+<script src="js/jquery/jquery-ui.min.js"></script>
+<script src="js/custom-vendors.min.js"></script>
+  
+  
+<!-- Main Wrapper -->
+<div class="configurator_home-css fixes-css"> 
+
+<!-- Anim Container -->
+
+<nav class="homboo-navfinal navbar navbar-default navbar-fixed-top">
+    <div class="container nav-bc-container">
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+          </button>
+        </div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu lock" src="img/lock.png">MY ACCOUNT <span class="caret"></span></a>
+			  </li>
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu pencil" src="img/Pencil.png">MY HOMBOO <span class="caret"></a>
+			  </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu" src="img/wishlist-white.png">MY WISHLIST</span></a>
+                </li>              
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu cart" src="img/cart.png">CART <span class="badge">0</span></a>
+			  </li>
+			  <li class="fix-img">
+				  <a href="#">
+					  <img class="img-menu" src="img/search.png">
+				  </a>
+			  </li>
+		   </ul>
+		</div>
+    </div>
+</nav>
+
+<header class="container-fluid homboo-headerfinal">
+    <div class="container-fluid navAnim">
+        <div class="container">
+        </div>
+    </div>
+    <div class="container headerCont" >
+        <div class="row headerIn">
+            <div class="logo-cont">
+                <a href="#">
+                    <img src="img/homboo.png" alt="...">    
+                </a>  
+                <a href="configurator_home.html" >Homebuilding simple and exciting</a>
+            </div>
+        </div>
+
+        <div class="row headerMenu">
+               <div class="navHeaderRight services-btn hidden-sm hidden-xs">
+                <ul class="nav nav-pills" >
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-plain orange live"><img src="img/live_support.png" >LIVE SUPPORT</button>
+                            <button id="drop-down-menu-btn" type="button" class="btn btn-plain gray serv" data-toggle="dropdown" >HOMBOO services<span class="caret"></span></button>
+                            <ul class="dropdown-menu services-list" role="menu">
+                                <li>
+                                    <a href="#"><img src="img/dropdown/land.png"></a>
+                                    <a href="#"><h4>LAND</h4></a>
+                                    <hr class="color2" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/archi.png"></a>
+                                    <a href="#"><h4>ARCHITECTURE</h4></a>
+                                    <hr class="color1" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/management.png"></a>
+                                    <a href="#"><h4>MANAGEMENT</h4></a>
+                                    <hr class="color3" />
+                                </li>
+
+                                <li>
+                                    <a href="#"><img src="img/dropdown/materials.png"></a>
+                                    <a href="#"><h4>MATERIALS</h4></a>
+                                    <hr class="color4" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/prof.png"></a>
+                                    <a href="#"><h4>PROFESSIONALS</h4></a>
+                                    <hr class="color5" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/finance.png"></a>
+                                    <a href="#"><h4>FINANCE</h4></a>
+                                    <hr class="color6" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/furniture.png"></a>
+                                    <a href="#"><h4>FURNITURE</h4></a>
+                                    <hr class="color7" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/supp.png"></a>
+                                    <a href="#"><h4>SUPPORT</h4></a>
+                                    <hr class="color8" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/com.png"></a>
+                                    <a href="#"><h4>COMMUNITY</h4></a>
+                                    <hr class="color9" />
+                                </li>
+
+                            </ul>
+                        </div>
+                </ul>       
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Section Social-Links -->
+<div class="social-links">
+    <a href="https://www.facebook.com/fcbarcelona"><img src="img/icons-big/face.png"></a>
+    <a href="#"><img src="img/icons-big/print.png"></a>
+    <a href="https://twitter.com/fcbarcelona_es" target="_blank"><img src="img/icons-big/twitter.png"></a>
+    <a href="https://plus.google.com/+FCBarcelona"><img src="img/icons-big/plus.png"></a>
+</div>
+<!-- Section Banner -->
+<section id="banner" class="container-fluid" style="min-height: 0;">
+</section>
+
+
+<!-- Section Breadcrumbs -->        
+<section class="breadcrumbs container " style="background-color: #e3e3e3; margin-bottom: 10px; width: 100%; margin-left: auto; margin-right: auto;">
+
+    <div class="cont_slider">
+    <!--SLIDE SHOW -->
+        <div id="slider-cont"class="slider-cont" >
+          <div id="carousel-example-generic-2" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators indicators">
+                <li data-target="#carousel-example-generic-2" data-slide-to="0" class="active"></li>
+                <li class="" data-target="#carousel-example-generic-2" data-slide-to="1"></li>
+                <li class="" data-target="#carousel-example-generic-2" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div id="carousel-inner-2" class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="img/slider/img_1.png"> 
+                    <div class="carousel-caption">
+                      <div>
+                        <p class="t_1">YOU CUSTOM BUILT HOME FOR 180 THOUSAND $?</p>
+                        <p class="t_2">Here's how you can do it.</p>
+                        <p class="t_1" style="color:#444;paddin-top:10px;">$180.000</p>
+                      </div>
+                      <div class="row ">
+                          <div class="col-xs-6 col-md-6" style="padding-right: 0px;">
+                              <p class="t_3" style="margin-top:10px;">Size:</p>
+                              <p class="t_3"># of Rooms:</p>
+                              <p class="t_3"># of Bathrooms:</p>
+                              <p class="t_3"># of Stories</p>
+                              <p class="t_3">Based on Land Prices</p>
+                          </div>
+                          <div class="col-xs-6 col-md-6" style="padding-top:10px;">
+                              <p class="t_3 colum_1">1,300 sqft</p>
+                              <p class="t_3">2 + 1 Service room</p>
+                              <p class="t_3">2 full baths + 1/2</p>
+                              <p class="t_3">2</p>
+                              <p class="t_3">$45,000</p>
+                          </div>
+                    </div>
+                </div>  
+                </div>
+                <div class="item">
+                    <img src="img/slider/img_2.png">  
+                    <div id="caption_2" class="carousel-caption">
+                      <div>
+                        <p class="t_1">YOU CUSTOM BUILT HOME FOR 180 THOUSAND $?.</p>
+                        <p class="t_2">Here's how you can do it.</p>
+                        <p class="t_1" style="color:#444;paddin-top:10px;">$250.000</p>
+                      </div>
+                      <div class="row ">
+                          <div class="col-xs-6 col-md-6" style="padding-right: 0px;">
+                              <p class="t_3" style="margin-top:10px;";>Size:</p>
+                              <p class="t_3"># of Rooms:</p>
+                              <p class="t_3"># of Bathrooms:</p>
+                              <p class="t_3"># of Stories</p>
+                              <p class="t_3">Based on Land Prices</p>
+                          </div>
+                          <div class="col-xs-6 col-md-6" style="padding-top:10px;">
+                              <p class="t_3 colum_1">2,250 sqft</p>
+                              <p class="t_3">3 + 1 Service room</p>
+                              <p class="t_3">3 full baths + 1/2</p>
+                              <p class="t_3">2</p>
+                              <p class="t_3">$65,000</p>
+                          </div>
+                    </div>
+                    </div>  
+
+                </div>
+                <div class="item">
+                    <img src="img/slider/img_3.png"> 
+
+                    <div id="caption_2" class="carousel-caption">
+                      <div>
+                        <p class="t_1">YOU CUSTOM BUILT HOME FOR 180 THOUSAND $?.</p>
+                        <p class="t_2">Here's how you can do it.</p>
+                        <p class="t_1" style="color:#444;paddin-top:10px;">$450.000</p>
+                      </div>
+                      <div class="row ">
+                          <div class="col-xs-6 col-md-6" style="padding-right: 0px;">
+                              <p class="t_3" style="margin-top:10px;">Size:</p>
+                              <p class="t_3"># of Rooms:</p>
+                              <p class="t_3"># of Bathrooms:</p>
+                              <p class="t_3"># of Stories</p>
+                              <p class="t_3">Based on Land Prices</p>
+                          </div>
+                          <div class="col-xs-6 col-md-6" style="padding-top:10px;">
+                              <p class="t_3 colum_1">4,000 sqft</p>
+                              <p class="t_3">5 + 1 Service room</p>
+                              <p class="t_3">5 full baths + 1/2</p>
+                              <p class="t_3">2</p>
+                              <p class="t_3">$90,000</p>
+                          </div>
+                    </div>
+                    </div> 
+
+                </div>                          
+            </div>
+          </div>
+          <script type="text/javascript">
+            $('#carousel-example-generic-2').carousel({
+                    interval: 500000
+            })
+          </script>
+        </div>                    
+        <!-- END SLIDE SHOW-->
+    </div>  
+</section>
+
+        
+<!-- Section Principal Container -->                
+<section id="banner2" class="home-css ">  
+    <div id="container_1" class="container ">
+
+         <div class="container_form">
+              <p class="t_4" style="color:black;paddin-top:20px;">YOUR HOME CONFIGURATOR</p>
+              </div>
+
+                <div class="ancho_2" >
+                      <div class="selectParent" style="heigh: 24px; position:relative;"> 
+                         <select class="form-element" style=" font-family: Oswald-Regular; font-size: 13px;">
+                            <option style="font-family: OpenSans-Light; font-size: 12px;color:red" value="" selected disabled>*BUDGET</option>
+                            <option style="font-family: OpenSans-Light; font-size: 12px;">Option 1</option>
+                            <option style="font-family: OpenSans-Light; font-size: 12px;">Option 2</option>
+                            <option style="font-family: OpenSans-Light; font-size: 12px;">Option 3</option>
+                          </select>
+                      </div>
+                </div>
+
+                  <div class="entrada_3" >
+                      <input   placeholder="   *LAND LOCATION (ZIP CODE)"/>
+                  </div>
+
+                  <div class="ancho_2" >
+                      <div class="selectParent" style="heigh: 24px; position:relative;"> 
+                         <select class="form-element" style=" font-family: Oswald-Regular; font-size: 13px;">
+                            <option style="font-family: OpenSans-Light; font-size: 12px;" value="" selected disabled>*LAND SIZE</option>
+                            <option style="font-family: OpenSans-Light; font-size: 12px;">Option 1</option>
+                            <option style="font-family: OpenSans-Light; font-size: 12px;">Option 2</option>
+                            <option style="font-family: OpenSans-Light; font-size: 12px;">Option 3</option>
+                          </select>
+                      </div>
+                </div>
+
+              <div class="ancho_2" >
+                  <div class="selectParent" style="heigh: 24px; position:relative;"> 
+                     <select class="form-element" style=" font-family: Oswald-Regular; font-size: 13px;">
+                        <option style="font-family: OpenSans-Light; font-size: 12px;" value="" selected disabled>*HOME SIZE</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 1</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 2</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 3</option>
+                      </select>
+                  </div>
+            </div>   
+            
+            <div id="span_1" style="margin-top:20px;">
+                <p class="t_5">Home project designed</p>
+
+                <div style="margin-top:10px;">
+                  <input type="checkbox"></input>
+                  <span>  Self design withHomboo Support</span>
+                </div>
+
+                <div style="margin-top:10px;">
+                  <input type="checkbox"></input>
+                  <span>  Turnkey project design Homboo Architects</span>
+                </div>
+            </div>   
+
+            <div class="ancho_2" >
+                  <div class="selectParent" style="heigh: 24px; position:relative;"> 
+                     <select class="form-element" style=" font-family: Oswald-Regular; font-size: 13px;">
+                        <option style="font-family: OpenSans-Light; font-size: 12px;" value="" selected disabled>*HOME STYLE</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 1</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 2</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 3</option>
+                      </select>
+                  </div>
+            </div>
+
+              <div class="ancho_2" >
+                  <div class="selectParent" style="heigh: 24px; position:relative;"> 
+                     <select class="form-element" style=" font-family: Oswald-Regular; font-size: 13px;">
+                        <option style="font-family: OpenSans-Light; font-size: 12px;" value="" selected disabled>*N° OF ROOMS</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 1</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 2</option>
+                        <option style="font-family: OpenSans-Light; font-size: 12px;">Option 3</option>
+                      </select>
+                  </div>
+            </div>   
+
+              <div style="margin-top:25px;margin-bottom:25px;">
+                <p>* Fields are mandatory</p>
+              </div>
+
+              <div>
+                <button type="button" class="btn btn-plain btn-search green" style="margin-bottom:60px;">SEARCH<img align="right" src="img/arrow_3.png" style="margin-top:5px;">
+                </button>
+              </div>                                 
+    </div>   
+
+
+</section> 
+
+
+        
+<!-- Section Footer -->
+<footer class="container-fluid footer-main" style="margin-top: 25px;padding-right: 0px;padding-left: 0px;">  
+    <!-- Footer Menu -->
+    <section id="footer-menu" class="container-fluid" style="margin-bottom: 17px;margin-top: -21px; ">
+        
+        <div class="container">     
+            <div class="row">
+                <div class="col-lg-9 col-md-8 footer-text">
+                    Homboo 2012- All rights reserved - <a href="#">Go to top</a> | <a href="#">About homboo</a> | <a href="#">The project</a> | <a href="#">How it works</a>| <a href="#">FAQ</a> |<a href="#">Support</a> | <a href="#">Contacts</a>
+                </div>
+                <div class="col-lg-3 col-md-4 followus" >
+                    Follow Us:&nbsp;
+                    <span class="social-small-list">
+                        <a href="https://www.facebook.com/fcbarcelona" target="_blank" ><img src="img/social/fb.png"></a>
+                        <a href="http://culepersempre.tumblr.com/" target="_blank" ><img src="img/social/tumblr.png"></a>
+                        <a href="https://www.linkedin.com/company/fc-barcelona" target="_blank" ><img src="img/social/ld.png"></a>
+                        <a href="https://www.youtube.com/user/fcbarcelona" target="_blank" ><img src="img/social/youtube.png"></a>
+                        <a href="https://www.flickr.com/groups/fcbarcelona/" target="_blank" ><img src="img/social/social1.png"></a>
+                        <a href="https://delicious.com/" target="_blank" ><img src="img/social/social2.png"></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div class="container">        
+        <div class="row footer-list">     
+        <div class="col-xs-5 col-md-1">
+
+          <div class="ancho" >
+               <h4 class="fuente tam1 " >LAND</h4>
+               <hr class="color2 movhr2" />
+               <a href="#" >Documents</a> <br>
+               <a href="#" >Add Your Land</a> <br>
+               <a href="#">My Saved Land</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">ARQUITECTURE</h4>
+               <hr class="color1 movhr2"/>
+               <a href="#">Project Options</a> <br>
+               <a href="#">My Project</a> <br>
+               <a href="#">User's Guide</a><br>
+               <a href="#">Contact our Architect</a><br>
+               <a href="#">Guide Lines</a><br>
+               <a href="#">FAQ</a><br>
+               <a href="#">News</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">MANAGEMENT</h4>
+               <hr class="color3 movhr2" />
+               <a href="#">Estimating</a> <br>
+               <a href="#">Scheduling</a> <br>
+               <a href="#">My Projects</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">MATERIALS</h4>
+               <hr class="color4 movhr2"/>
+               <a  href="#">Best Sellers</a> <br>
+               <a  href="#">Deal of the Day</a> <br>
+               <a  href="#">News Arrivals</a><br>
+               <a  href="#">On sale</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">PROFESSIONALS</h4>
+               <hr class="color5 movhr2"/>
+               <a href="#">My Professionals</a> <br>
+               <a href="#">My Reviews</a> <br>
+               <a href="#">Post your Resume</a><br>
+               <a href="#">My Resume</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FINANCE</h4>
+               <hr class="color6 movhr2"/>
+               <a href="#">Loans and <br> Mortgages</a> <br>
+               <a href="#">Home Insurance</a> <br>
+
+
+          </div>
+
+        </div>
+
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FURNITURE</h4>
+               <hr class="color7 movhr2"/>
+               <a href="#"> Best Sellers</a> <br>
+               <a href="#">Deal of the Day</a> <br>
+               <a href="#">News Arrivals</a><br>
+               <a href="#">On sale</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">SUPORT</h4>
+               <hr class="color8 movhr2"/>
+               <a href="#">Clients</a> <br>
+               <a href="#">Home builders</a> <br>
+               <a href="#">Construction</a><br>
+               <a href="#">Books</a><br>
+               <a href="#">Videos</a><br>
+               <a href="#">FAQ</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">COMMUNITY</h4>
+               <hr class="color9 movhr2" />
+               <a href="#">Land</a> <br>
+               <a href="#">Architecture</a> <br>
+               <a href="#">Management</a> <br>
+               <a href="#" >Home Construction</a> <br>
+               <a href="#">Materials</a> <br>
+               <a href="#">Decorating</a> <br>
+               <a href="#">Landscaping</a> <br>
+               <a href="#">Furniture</a> <br>
+               <a href="#">Finance</a> <br>
+               <a href="#">Support</a> <br>                 
+
+          </div>
+
+        </div>
+        </div> 
+    </div>
+</footer>
+
+</div>
+
+    
+
+<script>
+    function lista() {
+        document.getElementById("product-grid-container").style.display = "none";
+        document.getElementById("product-list-container").style.display = "block";
+
+        document.getElementById("grid").className = "gray-icon";
+        document.getElementById("list").className = "black-icon";
+    }
+
+    function grilla() {
+        document.getElementById("product-list-container").style.display = "none";
+        document.getElementById("product-grid-container").style.display = "block";
+
+        document.getElementById("grid").className = "black-icon";
+        document.getElementById("list").className = "gray-icon";
+    }
+
+    $(".title-faq").click(function() {
+        $(this).parent().find(".content-faq").toggle();
+        $(this).parent().find(".mas").toggle();
+        $(this).parent().find(".menos").toggle();
+    });
+    $('#Recentlyresponsive').carousel({
+    interval: false
+    });
+
+    $('#recently').carousel({
+    interval: false
+    });
+    $("#boton-sign-in").click(function() {
+    $(this).parent().toggle();
+    if (window.innerWidth < 447) {
+    $("#Recentlyresponsive").toggle();
+    } else {
+    $("#recientes").toggle();
+    }
+    });
+    $(document).ready(function () {
+        $("#slider-range").slider({
+          range: true,
+          min: 0,
+          max: 1000,
+          values: [ 0, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount1" ).val( "$" + ui.values[ 0 ]);
+            $( "#amount2" ).val( "$" + ui.values[ 1 ]);
+          }
+        });
+        $( "#amount1" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ));
+        $( "#amount2" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ));
+    });
+    $(document).ready(function () {
+    var scroll_menu = parseInt($('.headerIn').offset().top);
+    var scroll_banner = parseInt($('#banner').offset().top);
+    var height_nav_anim = $('.navAnim').outerHeight();
+    var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+    var header_bar = TweenLite.from($('.navAnim'), 0.5, {top:"-"+height_nav_anim+"px",paused:true});
+    var going_down = true;
+    $(window).scroll(function(){
+       var scroll_lvl = $(window).scrollTop();
+       if((scroll_lvl >= scroll_banner && going_down)){
+           going_down = false;
+           nav_bar.play();
+           header_bar.play();
+           $('.headerMenu').appendTo('.navAnim .container');
+          // tween_tabs.play();
+       }
+       
+       if((scroll_lvl < (scroll_banner)) && !going_down){
+           going_down = true;
+           nav_bar.reverse();
+           header_bar.reverse();
+           $('.headerMenu').appendTo('.headerCont');
+          //tween_tabs.reverse();
+       }
+    });
+    });
+    $(document).ready(function () {
+        $('.configurator-dropdown,.dropdown-title').hide();
+        var management = {
+            displayed: false,
+            toggle_dropdown: function(e){
+                e.preventDefault();                                 
+                if(screen.width<768){
+                    return;
+                }
+                if(this.displayed){
+                    $('.configurator-dropdown,.dropdown-title').hide();
+                    this.displayed = false;
+                }
+                else{
+                    $('.configurator-dropdown,.dropdown-title').show();
+                    this.displayed = true;
+                }
+            }
+        };
+        
+        $('#dropdown-cat').on('click',configurator.toggle_dropdown);
+        
+        $(window).on('click',function(e){
+            
+            if(screen.width<768){
+                return;
+            }
+            if(!$(e.target).is('li.dropdown-cat a')) {
+                $('.configurator-dropdown,.dropdown-title').hide();
+                configurator.displayed = false;
+            }
+        });
+        
+        $('button.serv').on('click',function(){
+            if(screen.width<768){
+                return;
+            }
+            $('.configurator-dropdown,.dropdown-title').hide();
+            configurator.displayed = false;
+        });
+    });
+    $(document).ready(function(){
+    $("#li1").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category1.png')");
+    });
+    $("#li2").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category2.png')");
+    });
+    $("#li3").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category3.png')");
+    });
+    $("#li4").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category4.png')");
+    });
+    $("#li5").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category5.png')");
+    });
+    $("#li6").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category6.png')");
+    });
+    $("#li7").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category7.png')");
+    });
+    $("#li8").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category8.png')");
+    });
+    $("#li9").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category9.png')");
+    });
+    $("#li10").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category10.png')");
+    });
+    $("#li11").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category11.png')");
+    });
+    $("#li12").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category12.png')");
+    });
+    });
+</script>
+
+</body>
+</html>

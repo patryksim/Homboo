@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/icons/favicon.ico">
+  <title>Add Your Land</title>
+  <!-- CSS Sheets -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/owl.carousel.2.4/assets/owl.carousel.css" />
+  <link rel="stylesheet" href="css/homboo.css">
+  <!-- JavaScript Sheets -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-latest.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="libs/owl.carousel.2.4/owl.carousel.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/homboo.js"></script>
+</head>
+
+<style type="text/css">
+  .background-color {
+    background-color: #007925;
+  }
+  .letter-color {
+    color: #007925;
+  }
+</style>
+
+<body>
+
+<!-- Header-->
+<header class="homboo-header">
+  <nav class="homboo-nav-content">
+    <!-- Nav Bar 1 -->
+    <nav class="navbar navbar-default homboo-navbar1 background-color">
+      <div class="max-width">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-lock"></span> MY ACCOUNT <span class="caret"></span></a>
+              <ul class="dropdown-menu background-color">                         
+                <li><a href="#">HOME STYLES</a></li >
+                <li><a href="#">DESIGN GUIDE LINES</a></li>
+                <li><a href="#">SOFTWARE USER GUIDE</a></li>
+                <li><a href="#">F.A.Q</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-pencil"></span> MY HOMBOO <span class="caret"></span></a>
+              <ul class="dropdown-menu background-color">
+                <li><a href="#">MY HOMBOO</a></li>
+                <li><a href="#">MY HOMBOO</a></li>
+                <li><a href="#">MY HOMBOO</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-heart-empty"></span> MY WISHLIST <span class="caret"></span></a>
+              <ul class="dropdown-menu background-color">
+                <li><a href="#">MY WISHLIST</a></li>
+                <li><a href="#">MY WISHLIST</a></li>
+                <li><a href="#">MY WISHLIST</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-shopping-cart"></span> CART <span class="badge">0</span></a>
+              <ul class="dropdown-menu background-color">
+                <li><a href="#">CART</a></li>
+                <li><a href="#">CART</a></li>
+                <li><a href="#">CART</a></li>
+              </ul>
+            </li>
+            <li class="">
+              <a href="#"><span class="glyphicon glyphicon-search glyphicon-flip"></span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header + Logo -->
+    <div class="navHeader">
+      <div class="max-width">
+        <div class="homboo-logo">
+          <a class="hombo-image" href="#"><img src="img/header/homboo-logo.png" alt="..."></a>  
+          <a class="homboo-seccion" href="#">LAND</a>
+        </div>            
+      </div>
+    </div>
+    <!-- Nav Bar 2 -->
+    <nav class="navbar navbar-default homboo-navbar2">
+      <div class="max-width">
+        <div class="navbar-header">
+          <ul class="nav navbar-nav navbar-nav-menu">
+            <li><a href="03-Land_Home.html">LAND</a></li>
+            <li><a href="#">ADD YOUR LAND</a></li>
+            <li><a href="03-My_Saved_Lands.html">MY SAVED LANDS</a></li>
+            <li><a href="03-Legal_Documents.html">LEGAL DOCUMENTS</a></li>
+            <li class="visible-mobile" ><a href="#" class="letter-support-color">LIVE SUPPORT</a></li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <div class="btn-group" role="group" aria-label="...">
+              <button type="button" class="btn btn-default support-color"><img src="img/header/live_support.png"> LIVE SUPPORT</button>
+              <div class="btn-group dropdown" role="group">
+                <button type="button" class="btn dark-gray" data-toggle="dropdown">HOMBOO services <span class="caret"></button>
+                  <ul class="dropdown-menu services-list min-width" role="menu">
+                    <li class="li-hover">
+                      <a href="#" ><img class="services-list-img" src="img/header/dropdown/land.png"></a>
+                      <a href="#" ><h1 class="services-list-txt">LAND</h1></a>
+                      <hr class="land-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/archi.png"></a>
+                      <a href="#"><h1 class="services-list-txt">ARCHITECTURE</h1></a>
+                      <hr class="arquitecture-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/management.png"></a>
+                      <a href="#"><h1 class="services-list-txt">MANAGEMENT</h1></a>
+                      <hr class="management-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/materials.png"></a>
+                      <a href="#"><h1 class="services-list-txt">MATERIALS</h1></a>
+                      <hr class="materials-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/prof.png"></a>
+                      <a href="#"><h1 class="services-list-txt">PROFESSIONALS</h1></a>
+                      <hr class="professionals-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/finance.png"></a>
+                      <a href="#"><h1 class="services-list-txt">FINANCE</h1></a>
+                      <hr class="finance-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/furniture.png"></a>
+                      <a href="#"><h1 class="services-list-txt">FURNITURE</h4></a>
+                      <hr class="furniture-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/supp.png"></a>
+                      <a href="#"><h1 class="services-list-txt">SUPPORT</h1></a>
+                      <hr class="support-color" />
+                    </li>
+                    <li class="li-hover">
+                      <a href="#"><img class="services-list-img" src="img/header/dropdown/com.png"></a>
+                      <a href="#"><h1 class="services-list-txt">COMMUNITY</h1></a>
+                      <hr class="community-color" />
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </nav>
+</header>
+<!-- Section Social links-->
+<section class="social-links">
+  <a href="#"><img src="img/social-links/facebook.png"></a>
+  <a href="#"><img src="img/social-links/pinterest.png"></a>
+  <a href="#"><img src="img/social-links/twitter.png"></a>
+  <a href="#"><img src="img/social-links/google-plus.png"></a>
+</section>
+<!-- Section Route -->
+<section class="container max-width route">
+  <a href="">Homboo</a> / <a href="03-Land_Home.html">Land</a> / Add your Land
+</section>
+<!-- Section Tabs Form -->
+<section class="container max-width tabs-form">
+  <div class="row">
+    <div class="title">
+      <h1 class="letter-color">ADD YOUR LAND</h1>
+    </div>
+    <div class="tabbable">
+      <ul class="nav nav-tabs">
+        <li class="active"><a href="#tab-pane1" data-toggle="tab">ADD YOUR LAND</a></li>
+        <li               ><a href="#tab-pane2" data-toggle="tab">EDIT YOUR LAND</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="tab-pane1">
+          <div class="container max-width">
+            <div class="row">
+              <div class="col-md-12 clear-padding">
+                <div class="input">
+                  <input type="text" class="form-control" placeholder="* STREET ADDRESS">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 clear-padding">
+                <div class="input">
+                  <input type="text" class="form-control" placeholder="* CITY">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 clear-padding">
+                <div class="input-group" onclick="createSelect(event, this)">
+                  <input type="text" class="form-control" placeholder="* STATE">
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>
+                    <ul class="dropdown-menu dropdown-menu-right">
+                      <li><a href="#">Alabama</a></li>
+                      <li><a href="#">Alaska</a></li>
+                      <li><a href="#">Arizona</a></li>
+                      <li><a href="#">Arkansas</a></li>
+                      <li role="separator" class="divider"></li>
+                      <li><a href="#">Foreign</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 clear-padding">
+                <div class="input">
+                  <input type="text" class="form-control" placeholder="* ZIP">
+                </div>
+              </div>
+            </div>
+          </div>
+          <p>* Fields are mandatory</p>
+          <div class="button-final">
+            <button type="button" class="btn background-color">CONTINUE<samp class="glyphicon glyphicon-triangle-right iconview"></samp></button>
+          </div>
+        </div>
+        <div class="tab-pane" id="tab-pane2">
+          <br><br><br><br><br>
+          <p>You don't have any land</p>
+          <br><br><br><br><br>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Footer-->
+<footer class="footer-main">
+  <div class="container-fluid footer-menu">
+    <div class="container max-width">     
+      <div class="row">
+        <div class="col-lg-9 col-md-8 footer-text">
+          Homboo 2012- All rights reserved - <a href="#">Go to top</a> | <a href="#">About homboo</a> | <a href="#">The project</a> | <a href="#">How it works</a>| <a href="#">FAQ</a> |<a href="#">Support</a> | <a href="#">Contacts</a>
+        </div>
+        <div class="col-lg-3 col-md-4 followus" >
+          Follow Us:&nbsp;
+          <span class="social-small-list">
+            <a href="#"><img src="img/footer/facebook.png"></a>
+            <a href="#"><img src="img/footer/tumblr.png"></a>
+            <a href="#"><img src="img/footer/instagram.png"></a>
+            <a href="#"><img src="img/footer/youtube.png"></a>
+            <a href="#"><img src="img/footer/google-plus.png"></a>
+            <a href="#"><img src="img/footer/pinterest.png"></a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container max-width">        
+    <div class="row footer-list">     
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho" >
+          <h4 class="fuente tam1 " >LAND</h4>
+          <hr class="land-color movhr2" />
+          <a href="#" >Documents</a> <br>
+          <a href="#" >Add Your Land</a> <br>
+          <a href="#">My Saved Land</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho">
+          <h4 class="fuente tam1" id="offs">ARQUITECTURE</h4>
+          <hr class="arquitecture-color movhr2"/>
+          <a href="#">Project Options</a> <br>
+          <a href="#">My Project</a> <br>
+          <a href="#">User's Guide</a><br>
+          <a href="#">Contact our Architect</a><br>
+          <a href="#">Guide Lines</a><br>
+          <a href="#">FAQ</a><br>
+          <a href="#">News</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho">
+          <h4 class="fuente tam1" id="offs">MANAGEMENT</h4>
+          <hr class="management-color movhr2" />
+          <a href="#">Estimating</a> <br>
+          <a href="#">Scheduling</a> <br>
+          <a href="#">My Projects</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho" >
+          <h4 class="fuente tam1" id="offs">MATERIALS</h4>
+          <hr class="materials-color movhr2"/>
+          <a  href="#">Best Sellers</a> <br>
+          <a  href="#">Deal of the Day</a> <br>
+          <a  href="#">News Arrivals</a><br>
+          <a  href="#">On sale</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho">
+          <h4 class="fuente tam1" id="offs">PROFESSIONALS</h4>
+          <hr class="professionals-color movhr2"/>
+          <a href="#">My Professionals</a> <br>
+          <a href="#">My Reviews</a> <br>
+          <a href="#">Post your Resume</a><br>
+          <a href="#">My Resume</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho">
+          <h4 class="fuente tam1" id="offs">FINANCE</h4>
+          <hr class="finance-color movhr2"/>
+          <a href="#">Loans and <br> Mortgages</a> <br>
+          <a href="#">Home Insurance</a> <br>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho">
+          <h4 class="fuente tam1" id="offs">FURNITURE</h4>
+          <hr class="furniture-color movhr2"/>
+          <a href="#"> Best Sellers</a> <br>
+          <a href="#">Deal of the Day</a> <br>
+          <a href="#">News Arrivals</a><br>
+          <a href="#">On sale</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho">
+          <h4 class="fuente tam1" id="offs">SUPORT</h4>
+          <hr class="support-color movhr2"/>
+          <a href="#">Clients</a> <br>
+          <a href="#">Home builders</a> <br>
+          <a href="#">Construction</a><br>
+          <a href="#">Books</a><br>
+          <a href="#">Videos</a><br>
+          <a href="#">FAQ</a>
+        </div>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-1">
+        <div class="ancho" >
+          <h4 class="fuente tam1" id="offs">COMMUNITY</h4>
+          <hr class="community-color movhr2" />
+          <a href="#">Land</a> <br>
+          <a href="#">Architecture</a> <br>
+          <a href="#">Management</a> <br>
+          <a href="#" >Home Construction</a> <br>
+          <a href="#">Materials</a> <br>
+          <a href="#">Decorating</a> <br>
+          <a href="#">Landscaping</a> <br>
+          <a href="#">Furniture</a> <br>
+          <a href="#">Finance</a> <br>
+          <a href="#">Support</a> <br>                 
+        </div>
+      </div>
+    </div> 
+  </div>
+</footer>
+
+</body>
+</html>
+
+
+

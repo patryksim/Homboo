@@ -1,0 +1,685 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+body {
+	padding-bottom: 40px;
+	color: #5a5a5a;
+}
+
+/* sup, footer ------------------------------------------------- */
+.home-css{
+	width: 100%;
+	height:100%;
+	background-color: transparent;
+}
+
+.wrapper_sup {
+	position: absolute;
+	top: 2.5%;
+	right: 0;
+	left: 0;
+	z-index: 20;
+}
+.wrapper_sup>.container {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.wrapper_med {
+	position: absolute;
+	width: 28%;
+	top: 25%;
+	margin-right: 0px;
+	margin-left: 72%;
+	z-index: 20;
+}
+
+.wrapper_med>.container {
+	padding-right: 0;
+	padding-left: 20px;
+	width: auto;
+}
+
+.wrapper_inf {
+	position: absolute;
+	top: 80%;
+	bottom: 0%;
+	right: 0px;
+	height: 70px;
+	left: 0;
+	z-index: 20;
+}
+
+.wrapper_inf > .container {
+	padding-right: 0;
+	padding-left: 0;
+	height: auto;
+}
+
+.rectangulo{
+   width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  position: relative;
+  background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 23px;
+}
+
+#rectangulo_sup{
+  position: absolute;
+  bottom: 73.3%;
+
+}
+
+/* CUSTOMIZE THE FONT ------------------------------------------------- */
+
+.carousel-caption .texto_1 p {
+  text-decoration: none;
+  color: white;
+  font-family: OpenSans-Light;
+  font-size: 33px;
+  line-height: 1px;
+  text-align: center;
+}
+
+.carousel-caption .texto_1 p {
+  text-decoration: none;
+  color: white;
+  font-family: OpenSans-Light;
+  font-size: 33px;
+  line-height: 1px;
+  text-align: center;
+}
+
+.wrapper_med .texto_2{
+	text-shadow:
+   0px 0px 0 gray,
+    0px 0px 0 white,
+    0px 0px 0 white,
+    1px 1px 0 #000;
+
+}
+
+.wrapper_med>.container a {
+	color: white;
+	font-family: OpenSans-Bold;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#img_homboo{
+	width: 25%;
+	margin-left: 39%;
+	margin-top: 1%;
+}
+
+/* CUSTOMIZE THE CAROUSEL ------------------------------------------------- */
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+#carousel-example-generic{
+	margin-bottom: 0px;
+}
+
+.carousel, .item, .active {
+	height: 100%;
+}
+
+.carousel-inner {
+	height: 100%;
+}
+
+.carousel {
+	margin-bottom: 60px;
+}
+
+.carousel-caption {
+	z-index: 10;
+	width: 100%;
+	margin: 0px;
+	left: 0px;
+	right: 0px;
+}
+
+.carousel .carousel-inner .bg {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.carousel .carousel-inner .bg1 {
+	background-image: url('../img/index_1.png');
+	background-position: center center;
+}
+
+.carousel .carousel-inner .bg2 {
+	background-image: url('../img/index_2.png');
+	background-position: center center;
+}
+
+.carousel .carousel-inner .bg3 {
+	background-image: url('../img/index_3.png');
+	background-position: center center;
+}
+
+#carousel-example-generic > .carousel-indicators{
+	margin-bottom: 0px;
+}
+
+/*----------------------- FOOTER --------------------------------------------------*/
+.home-css .footer-main {
+  padding: 17px 0px 20px 0px;
+  background-color: transparent;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  width: 90%;
+}
+.home-css .footer-main .container{
+	width: auto;
+}
+.home-css .footer-main .container .footer-list{
+	margin-left: 0px;
+}
+.home-css .footer-main .ancho {
+  line-height: 15px;
+  text-align: center;
+}
+
+.home-css .footer-main a {
+  font-family: Oswald-Regular;
+  color: white;
+  margin-bottom: 0;
+  margin-left: 2px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home-css .footer-main .footer-list > div {
+  padding: 1px;
+  width: 11%;
+}
+.home-css .footer-main .footer-list > div hr {
+  border-top-width: 4px !important;
+  margin-top: 5px !important;  
+  margin-bottom: 4px !important;
+}
+.wrapper_inf .rectangulo{
+	padding-top: 0px;
+}
+
+
+/*------------------ COLOR --------------------------------------------------------*/
+.color1 {
+  border-top: 6px solid #1a8c22;
+}
+.color2 {
+  border-top: 6px solid #007925;
+}
+.color3 {
+  border-top: 6px solid #369a15;
+}
+.color4 {
+  border-top: 6px solid #59ab12;
+}
+.color5 {
+  border-top: 6px solid #75bd0a;
+}
+.color6 {
+  border-top: 6px solid #87c900;
+}
+.color7 {
+  border-top: 6px solid #9ed700;
+}
+.color8 {
+  border-top: 6px solid #ff8502;
+}
+.color9 {
+  border-top: 6px solid #114c9b;
+}
+.color10 {
+  border-top: 6px solid #999999;
+}
+
+/* FONT -------------------------------------------- */
+@font-face {
+  font-family: Oswald-Light;
+  src: url(../fonts/font-homboo/Oswald/Oswald-Light.ttf);
+}
+@font-face {
+  font-family: Oswald-Bold;
+  src: url(../fonts/font-homboo/Oswald/Oswald-Bold.ttf);
+}
+@font-face {
+  font-family: Oswald-Regular;
+  src: url(../fonts/font-homboo/Oswald/Oswald-Regular.ttf);
+}
+@font-face {
+  font-family: Proxima-Nova;
+  src: url(../fonts/font-homboo/Proxima_Nova/proxima_nova_thin.otf);
+}
+@font-face {
+  font-family: Proxima-Nova-Bold;
+  src: url(../fonts/font-homboo/Proxima_Nova/proxima_nova_bold.otf);
+}
+@font-face {
+  font-family: OpenSans;
+  src: url(../fonts/font-homboo/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url(../fonts/font-homboo/Open_Sans/OpenSans-Bold.ttf);
+}
+@font-face {
+  font-family: OpenSans-Semibold;
+  src: url(../fonts/font-homboo/Open_Sans/OpenSans-Semibold.ttf);
+}
+@font-face {
+  font-family: Proxima-Nova-Regular;
+  src: url(../fonts/font-homboo/Proxima_Nova/Proxima_Nova_Regular.otf);
+}
+@font-face {
+  font-family: OpenSans-Italic;
+  src: url(../fonts/font-homboo/Open_Sans/OpenSans-Italic.ttf);
+}
+@font-face {
+  font-family: OpenSans-Light;
+  src: url(../fonts/font-homboo/Open_Sans/OpenSans-Light.ttf);
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media ( min-width : 768px) {
+	
+	/* Bump up size of carousel content */
+	.carousel-caption p {
+		margin-bottom: 20px;
+		font-size: 21px;
+		line-height: 1.4;
+	}
+	.featurette-heading {
+		font-size: 50px;
+	}
+}
+
+@media (max-width: 767px) {
+	.home-css .footer-main {
+	  padding: 17px 0px 20px 0px;
+	  background-color: transparent;
+	  margin-top: 25px;
+	}
+
+	.home-css .footer-main .footer-list{
+		padding-left: 10px;
+		padding-right: 0px;
+		width: 100%;
+		margin-left:0;
+		margin-right: 0;
+	}
+    .home-css .wrapper_inf .container{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.home-css .footer-main .ancho {
+	  line-height: 15px;
+	}
+	.home-css .footer-main a {
+	  text-decoration: none;
+	  color: black;
+	  font-family: OpenSans;
+	  font-size: 10px;
+	  line-height: 1px;
+	}
+	.home-css .footer-main h4 {
+	  font-family: Oswald-Regular;
+	  margin-bottom: 0;
+	  margin-left: 2px;
+	  font-size: 11px;
+	  font-weight: bolder;
+	}
+	.home-css .footer-main .footer-list > div {
+	  padding: 1px;
+	  width: 11.11244%;
+	}
+	.home-css .footer-main .footer-list > div hr {
+	  border-top-width: 6px !important;
+	  margin-top: 7px !important;
+	  margin-bottom: 4px !important;
+	}
+
+	.home-css .carousel-indicators{
+		bottom: 20%;
+	}
+
+	.wrapper_inf .rectangulo{
+		height: auto;
+	}
+
+	#img_homboo{
+		width: auto;
+		margin-left: 20%;
+	}
+
+
+	.carousel-caption .texto_1 p {
+	  font-size: 10.5px;
+	}
+
+    .carousel-caption .rectangulo{
+	  height: 30px;
+	  padding-top: 15px;
+	  top: 0px;
+	}
+
+	.wrapper_med {
+		width: 55%;
+		top: 20%;
+		margin-left: 45%;
+    }
+
+     .wrapper_med .texto_2 {
+		font-size: 15px;
+    }
+
+    .wrapper_med> .container{
+    	padding-left: 0px;
+    }
+
+    #rectangulo_sup{
+    	padding-top: 0px;
+    	bottom: 75%;
+    }
+
+    .wrapper_inf {
+		top: 80%;
+		height: auto;
+
+	}
+
+	/*----------------------- FOOTER --------------------------------------------------*/
+	.home-css .footer-main {
+	  padding: 17px 0px 20px 0px;
+	  background-color: #efeaea;
+	  margin-top: 0px;
+	  padding-bottom: 0px;
+	  width: 100%;
+	}
+	.home-css .footer-main .container{
+		width: auto;
+	}
+	.home-css .footer-main .container .footer-list{
+		margin-left: 0px;
+	}
+	.home-css .footer-main .ancho {
+	  line-height: 15px;
+	  text-align: left;
+	}
+
+	.home-css .footer-main a {
+	  font-family: Oswald-Regular;
+	  color: black;
+	  margin-bottom: 0;
+	  margin-left: 2px;
+	  font-size: 11px;
+	  text-decoration: none;
+	}
+
+	.home-css .footer-main .footer-list > div {
+	  padding: 1px;
+	  width: 11%;
+	}
+	.home-css .footer-main .footer-list > div hr {
+	  border-top-width: 4px !important;
+	  margin-top: 5px !important;  
+	  margin-bottom: 4px !important;
+	}
+	.wrapper_inf .rectangulo{
+		padding-top: 0px;
+	}
+
+	.carousel .carousel-inner .bg1 {
+		background-image: url('../img/index_1.png');
+		background-position: center center;
+	}
+
+	.carousel .carousel-inner .bg2 {
+		background-image: url('../img/index_2.png');
+		background-position: center center;
+	}
+
+	.carousel .carousel-inner .bg3 {
+		background-image: url('../img/index_3.png');
+		background-position: center center;
+	}
+
+	#carousel-example-generic > .carousel-indicators{
+		margin-bottom: 0px;
+	}
+
+
+
+   }
+@media (max-width: 1199px) and (min-width: 992px) {
+  .home-css .footer-main .footer-list > div {
+    width: 11.11%;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .home-css .footer-main .footer-list > div {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .home-css .footer-main .footer-list > div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .home-css .footer-main .footer-list > div {
+    width: 11.11%;
+  }
+}
+
+@media (max-width: 447px) {
+
+
+	.home-css .carousel-indicators{
+		bottom: 20%;
+	}
+
+	.wrapper_inf .rectangulo{
+		height: auto;
+	}
+
+	#img_homboo{
+		width: auto;
+		margin-left: 20%;
+	}
+
+	.carousel-caption .texto_1 p {
+	  font-size: 12.5px;
+	}
+
+    .carousel-caption .rectangulo{
+	  height: 40px;
+	  padding-top: 18px;
+	  top: 0px;
+	}
+
+	.wrapper_med {
+		width: 40%;
+		top: 18%;
+		margin-left: 60%;
+    }
+
+     .wrapper_med .texto_2 {
+		font-size: 15px;
+    }
+
+    .wrapper_med> .container{
+    	padding-left: 0px;
+    }
+
+    #rectangulo_sup{
+    	padding-top: 0px;
+    	bottom: 80%;
+    }
+
+    .wrapper_inf {
+		top: 80%;
+		height: auto;
+
+	}
+
+	.wrapper_inf .rectangulo{
+		padding-top: 0px;
+	}
+
+
+}
+
+
+@media (max-width: 400px) {
+
+
+	.home-css .carousel-indicators{
+		bottom: 20%;
+	}
+
+	.wrapper_inf .rectangulo{
+		height: auto;
+	}
+
+	#img_homboo{
+		width: auto;
+		margin-left: 20%;
+	}
+
+	.carousel-caption .texto_1 p {
+	  font-size: 10px;
+	}
+
+    .carousel-caption .rectangulo{
+	  height: 40px;
+	  padding-top: 18px;
+	  top: 0px;
+	}
+
+	.wrapper_med {
+		width: 40%;
+		top: 20%;
+		margin-left: 55%;
+    }
+
+     .wrapper_med .texto_2 {
+		font-size: 12px;
+    }
+
+    .wrapper_med> .container{
+    	padding-left: 0px;
+    }
+
+    #rectangulo_sup{
+    	padding-top: 0px;
+    	bottom: 75%;
+    }
+
+    .wrapper_inf {
+		top: 80%;
+		height: auto;
+
+	}
+
+	.wrapper_inf .rectangulo{
+		padding-top: 0px;
+	}
+
+
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+	.wrapper_med>.container a:hover {
+	font-size: 20px;
+    }
+    .home-css .footer-main a:hover {
+  font-size: 17px;
+  font-family: Oswald-Bold;
+   }
+}
+
+@media (min-width: 640px) and (max-width: 1024px) {
+	.wrapper_med>.container a:hover {
+	font-size: 20px;
+}
+.home-css .footer-main a:hover {
+  font-size: 17px;
+  font-family: Oswald-Bold;
+}
+
+ }
+
+@media (min-width: 1280px) {
+	.wrapper_med>.container a:hover {
+	font-size: 20px;
+}
+.home-css .footer-main a:hover {
+  font-size: 17px;
+  font-family: Oswald-Bold;
+}
+
+
+}
+
+@media (min-width: 960px){
+	/*----------------------- FOOTER --------------------------------------------------*/
+.home-css .footer-main {
+  padding: 17px 0px 20px 0px;
+  background-color: transparent;
+  margin-top: 0px;
+  padding-bottom: 0px;
+  width: 90%;
+}
+.home-css .footer-main .container{
+	width: auto;
+}
+.home-css .footer-main .container .footer-list{
+	margin-left: 0px;
+}
+.home-css .footer-main .ancho {
+  line-height: 15px;
+  text-align: center;
+}
+
+.home-css .footer-main a {
+  font-family: Oswald-Regular;
+  color: white;
+  margin-bottom: 0;
+  margin-left: 2px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.home-css .footer-main .footer-list > div {
+  padding: 1px;
+  width: 11%;
+}
+.home-css .footer-main .footer-list > div hr {
+  border-top-width: 4px !important;
+  margin-top: 5px !important;  
+  margin-bottom: 4px !important;
+}
+.wrapper_inf .rectangulo{
+	padding-top: 0px;
+}
+
+}
+
+@media (max-width: 380px min-width: 370px) {
+	.carousel-caption .texto_1 p {
+	  font-size: 12px;
+	}
+
+}
+

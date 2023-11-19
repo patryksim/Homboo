@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title ng-bind="(gPage.pageTitle | available:'')"></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/vendors-bc42d84b.css">
+    <link rel="stylesheet" href="css/jquery/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/architecture.css">
+
+    
+    <!-- Custom jquery -->
+    <script src="js/jquery/jquery.js"></script>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+</head>
+
+<body>
+	
+<script src="js/vendors-8c770cac.js"></script>
+<script src="js/jquery/jquery-ui.min.js"></script>
+<script src="js/custom-vendors.min.js"></script>
+  
+  
+<!-- Main Wrapper -->
+<div class="architecture_home-css fixes-css"> 
+
+<!-- Anim Container -->
+
+<nav class="homboo-navfinal navbar navbar-default navbar-fixed-top">
+    <div class="container nav-bc-container">
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+          </button>
+        </div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu lock" src="img/lock.png">MY ACCOUNT <span class="caret"></span></a>
+			  </li>
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu pencil" src="img/Pencil.png">MY HOMBOO <span class="caret"></a>
+			  </li>
+			  <li class="dropdown">
+				 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu cart" src="img/cart.png">CART <span class="badge">0</span></a>
+			  </li>
+			  <li class="fix-img">
+				  <a href="#">
+					  <img class="img-menu" src="img/search.png">
+				  </a>
+			  </li>
+		   </ul>
+		</div>
+    </div>
+</nav>
+
+<header class="container-fluid homboo-headerfinal">
+    <div class="container-fluid navAnim">
+        <div class="container">
+        </div>
+    </div>
+    <div class="container headerCont" >
+        <div class="row headerIn">
+            <div class="logo-cont">
+                <a href="#">
+                    <img src="img/homboo.png" alt="...">    
+                </a>  
+                <a href="architecture_home.html" >ARCHITECTURE</a>
+            </div>
+        </div>
+
+        <div class="row headerMenu">
+            <div class="navHeader">
+                <ul class="headerList" >
+                    <li><a href="#">SELF SERVICE</a></li>
+                    <li><a href="#">TURNKEY</a></li>
+                    <li><a href="#">PROJECT OPTIONS</a><li>
+                    <li><a href="#">MY PROJECT</a></li>
+                    <li><a href="#">OUR ARCHITECTS</a></li>
+                    <li><a href="#">BUILDING CODES</a></li>
+                    <li class="visible-mobile" ><a href="#">LIVE SUPPORT</a></li>
+                </ul>            
+            </div>
+            <div class="navHeaderRight services-btn hidden-sm hidden-xs">
+                <ul class="nav nav-pills" >
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-plain orange live"><img src="img/live_support.png" >LIVE SUPPORT</button>
+                            <button id="drop-down-menu-btn" type="button" class="btn btn-plain gray serv" data-toggle="dropdown" >HOMBOO services<span class="caret"></span></button>
+                            <ul class="dropdown-menu services-list" role="menu">
+                                <li>
+                                    <a href="#"><img src="img/dropdown/land.png"></a>
+                                    <a href="#"><h4>LAND</h4></a>
+                                    <hr class="color2" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/archi.png"></a>
+                                    <a href="#"><h4>ARCHITECTURE</h4></a>
+                                    <hr class="color1" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/management.png"></a>
+                                    <a href="#"><h4>MANAGEMENT</h4></a>
+                                    <hr class="color3" />
+                                </li>
+
+                                <li>
+                                    <a href="#"><img src="img/dropdown/materials.png"></a>
+                                    <a href="#"><h4>MATERIALS</h4></a>
+                                    <hr class="color4" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/prof.png"></a>
+                                    <a href="#"><h4>PROFESSIONALS</h4></a>
+                                    <hr class="color5" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/finance.png"></a>
+                                    <a href="#"><h4>FINANCE</h4></a>
+                                    <hr class="color6" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/furniture.png"></a>
+                                    <a href="#"><h4>FURNITURE</h4></a>
+                                    <hr class="color7" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/supp.png"></a>
+                                    <a href="#"><h4>SUPPORT</h4></a>
+                                    <hr class="color8" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/com.png"></a>
+                                    <a href="#"><h4>COMMUNITY</h4></a>
+                                    <hr class="color9" />
+                                </li>
+
+                            </ul>
+                        </div>
+                </ul>       
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Section Social-Links -->
+<div class="social-links">
+    <a href="https://www.facebook.com/fcbarcelona"><img src="img/icons-big/face.png"></a>
+    <a href="#"><img src="img/icons-big/print.png"></a>
+    <a href="https://twitter.com/fcbarcelona_es" target="_blank"><img src="img/icons-big/twitter.png"></a>
+    <a href="https://plus.google.com/+FCBarcelona"><img src="img/icons-big/plus.png"></a>
+</div>
+<!-- Section Banner -->
+<section id="banner" class="container-fluid" style="min-height: 0;">
+</section>
+        
+<!-- Section Breadcrumbs -->		
+<section class="breadcrumbs container">
+                        <div  style="padding-left: 0; width: auto;margin-bottom: 15px;">
+                            <a href="#">Homboo</a> / <a href="#">Architecture</a> / Design Guide Lines
+                        </div>
+                        <div class="image">
+		                  	<img id="imag_sup"  src="img/imag_sup.png">
+                            <h3><span>DESIGN GUIDE LINES</span></h3>
+           	            </div>
+</section>
+
+<!-- Section Principal Container -->                
+<section id="banner2" class="home-css ">  
+    <div id="container_1" class="container ">
+        <!-- row 1 -->
+           <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12 firt-view-col" >
+                 <h3 class="text_1">HOUSE EXTERIOR AND INTERIOR FINISHINGS</h3>
+
+<p style="margin:0px"><b>Exterior Finishing/Siding</b></br></br>
+
+When choosing the exterior finishing "siding" for your house, there are several factors and options to determine before making a definitive choice. For example, the architecture style of your home and the outside surroundings will to a great degree influence and determine the type of finishing appropriate for it. Outside surroundings (context) play a very important role as it influences your land / lot (wood land, country, suburban, or desert). </br></br>
+
+It is also very important to consider the climate that affects your location, as well as your lifestyle. Your exterior siding must stand up to such weather elements.                 If you are a practical person or want your house to emit a specific style, you may want to choose an exterior siding that requires little maintenance, like a house that perhaps needs a pressure wash periodically.</br></br>
+
+The exterior house siding industry has made tremendous technological advances in new siding products. Today, you can actually install vinyl siding that very closely resembles the traditional rustic wood siding without the maintenance. New technology has made the "real" look achievable without the high cost and time consuming maintenance. </br></br>
+
+On the other hand, home builders are choosing exterior house siding that resembles that of real stonework. The siding is faux stone pieces that are attached to metal lathing that is nailed to the outside sheathing. Grout that is especially designed for exterior use is then applied between the stonework and then finished with a protective coating. The process is somewhat costly and rather time consuming, but it really looks authentic when the job is complete. The labor applied to finish this kind of job is nowhere near the labor involved with doing the real thing.</br></br>
+
+In summary, not only should the siding add beauty and style to your house, but it should also serve a good protecting function as well. After all, the exterior finishing protects your house against extreme weather and etc. In the end, you should be shopping in the cost range you can afford while looking for style, function, maintenance, as well as durability.</br></br>
+
+<b>House Insulation</b></br></br>
+
+Choosing the best Insulation</br></br>
+
+The type of insulation you choose for your house is again an important decision that is based on factors such as climate, lifestyle, the size and shape of your house and the type of heating system you install. Choosing the best insulation for homes is a key issue in determining the comfort level of the temperature inside of your house for many years to come. Also, understanding how efficient your house will be energy wise is a key factor that must be included and which will determine your heating costs.</br></br>
+
+There are many different types of insulation on the market. The most commons insulation systems for homes are:</br></br>
+
+1) Loose fill insulation</br></br>
+
+
+2) Batt and blanket insulation</br></br>
+
+
+3) Rigid board insulation</br></br>
+
+
+4) Spray foam insulation </br></br>
+
+The Loose fill insulation is a cellulose fiber system which is blown into the walls using special equipment; however its advantage is that it is very effective at filling in the nooks and so reducing air leakage through the wall.</br></br>
+
+Batt and blanket insulation is a standard fiberglass insulation that is installed between studs in walls, or between the joists in floors and in ceilings.<br></br>
+
+Rigid board insulation is also made from fiber glass and can be used to insulate flat roofs and basement walls, etc. 
+Spray foam insulation is the last type of insulation and it is made from polymers and foaming agents and is applied by spraying into the walls through a nozzle.</br></br>
+
+Whatever type of insulation you choose for your house be sure that it includes an Energy Star label and /or the National Association of Home Builders certification. You will also want to check the building code in your area for any standard insulation requirements. In some places, it is a required a specific thickness for the insulation.</br></br>
+
+Using the best insulation is key in keeping your house warm with uniform temperature during the cold winter months, as well as cool during the warm summer months. To ensure the best results, be sure to install vents in the attic for cooling during the summer and to control the moisture. Remember to keep the vented areas free of insulation to allow for proper airflow.</br></br>
+
+<b>Interior Finishing</b></br></br>
+
+After the exterior is completed it is time to finish interior walls, paint, doors and windows installation, hang cabinetry, put down flooring and install tile. A common material to finish the interior walls of your house is drywall, also known as sheet rock.</br></br>
+
+Drywall texture also has the ability to put a variety of cost effective finishes on the surface that really looks like the real thing. If your budget is limited with regard to installing rock, brick or other like materials, dry wall is highly suggested.</br></br>
+
+Always check the building code for your jurisdiction prior to beginning the drywall process. There are specifications such as the number of nails/screws for each drywall sheet and other issues to be considered. As a general rule, you will want to start from the top with hanging drywall by first doing the ceilings. 
+Hanging the drywall after doing the ceilings will help to support the ceiling material, as well as prepare you to hang the drywall on the walls starting from the top and working down.</br></br>
+
+As you hang the drywall, be sure to note where all of the joists are located since this is where you will be putting in the nails to fasten down the drywall. The standard procedure for hanging drywall is working from the top down and perpendicular across making sure all the joints meet precisely and accurately. This will also make the application of the finishing coat easier and faster. When your drywall job is complete you will be faced with an endless variety of options with regard to decorating the interior walls of your house. Drywall texture allows for so many great styles of material that can be applied to a drywall surface. </br></br>
+
+Nowadays there exists a complete variety of finishes including stone, brick, clay, sand, sponge texturizing, color washing, and much more. Many of today's interior finishes are indistinguishable from the real thing. These interior wall finishing techniques are very cost effective.</br></br>
+
+<b>Selecting the Best Flooring
+</b></br></br>
+When building the subfloor of your home, the type of floor finish for each room was taken into consideration and the floor built accordingly. There are many different types of flooring materials to choose from and some require a more solid subfloor than others. For instance, marble or tile will require a more solid subfloor to prevent cracking in both the grout and the tile. Laminate flooring, linoleum, or carpet can stand a more flexible subfloor. </br></br>
+
+Assuming flooring material has been taken into consideration during the construction of the subfloor, it is now time to actually select they type of material for each room of the house. There are many options available on the market and so it is difficult to decide where to begin. From tile, to carpet, to wood, laminate, vinyl and many others, all in different styles, textures, and colors and costs.</br></br>
+
+Other materials rendered as Eco-friendly include bamboo, cork which can be used in a variety of places such as tabletops and counters in addition to flooring. These types of flooring also tend to be very resilient and can be produced to resemble other materials such as wood or slate without harming any trees or wildlife habitats. </br></br>
+
+Again, when choosing flooring, like all other aspects of your house, you must take your lifestyle into consideration. The amount of traffic your flooring will receive, whether or not you have pets, kids, a swimming pool, or any other factors that are going to place wear and tear on the flooring you choose should influence the selection process. Many times a floor design will be appealing but not the most practical when it comes to the everyday home lifestyle. But on the other hand, practical does not have to be unattractive...</br></br>
+
+AS we have mention before, lifestyle, style, installation practicality, durability maintenance and cost play an important role in selecting your house flooring. Maybe, the main decision will be based on style and cost. </br></br>
+
+<b>Finishing the Bathroom</b></br></br>
+
+Bathrooms are small areas of the house that involve lots of design and thought. A good place to start is to determine the style / decor you would like to express in all the bathrooms in the home. Once you have figured this out, then you can select the walls and floor finishing and consequently begin to look for fixtures that will complement the selected design style. Be sure to consider price as well as quality since you will want the fixtures to be durable and good quality. </br></br>
+
+When you are done with the phase of finishing, you will need to choose the bathtubs and sinks, cabinets, sink and bathtub faucets, shower heads, toilets and etc. Differences in design, construction, and price sometimes make it difficult to know where to begin and what to choose. Here, our design professionals will assist you in making the best decision for your budget and for the design and style you need. </br></br>
+
+When choosing the bathroom fixtures, you should consider ones that run efficiently and will save you money down the road on water bills. Such fixtures include low flow toilets and shower heads. There are many low flow models in both categories that offer high performance in terms of flushing power and shower head spray strength. <br></br>
+
+Toilets and shower heads are rather cost effective to install and are now built to be water efficient without sacrificing water pressure. Pressure flush and low flow toilets are rapidly becoming the norm and are replacing the older toilets which require up to five gallons per flush. Pressure balanced valves are also a good idea for conservation because they will keep the water temperature flow constant and prevent it from fluctuating. </br></br>
+
+Although the design of plumbing fixtures add a refreshing touch to your bathroom, you will need to choose the plumbing fixtures early on in the project. This is because the plumbing fixtures will need to fit the plumbing that is installed behind the walls in every bathroom very early on during construction. The same rule applies to choosing a sink, toilet, and bathtub. This way the in-wall plumbing will be suitable for the fixtures that you choose.</br></br>
+
+Another feature often used in bathrooms is radiant or under-the-floor heating. This type of heating will typically work with just about any flooring type. It is nice to step out of the bathtub onto a nice warm floor especially during cold winter months.</br></br>
+
+<b>The Kitchen</b></br></br>
+
+The kitchen is the work horse of the home and it is much more than a place for cooking, chilling, freezing and laundry. It is a multifunctional space with a tremendous focal activity... it is a gathering (family and friends) space and so it is a room that can easily takes the most planning and work. It can also be the most expensive room to design and decorate in the whole house.</br></br>
+
+Your kitchen layout will be decided for the most part by the dimensions of the room. It is important to understand that the smaller the space, the fewer your choices of kitchen layout. Small houses with kitchenette-style areas built off single living/dining rooms tend to house galley, L-shaped or U-shaped kitchens. But designing a dream kitchen can be easiest and least expensive in smaller spaces because it allows you to use quality materials that would be rather too expensive in larger areas.</br></br>
+
+There are three main decisions you will need to take when selecting the finishing around the kitchen area:</br></br>
+
+
+1) Deciding flooring and wall finishing
+</br></br>
+
+2) Deciding on the type of kitchen cabinets, drawers and countertops you would like have,
+</br></br>
+
+3) Deciding on the types of appliances you will need.</br></br>
+
+<b>For all decisions needed you should focus on prices as well as quality.</b></br></br>
+
+When choosing kitchen cabinets, you should purchase cabinets with built in strong frames. The lower quality inexpensive cabinets have a tendency to sag over time. </br></br>
+
+We suggest searching from brand name semi-custom made cabinets; We understand these are higher in price than stock ones but provide much more quality and better designs and styles. And so, you will have more choices and possibilities and styles to choose from. This type of kitchen cabinets are more affordable than custom made cabinets which have endless possibilities. </br></br>
+
+<b>Appliances</b></br></br>
+Choosing appliances will involve consideration of features, performance, and a style that suits your kitchen decor and your budget. You will need to choose a sink, refrigerator, oven, and dishwasher that will serve the needs of your lifestyle. Here again, it is recommended to avoid the cheaper made appliances.</br></br>
+
+About the energy supply needed to feed these appliances, it is suggested to bring both electricity and gas into the wall behind the stove, this way you can go with either type of stove or even the newer "hybrid" stoves that are gas on top and electric in the oven. Be sure to also plan and provide various wired spots into the wall for future appliances such as dishwasher or etc. you should you not opt for one during the building process. </br></br>
+
+Appliances will make up about 10% of the finishing budget for your kitchen. Try to budget for medium to high end appliances as they will be the most important function in your house kitchen and you will want them to last you a good number of years. Having an eye for Energy Star appliances will also save your wallet in the long run.</br></br>
+
+
+
+</p>
+                    
+                      
+            </div>
+        </div> 
+
+        
+        <!-- COMMUNITY-->
+         <div class="row row_5" >
+            <table id="table_1" class="table-responsive" style="width:100%">
+                <tr>
+                    <td>
+                         <h3 id="h3_1" class="homboo-communityfinal"><big>FROM OUR COMMUNITY</big></h3>
+                    </td>
+                    <td class="singIn-btn">
+                        <button id="botton_community" type="button" class="btn  homboo-communityfinal btn-plain blue">GO TO COMMUNITY<img style="" align="right" src="img/arrow_2.png">
+                        </button>
+                    </td>
+
+                </tr>   
+            </table>  
+
+            <table  id="table_2"class="table-responsive" style="width:100%">
+                <tr>
+                    <td>
+                         <img  class="img-responsive" src="img/img_1.png">
+                    </td>
+                    <td style="border-left: 2px solid #f4f2f2">     
+                         <img  class="img-responsive" src="img/img_2.png">
+                    </td>
+                    <td style="border-left: 2px solid #f4f2f2">
+                         <img  class="img-responsive" src="img/img_1.png">
+                    </td>     
+                </tr>
+            </table>
+         </div>
+</section> 
+
+
+        
+<!-- Section Community Final -->  
+<section class="container homboo-communityfinal">
+    <div class="singIn-btn row" style="border: solid 1px #999999;">
+        <div class="sign-in-text col-md-9 col-xs-7" style="text-align: left; height: 27px;">YOUR RECENTLY VIEWED ITEMS</div>
+        <button id="boton-sign-in" type="button" class="btn btn-plain col-md-3 col-xs-5" >SING IN <span class="glyphicon glyphicon-triangle-right" ></span></button>
+    </div>
+    <div id="recientes" class="architecture_home-css">
+        <div class="row title" style="padding-bottom: 13px;">
+            <div class="col-md-12">
+                <h3>RECENTLY VIEWED</h3>
+            </div>  
+        </div>
+        <div id="recently" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner carrousel-cont" role="listbox">
+                <div class="item active">
+                    <div class=" myrow">
+                        <!--CUADRO DE PRODUCTO 1-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider1.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 2-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider2.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 3-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider3.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 4-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col firt-view-col4" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider4.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class=" myrow">
+                        <!--CUADRO DE PRODUCTO 1-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider1.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 2-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider2.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='architecture_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 3-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider3.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='architecture_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 4-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col firt-view-col4" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider4.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='architecture_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class=" carousel-control " onclick=" $('#recently').carousel('prev');" role="button" data-slide="prev">
+                <img src="img/left.png">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="myright carousel-control" onclick=" $('#recently').carousel('next');" role="button" data-slide="next">
+                <img src="img/right.png">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="Recentlyresponsive" class="carousel slide" data-ride="carousel">
+        <div class="row title" style="padding-bottom: 13px;">
+            <div class="col-md-12">
+                <h3>RECENTLY VIEWED</h3>
+            </div>  
+        </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+        <div class="item active" style="width: 100%">
+            <div class=" ">
+                <div class="col-md-3 col-xs-12 padding-0 ">
+                    <div class="related-product productresponsive  ">
+                        <h4>Jeld-Wen</h4>
+                        <img class="img_lands" src="img/slider/slider1.png" alt="">
+                        <div class="price">$139.00</div>
+                        <button class="btn btn-hoomboo btn-f-white green2 btn-fs-10 btn-upper">Details</button>
+                        <div class="heigth-20"></div>
+                        <div class="favorite favorite-full">
+                            <div class="add-to">
+                                <img src="img/favorite-icon.png" alt=""> <a href="">Add to Wish List</a>
+                            </div>
+                            <div class="heigth-10"></div>
+                            <div class="compare"> <input type="checkbox"> <span>compare</span></div>
+                            <span class="favorites-stars">
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item " style="width: 100%">
+            <div class="">
+                <div class="col-md-3 col-xs-12 padding-0 ">
+                    <div class="related-product productresponsive  ">
+                        <h4>Jeld-Wen</h4>
+                        <img class="img_lands" src="img/slider/slider2.png" alt="">
+                        <div class="price">$139.00</div>
+                        <button class="btn btn-hoomboo btn-f-white green2 btn-fs-10 btn-upper">Details</button>
+                        <div class="heigth-20"></div>
+                        <div class="favorite favorite-full">
+                            <div class="add-to">
+                                <img src="img/favorite-icon.png" alt=""> <a href="">Add to Wish List</a>
+                            </div>
+                            <div class="heigth-10"></div>
+                            <div class="compare"> <input type="checkbox"> <span>compare</span></div>
+                            <span class="favorites-stars">
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item " style="width: 100%">
+            <div class="">
+                <div class="col-md-3 col-xs-12 padding-0 ">
+                    <div class="related-product productresponsive">
+                        <h4>Jeld-Wen</h4>
+                        <img class="img_lands" src="img/slider/slider3.png" alt="">
+                        <div class="price">$139.00</div>
+                        <button class="btn btn-hoomboo btn-f-white green2 btn-fs-10 btn-upper">Details</button>
+                        <div class="heigth-20"></div>
+                        <div class="favorite favorite-full">
+                            <div class="add-to">
+                                <img src="img/favorite-icon.png" alt=""> <a href="">Add to Wish List</a>
+                            </div>
+                            <div class="heigth-10"></div>
+                            <div class="compare"> <input type="checkbox"> <span>compare</span></div>
+                            <span class="favorites-stars">
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control" onclick=" $('#Recentlyresponsive').carousel('prev');" role="button" data-slide="prev">
+            <img src="img/left.png">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control myright" onclick=" $('#Recentlyresponsive').carousel('next');" role="button" data-slide="next">
+            <img src="img/right.png">
+            <span class="sr-only">Next</span>
+        </a>
+        </div>          
+    </div>
+</section>
+        
+<!-- Section Footer -->
+<footer class="container-fluid footer-main" style="margin-top: 25px;padding-right: 0px;padding-left: 0px;">  
+    <!-- Footer Menu -->
+    <section id="footer-menu" class="container-fluid" style="margin-bottom: 17px;margin-top: -21px; ">
+        
+        <div class="container">     
+            <div class="row">
+                <div class="col-lg-9 col-md-8 footer-text">
+                    Homboo 2012- All rights reserved - <a href="#">Go to top</a> | <a href="#">About homboo</a> | <a href="#">The project</a> | <a href="#">How it works</a>| <a href="#">FAQ</a> |<a href="#">Support</a> | <a href="#">Contacts</a>
+                </div>
+                <div class="col-lg-3 col-md-4 followus" >
+                    Follow Us:&nbsp;
+                    <span class="social-small-list">
+                        <a href="https://www.facebook.com/fcbarcelona" target="_blank" ><img src="img/social/fb.png"></a>
+                        <a href="http://culepersempre.tumblr.com/" target="_blank" ><img src="img/social/tumblr.png"></a>
+                        <a href="https://www.linkedin.com/company/fc-barcelona" target="_blank" ><img src="img/social/ld.png"></a>
+                        <a href="https://www.youtube.com/user/fcbarcelona" target="_blank" ><img src="img/social/youtube.png"></a>
+                        <a href="https://www.flickr.com/groups/fcbarcelona/" target="_blank" ><img src="img/social/social1.png"></a>
+                        <a href="https://delicious.com/" target="_blank" ><img src="img/social/social2.png"></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div class="container">        
+        <div class="row footer-list">     
+        <div class="col-xs-5 col-md-1">
+
+          <div class="ancho" >
+               <h4 class="fuente tam1 " >LAND</h4>
+               <hr class="color2 movhr2" />
+               <a href="#" >Documents</a> <br>
+               <a href="#" >Add Your Land</a> <br>
+               <a href="#">My Saved Land</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">ARQUITECTURE</h4>
+               <hr class="color1 movhr2"/>
+               <a href="#">Project Options</a> <br>
+               <a href="#">My Project</a> <br>
+               <a href="#">User's Guide</a><br>
+               <a href="#">Contact our Architect</a><br>
+               <a href="#">Guide Lines</a><br>
+               <a href="#">FAQ</a><br>
+               <a href="#">News</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">MANAGEMENT</h4>
+               <hr class="color3 movhr2" />
+               <a href="#">Estimating</a> <br>
+               <a href="#">Scheduling</a> <br>
+               <a href="#">My Projects</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">MATERIALS</h4>
+               <hr class="color4 movhr2"/>
+               <a  href="#">Best Sellers</a> <br>
+               <a  href="#">Deal of the Day</a> <br>
+               <a  href="#">News Arrivals</a><br>
+               <a  href="#">On sale</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">PROFESSIONALS</h4>
+               <hr class="color5 movhr2"/>
+               <a href="#">My Professionals</a> <br>
+               <a href="#">My Reviews</a> <br>
+               <a href="#">Post your Resume</a><br>
+               <a href="#">My Resume</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FINANCE</h4>
+               <hr class="color6 movhr2"/>
+               <a href="#">Loans and <br> Mortgages</a> <br>
+               <a href="#">Home Insurance</a> <br>
+
+
+          </div>
+
+        </div>
+
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FURNITURE</h4>
+               <hr class="color7 movhr2"/>
+               <a href="#"> Best Sellers</a> <br>
+               <a href="#">Deal of the Day</a> <br>
+               <a href="#">News Arrivals</a><br>
+               <a href="#">On sale</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">SUPORT</h4>
+               <hr class="color8 movhr2"/>
+               <a href="#">Clients</a> <br>
+               <a href="#">Home builders</a> <br>
+               <a href="#">Construction</a><br>
+               <a href="#">Books</a><br>
+               <a href="#">Videos</a><br>
+               <a href="#">FAQ</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">COMMUNITY</h4>
+               <hr class="color9 movhr2" />
+               <a href="#">Land</a> <br>
+               <a href="#">Architecture</a> <br>
+               <a href="#">Management</a> <br>
+               <a href="#" >Home Construction</a> <br>
+               <a href="#">Materials</a> <br>
+               <a href="#">Decorating</a> <br>
+               <a href="#">Landscaping</a> <br>
+               <a href="#">Furniture</a> <br>
+               <a href="#">Finance</a> <br>
+               <a href="#">Support</a> <br>                 
+
+          </div>
+
+        </div>
+        </div> 
+    </div>
+</footer>
+
+</div>
+
+    
+
+<script>
+    function lista() {
+        document.getElementById("product-grid-container").style.display = "none";
+        document.getElementById("product-list-container").style.display = "block";
+
+        document.getElementById("grid").className = "gray-icon";
+        document.getElementById("list").className = "black-icon";
+    }
+
+    function grilla() {
+        document.getElementById("product-list-container").style.display = "none";
+        document.getElementById("product-grid-container").style.display = "block";
+
+        document.getElementById("grid").className = "black-icon";
+        document.getElementById("list").className = "gray-icon";
+    }
+
+    $(".title-faq").click(function() {
+        $(this).parent().find(".content-faq").toggle();
+        $(this).parent().find(".mas").toggle();
+        $(this).parent().find(".menos").toggle();
+    });
+    $('#Recentlyresponsive').carousel({
+    interval: false
+    });
+
+    $('#recently').carousel({
+    interval: false
+    });
+    $("#boton-sign-in").click(function() {
+    $(this).parent().toggle();
+    if (window.innerWidth < 447) {
+    $("#Recentlyresponsive").toggle();
+    } else {
+    $("#recientes").toggle();
+    }
+    });
+    $(document).ready(function () {
+        $("#slider-range").slider({
+          range: true,
+          min: 0,
+          max: 1000,
+          values: [ 0, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount1" ).val( "$" + ui.values[ 0 ]);
+            $( "#amount2" ).val( "$" + ui.values[ 1 ]);
+          }
+        });
+        $( "#amount1" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ));
+        $( "#amount2" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ));
+    });
+    $(document).ready(function () {
+    var scroll_menu = parseInt($('.headerIn').offset().top);
+    var scroll_banner = parseInt($('#banner').offset().top);
+    var height_nav_anim = $('.navAnim').outerHeight();
+    var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+    var header_bar = TweenLite.from($('.navAnim'), 0.5, {top:"-"+height_nav_anim+"px",paused:true});
+    var going_down = true;
+    $(window).scroll(function(){
+       var scroll_lvl = $(window).scrollTop();
+       if((scroll_lvl >= scroll_banner && going_down)){
+           going_down = false;
+           nav_bar.play();
+           header_bar.play();
+           $('.headerMenu').appendTo('.navAnim .container');
+          // tween_tabs.play();
+       }
+       
+       if((scroll_lvl < (scroll_banner)) && !going_down){
+           going_down = true;
+           nav_bar.reverse();
+           header_bar.reverse();
+           $('.headerMenu').appendTo('.headerCont');
+          //tween_tabs.reverse();
+       }
+    });
+    });
+    $(document).ready(function () {
+        $('.architecture-dropdown,.dropdown-title').hide();
+        var management = {
+            displayed: false,
+            toggle_dropdown: function(e){
+                e.preventDefault();                                 
+                if(screen.width<768){
+                    return;
+                }
+                if(this.displayed){
+                    $('.architecture-dropdown,.dropdown-title').hide();
+                    this.displayed = false;
+                }
+                else{
+                    $('.architecture-dropdown,.dropdown-title').show();
+                    this.displayed = true;
+                }
+            }
+        };
+        
+        $('#dropdown-cat').on('click',architecture.toggle_dropdown);
+        
+        $(window).on('click',function(e){
+            
+            if(screen.width<768){
+                return;
+            }
+            if(!$(e.target).is('li.dropdown-cat a')) {
+                $('.architecture-dropdown,.dropdown-title').hide();
+                architecture.displayed = false;
+            }
+        });
+        
+        $('button.serv').on('click',function(){
+            if(screen.width<768){
+                return;
+            }
+            $('.architecture-dropdown,.dropdown-title').hide();
+            architecture.displayed = false;
+        });
+    });
+    $(document).ready(function(){
+    $("#li1").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category1.png')");
+    });
+    $("#li2").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category2.png')");
+    });
+    $("#li3").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category3.png')");
+    });
+    $("#li4").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category4.png')");
+    });
+    $("#li5").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category5.png')");
+    });
+    $("#li6").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category6.png')");
+    });
+    $("#li7").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category7.png')");
+    });
+    $("#li8").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category8.png')");
+    });
+    $("#li9").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category9.png')");
+    });
+    $("#li10").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category10.png')");
+    });
+    $("#li11").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category11.png')");
+    });
+    $("#li12").hover(function(){
+    $("#change_image").css("background-image", "url('img/sub-category/sub-category12.png')");
+    });
+    });
+</script>
+
+</body>
+</html>

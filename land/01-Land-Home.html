@@ -1,0 +1,1060 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title ng-bind="(gPage.pageTitle | available:'')"></title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">    
+
+    <link rel="stylesheet" href="css/vendors-bc42d84b.css">
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="css/custom-vendors.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/land.css">
+   <!--link rel="stylesheet" href="css/materials_home.min.css"-->   
+   <!--link rel="stylesheet" href="css/finance_home.min.css"-->     
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+    <script src="js/vendors-8c770cac_slide_show.js"></script>
+    <script src="js/custom-vendors.min_slideshow.js"></script>
+    <!-- /Google Analytics -->
+  </head>
+  <body>    
+      <!-- Main Wrapper -->
+  <div id="main-wrapper">
+     <div class="home-css"> 
+
+                     <!-- Navigation Bar -->
+                     <nav class="navbar navbar-default navbar-fixed-top">
+                        <div class="container">
+                           <div class="navbar-header">
+                              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                 <span class="sr-only">Toggle navigation</span>
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                                 <span class="icon-bar"></span>
+                              </button>
+                           </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                  <li class="dropdown">
+                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu" src="img/lock.png">MY ACCOUNT  <span class="caret"></span></a>
+                                     <ul class="dropdown-menu" role="menu">
+                                     </ul>
+                                  </li>
+                                  <li class="dropdown">
+                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu" src="img/Pencil.png">MY HOMBOO <span class="caret"></span></a>
+                                     <ul class="dropdown-menu" role="menu">
+                                     </ul>
+                                  </li>
+                  <li class="dropdown">
+                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu" src="img/wishlist-white.png">MY WISHLIST <span class="caret"></span></a>
+                                     <ul class="dropdown-menu" role="menu">
+                                     </ul>
+                                  </li>
+                                  <li class="dropdown">
+                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu" src="img/cart.png">CART <span class="badge">0</span> <span class="caret"></span></a>
+                                     <ul class="dropdown-menu" role="menu">
+                                     </ul>
+                                  </li>
+                                  
+                                  <li>
+                                      <a href="#">
+                                          <img class="img-menu" src="img/search.png">
+                                      </a>
+
+                                  </li>
+
+                               </ul>
+                            </div>
+
+                        </div>
+                     </nav>                     
+                     <!-- Anim Container -->
+
+                    <!-- Header -->
+                    <header class="container-fluid">
+                      <div class="container-fluid nav-anim">
+                          <div class="container">
+
+
+                          </div>
+                      </div> 
+
+                      <div class="container header-cont" >
+                          <div class="row header-in">
+                                <div class="col-md-6 col-xs-10 header-in-bc logo">
+                                    <img class="img-responsive" src="img/logo_land.png" alt="...">
+                                </div>
+                          </div>
+                          <!-- Inner Navigation -->
+                          <div class="row header-menu" >
+                              <div class="col-lg-8 col-md-7 nav-header">
+                                  <ul class="nav nav-pills">
+                                      <li role="presentation"><a href="#" style="font-size: 11.7px;">FIND YOUR LAND</a></li>
+                                      <li role="presentation"><a href="#" style="font-size: 11.7px;">ADD YOUR LAND</a></li>
+                                      <li role="presentation"><a href="#" style="font-size: 11.7px;">MY SAVED LANDS</a></li>
+                                      <li role="presentation"><a href="#" style="font-size: 11.7px;">MY POSTED LANDS</a></li>
+                                      <li role="presentation"><a href="#" style="font-size: 11.7px;">LEGAL DOCUMENTS</a></li>
+                                      <li class="visible-xs-block" role="presentation"><button type="button" class="btn btn-plain orange"><img src="img/live_support.png" >LIVE SUPPORT</button></li>
+                                  </ul>            
+                              </div>
+                              <div class="col-lg-4 col-md-5 services-btn hidden-sm hidden-xs">
+                                  <ul class="nav nav-pills nav2">
+                                      <li style="margin-right: -2px;" role="presentation">
+                                          <button type="button" class="btn btn-plain orange"><img src="img/live_support.png" >LIVE SUPPORT</button>
+                                      </li>
+                                      <li role="presentation">
+                                          <div class="btn-group">
+                                              <button type="button" class="btn btn-plain gray" data-toggle="dropdown" >HOMBOO services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="caret"></span></button>
+
+                                              <ul class="dropdown-menu services-list" role="menu">
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/land.png"></a>
+                                                      <a href="#"><h4>LAND</h4></a>
+                                                      <hr class="color2" />
+                                                  </li>
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/archi.png"></a>
+                                                      <a href="#"><h4>ARCHITECTURE</h4></a>
+                                                      <hr class="color1" />
+                                                  </li>
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/management.png"></a>
+                                                      <a href="#"><h4>MANAGEMENT</h4></a>
+                                                      <hr class="color3" />
+                                                  </li>
+
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/materials.png"></a>
+                                                      <a href="#"><h4>MATERIALS</h4></a>
+                                                      <hr class="color4" />
+                                                  </li>
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/prof.png"></a>
+                                                      <a href="#"><h4>PROFESSIONALS</h4></a>
+                                                      <hr class="color5" />
+                                                  </li>
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/finance.png"></a>
+                                                      <a href="#"><h4>FINANCE</h4></a>
+                                                      <hr class="color6" />
+                                                  </li>
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/furniture.png"></a>
+                                                      <a href="#"><h4>FURNITURE</h4></a>
+                                                      <hr class="color7" />
+                                                  </li>
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/supp.png"></a>
+                                                      <a href="#"><h4>SUPPORT</h4></a>
+                                                      <hr class="color8" />
+                                                  </li>
+                                                  <li>
+                                                      <a href="#"><img src="img/dropdown/com.png"></a>
+                                                      <a href="#"><h4>COMMUNITY</h4></a>
+                                                      <hr class="color9" />
+                                                  </li>
+
+                                              </ul>
+                                          </div>
+                                      </li>
+                                  </ul>       
+                              </div>
+                          </div>
+                      </div>
+                    </header>
+                    <!--BAR SEARCH-->
+                    <div class="barsearch2">
+                      <form class="form-inline">
+                      <label style="color: white;">Search</label>
+                        <div class="form-group">
+                          <div class="input-group">
+                            <input type="text" class="form-control" id="exampleInputAmount" placeholder="State, County, City or ZIP">
+                            <div class="input-group-addon"><u>Search on Map</u></div>
+                            <div class="input-group-addon"><u>Advance Search</u></div>
+                          </div>
+                        </div>
+                       <button type="submit" class="btn btn-default" style="background-color: #048F27 !important;"><img src="img/go.png"/></button>
+                    </form>
+                    </div>
+                    <!--END BAR SEARCH-->
+
+                    <!--SLIDE SHOW -->
+                    <div class="slider-cont" >
+                      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height:375px;">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li class="" data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li class="" data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox" style="margin-top: -3px;">
+                            <div class="item active">
+                                <img src="img/01-land-home1.png" style="width:100%;height:375px;" alt="...">                         
+                            </div>
+                            <div class="item">
+                                <img src="img/01-land-home1.png" style="width:100%;height:375px;" alt="...">                               
+                            </div>
+                            <div class="item">
+                                <img src="img/01-land-home1.png" style="width:100%;height:375px;" alt="...">                            
+                            </div>                          
+                        </div>
+                      </div>
+                      <script type="text/javascript">
+                        $('#carousel-example-generic').carousel({
+                                interval: 5000
+                        })
+                      </script>
+                    </div>                    
+                    <!-- END SLIDE SHOW-->
+                    <div class="social-links">
+                      <a href="https://www.facebook.com/fcbarcelona"><img src="img/icons-big/face.png"></a>
+                      <a href="#"><img src="img/icons-big/print.png"></a>
+                      <a href="https://twitter.com/fcbarcelona_es" target="_blank"><img src="img/icons-big/twitter.png"></a>
+                      <a href="https://plus.google.com/+FCBarcelona"><img src="img/icons-big/plus.png"></a>
+                    </div>  
+                                    
+    <section id="banner2" class="home-css container">
+            <div class="row" class="container">
+              <div id="col1" class="col-md-6">
+                <div style="width: 168px; height: 264px; padding: 21px 15px 21px 15px;">
+                  <h1 style="margin-bottom: 20px; color: white;">Properties of the month</h1> 
+                  <p style="color: white; text-align: justify;">26 Church St. Lyons, NY Albany, NY</p>
+                  <p style="color: white; font-size: 12.5px; font-weight: bolder;">$19000.0 | 869.7 acres</p>
+                  <div style="float: left; margin-top: 52px;">
+                  <button type="button" class="btn btn-plain btn-land" style="float: left;">VIEW LAND</button>
+                  </div>
+                </div>
+              </div>
+
+              <div id="col2" class="col-md-6">
+                <div style="width: 168px; height: 264px; padding: 21px 15px 21px 15px;">
+                  <h1 style="margin-bottom: 35px; color: white;">ADD YOUR LAND</h1>
+                  <p style="color: white; text-align: left;">Over Million User looking for  new Residential Lands</p>
+                  <div style="float: left; margin-top: 72px;">
+                  <button type="button" class="btn btn-plain btn-land" style="float: left;">LEARN MORE</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3>NEW LANDS IN YOUR AREA <img src="img/location.png" style="margin-left: 13px; vertical-align: top;" /> <span style="font-size: 15px; vertical-align: top; line-height: 25px;">Albany County, NY</span></h3>
+
+            <div id="Carousel_1" class="carousel slide" data-ride="carousel" >
+              <div class="carousel-inner carrousel-cont" role="listbox">
+                <div class="item active">
+                  <div class=" myrow">
+                    <div class="col-md-3 product-box" style="margin-left: 24px;">
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 product-box" >
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 product-box" >
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 product-box" style="margin-right: 24px;">
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item">
+                  <div class=" myrow">
+                    <div class="col-md-3 product-box" style="margin-left: 24x;">
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 product-box" >
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 product-box" >
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 product-box" style="margin-right: 24px;">
+                      <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                        <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                        <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                      </div>
+                      <div name="image-box">
+                        <img src="img/01-land-home4.png"/>
+                      </div>
+                      <div name="price">
+                        $25000.00
+                      </div>
+                      <div style="text-align: center; margin-bottom: 20px;">
+                        <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                      </div>
+                      <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                        <a href="#">
+                          <img src="img/favorite-icon.png" />
+                          <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                        </a>
+                      </div>
+                      <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                        <div name="compare-action" style="float: left;">
+                          <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                        </div>
+                        <div name="rating" style="float: right;">
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                          <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                          <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-control col-md-1" onclick="$('#Carousel_1').carousel('prev');" role="button" data-slide="prev" style="width: 100%; padding: 0; margin-top: 140px;">
+                <img style="float: left;" src="img/left.png">
+              </div>
+              <div class="carousel-control col-md-1" onclick="$('#Carousel_1').carousel('next');" role="button" data-slide="next" style="width: 100%; padding: 0; margin-top: 140px;">
+                <img style="float: right;" src="img/right.png">
+              </div>
+
+            </div>
+            <div name="rating" style="text-align: center; margin-top: 10px;">
+              <button type="button" class="btn btn-plain btn-land" style="width: 210px;">VIEW ALL<span class="glyphicon glyphicon-triangle-right"></span></button>
+            </div> 
+
+            <h3 style="text-align: left;">MOST VIEWED</h3>
+
+                <div id="Carousel_2" class="carousel slide" data-ride="carousel" >
+                  <div class="carousel-inner carrousel-cont" role="listbox">
+                    <div class="item active">
+                      <div class=" myrow">
+                        <div class="col-md-3 product-box" style="margin-left: 24px;">
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 product-box" >
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 product-box" >
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 product-box" style="margin-right: 24px;">
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="item">
+                      <div class=" myrow">
+                        <div class="col-md-3 product-box" style="margin-left: 24x;">
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 product-box" >
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 product-box" >
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-3 product-box" style="margin-right: 24px;">
+                          <div name="product-title" style="margin-left: 10px; margin-top: 10px">
+                            <h2 style="margin-top: 12px; margin-bottom: 2.5px;">869.7 acres</h2> 
+                            <h2 style="margin-top: 2.5px; margin-bottom: 15px;">In Queens County, NY</h2> 
+                          </div>
+                          <div name="image-box">
+                            <img src="img/01-land-home4.png"/>
+                          </div>
+                          <div name="price">
+                            $25000.00
+                          </div>
+                          <div style="text-align: center; margin-bottom: 20px;">
+                            <button type="button" class="btn btn-plain btn-land center">DETAILS</button>
+                          </div>
+                          <div name="wishlist" style="height: 17px; background-color: #ffd247; color: black; width: 100%; text-align:center; line-height: 17px; margin-bottom: 10px;">
+                            <a href="#">
+                              <img src="img/favorite-icon.png" />
+                              <span style="font-family: OpenSans; font-size: 12px; color: black;">Add to Wish List</span>
+                            </a>
+                          </div>
+                          <div name="compare" style="height: 30px; font-family: OpenSans; font-size: 12px; line-height: 30px;">
+                            <div name="compare-action" style="float: left;">
+                              <input type="checkbox" style="margin-left: 7px;"></input><span style="margin-left: 7px;">Compare</span>
+                            </div>
+                            <div name="rating" style="float: right;">
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;" />
+                              <img src="img/estrella-amarilla.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin: 0; padding: 0;"/>
+                              <img src="img/estrella-gris.png" style="margin-right: 2px;" />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+            <div class="carousel-control col-md-1" onclick="$('#Carousel_2').carousel('prev');" role="button" data-slide="prev" style="width: 100%; padding: 0; margin-top: 140px;">
+              <img style="float: left;" src="img/left.png">
+            </div>
+            <div class="carousel-control col-md-1" onclick="$('#Carousel_2').carousel('next');" role="button" data-slide="next" style="width: 100%; padding: 0; margin-top: 140px;">
+              <img style="float: right;" src="img/right.png">
+            </div>
+
+            </div>
+            <div name="rating" style="text-align: center; margin-top: 10px;">
+              <button type="button" class="btn btn-plain btn-land" style="width: 210px;">VIEW ALL<span class="glyphicon glyphicon-triangle-right"></span></button>
+            </div--> 
+
+
+            <br> 
+            <div>
+              <h3 style="display:inline-block;height: 25px;">FROM OUR COMMUNITY</h3>
+              <button type="button" class="btn btn-plain btn-community" style="float:right;display:inline-block;">GO TO COMMUNITY <span class="glyphicon glyphicon-triangle-right"></span></button>
+            </div>     
+            
+            <div class="community-section">
+              <div class="community-box one">
+                <div class="community-title">FROM INCEPTION TO THE <br> UNVEILING OF YOUR DREAM HOME</div>
+              </div>
+              <div class="community-box two">
+                <div class="community-title">DISCOVER THE POSSIBILITIES OF CREATING</div>
+              </div>
+              <div class="community-box three">  
+                <div class="community-title">FIND AND CHOOSE THE SEASONED PROFESSIONAL YOU NEED!</div>                        
+              </div>
+            </div>                
+            <!--button type="button" class="btn btn-plain" style="float: right;">SIGN IN<span class="glyphicon glyphicon-triangle-right"></span></button-->
+            <div style="height: 28px; border: solid 1px #999999;" >
+            <span style="line-height: 28px; font-family: Oswald-Regular; font-size: 14px; padding-left: 10px; color: #666666; font-weight: bold;">YOUR RECENTLY VIEWED ITEMS</span>
+            <button type="button" class="btn btn-plain btn-finance2 gray" style="float: right;">SIGN IN<span class="glyphicon glyphicon-triangle-right" ></span></button>
+             </div>
+      </section>                    
+                    
+
+                    <!-- Footer Menu -->
+                    <section id="footer-menu" class="container-fluid">
+
+                        <div class="container">     
+                            <div class="row">
+                                <div class="col-lg-9 col-md-8 footer-text">
+                                    Homboo 2012- All rights reserved - <a href="#">Go to top</a> | <a href="#">About homboo</a> | <a href="#">The project</a> | <a href="#">How it works</a>| <a href="#">FAQ</a> |<a href="#">Support</a> | <a href="#">Contacts</a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 followus" >
+                                    Follow Us:&nbsp;
+                                    <span class="social-small-list">
+                                        <a href="https://www.facebook.com/fcbarcelona" ><img src="img/social/fb.png"></a>
+                                        <a href="http://culepersempre.tumblr.com/" ><img src="img/social/tumblr.png"></a>
+                                        <a href="https://www.linkedin.com/company/fc-barcelona" ><img src="img/social/ld.png"></a>
+                                        <a href="https://www.youtube.com/user/fcbarcelona" ><img src="img/social/youtube.png"></a>
+                                        <a href="https://www.flickr.com/groups/fcbarcelona/" ><img src="img/social/social1.png"></a>
+                                        <a href="#" ><img src="img/social/social2.png"></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+
+                    <!-- Footer -->
+                    <footer class="container-fluid footer-main">              
+                        <div class="container">        
+                            <div class="row footer-list">     
+                            <div class="col-xs-5 col-md-1">
+
+                              <div class="ancho" >
+                                   <h4 class="fuente tam1 " >LAND</h4>
+                                   <hr class="color2 movhr2" />
+                                   <a href="#" >Documents</a> <br>
+                                   <a href="#" >Add Your Land</a> <br>
+                                   <a href="#">My Saved Land</a>
+
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho">
+                                   <h4 class="fuente tam1" id="offs">ARQUITECTURE</h4>
+                                   <hr class="color1 movhr2"/>
+                                   <a href="#">Project Options</a> <br>
+                                   <a href="#">My Project</a> <br>
+                                   <a href="#">User's Guide</a><br>
+                                   <a href="#">Contact our Architect</a><br>
+                                   <a href="#">Guide Lines</a><br>
+                                   <a href="#">FAQ</a><br>
+                                   <a href="#">News</a>
+
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho">
+                                   <h4 class="fuente tam1" id="offs">MANAGEMENT</h4>
+                                   <hr class="color3 movhr2" />
+                                   <a href="#">Estimating</a> <br>
+                                   <a href="#">Scheduling</a> <br>
+                                   <a href="#">My Projects</a>
+
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho" >
+                                   <h4 class="fuente tam1" id="offs">MATERIALS</h4>
+                                   <hr class="color4 movhr2"/>
+                                   <a  href="#">Best Sellers</a> <br>
+                                   <a  href="#">Deal of the Day</a> <br>
+                                   <a  href="#">News Arrivals</a><br>
+                                   <a  href="#">On sale</a>
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho">
+                                   <h4 class="fuente tam1" id="offs">PROFESSIONALS</h4>
+                                   <hr class="color5 movhr2"/>
+                                   <a href="#">My Professionals</a> <br>
+                                   <a href="#">My Reviews</a> <br>
+                                   <a href="#">Post your Resume</a><br>
+                                   <a href="#">My Resume</a>
+
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho">
+                                   <h4 class="fuente tam1" id="offs">FINANCE</h4>
+                                   <hr class="color6 movhr2"/>
+                                   <a href="#">Loans and <br> Mortgages</a> <br>
+                                   <a href="#">Home Insurance</a> <br>
+
+
+                              </div>
+
+                            </div>
+
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho">
+                                   <h4 class="fuente tam1" id="offs">FURNITURE</h4>
+                                   <hr class="color7 movhr2"/>
+                                   <a href="#"> Best Sellers</a> <br>
+                                   <a href="#">Deal of the Day</a> <br>
+                                   <a href="#">News Arrivals</a><br>
+                                   <a href="#">On sale</a>
+
+                              </div>
+                            </div>
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho">
+                                   <h4 class="fuente tam1" id="offs">SUPORT</h4>
+                                   <hr class="color8 movhr2"/>
+                                   <a href="#">Clients</a> <br>
+                                   <a href="#">Home builders</a> <br>
+                                   <a href="#">Construction</a><br>
+                                   <a href="#">Books</a><br>
+                                   <a href="#">Videos</a><br>
+                                   <a href="#">FAQ</a>
+
+                              </div>
+
+                            </div>
+                            <div class="col-xs-12 col-md-1">
+                               <div class="ancho" >
+                                   <h4 class="fuente tam1" id="offs">COMMUNITY</h4>
+                                   <hr class="color9 movhr2" />
+                                   <a href="#">Land</a> <br>
+                                   <a href="#">Architecture</a> <br>
+                                   <a href="#">Management</a> <br>
+                                   <a href="#" >Home Construction</a> <br>
+                                   <a href="#">Materials</a> <br>
+                                   <a href="#">Decorating</a> <br>
+                                   <a href="#">Landscaping</a> <br>
+                                   <a href="#">Furniture</a> <br>
+                                   <a href="#">Finance</a> <br>
+                                   <a href="#">Support</a> <br>                 
+
+                              </div>
+
+                            </div>
+                            </div> 
+                        </div>
+
+                    </footer>
+
+             </div>
+  </div>
+  <!-- End Main Wrapper -->        
+  <script src="js/vendors-8c770cac.js"></script>
+
+  <!-- Custom vendors -->
+  <script src="js/custom-vendors.min.js"></script>
+
+  <!-- App -->
+  <script src="js/app.min.js"></script>
+
+  <script>
+ var scroll_menu = parseInt($('.header-in').offset().top);
+var scroll_banner = parseInt($('#banner2').offset().top);
+var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+var header_bar = TweenLite.from($('.nav-anim'), 0.5, {top:"-50px",paused:true});
+
+var going_down = true;
+$(window).scroll(function(){
+   var scroll_lvl = $(window).scrollTop();
+
+   
+   if((scroll_lvl >= scroll_menu && going_down)){
+       console.log("hola");
+       going_down = false;
+       nav_bar.play();
+       header_bar.play();
+       $('.header-menu').appendTo('.nav-anim .container');
+      // tween_tabs.play();
+   }
+   
+   if((scroll_lvl < (scroll_menu+24)) && !going_down){
+       console.log("hola2");
+       going_down = true;
+       nav_bar.reverse();
+       header_bar.reverse();
+       $('.header-menu').appendTo('.header-cont');
+      //tween_tabs.reverse();
+   }
+
+});
+    
+    
+  </script>
+  </body>
+</html>
