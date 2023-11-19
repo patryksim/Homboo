@@ -1,0 +1,892 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title ng-bind="(gPage.pageTitle | available:'')">Loans Mortgages</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="">
+
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/vendors-bc42d84b.css">
+  <link rel="stylesheet" href="css/finance.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+</head>
+
+<body>
+
+<script src="js/jquery/jquery.js"></script>
+<script src="js/jquery/jquery-ui.min.js"></script>
+<script src="js/vendors-8c770cac.js"></script>
+<script src="js/custom-vendors.min.js"></script>
+  
+  
+<!-- Main Wrapper -->
+<div class="materials_home-css fixes-css"> 
+
+<!-- Anim Container -->
+<nav class="homboo-navfinal navbar navbar-default navbar-fixed-top">
+    <div class="container">
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+          </button>
+        </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu lock" src="img/lock.png">MY ACCOUNT   <span class="caret"></span></a>
+           
+          </li>
+          <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu pencil" src="img/Pencil.png">MY HOMBOO <span class="caret"></a>
+          </li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu" src="img/wishlist-white.png">MY WISHLIST</span></a>
+          </li>
+          <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu cart" src="img/cart.png">CART <span class="badge">0</span></a>
+          </li>
+         
+          <li class="fix-img">
+            <a href="#">
+              <img class="img-menu" src="img/search.png">
+            </a>
+
+          </li>
+
+         </ul>
+      </div>
+
+    </div>
+</nav>
+
+<header class="container-fluid homboo-headerfinal">
+    <div class="container-fluid navAnim">
+        <div class="container">
+
+
+        </div>
+    </div>
+    <div class="container headerCont" >
+        <div class="row headerIn">
+            <div class="logo-cont">
+                <a href="#">
+                    <img src="img/homboo.png" alt="...">    
+                </a>  
+                <a href="materials_home.html" >FINANCE</a>
+            </div>
+        </div>
+
+        <div class="row headerMenu">
+            <div class="navHeader">
+                <ul class="headerList" >
+                    <li id="dropdown-cat" class="dropdown-cat"><a href="#">LOAN & MORTGAGES</a></li>
+                    <li><a href="06-30_finance_insurance.html"><strong>INSURANCE</strong></a></li>
+                    <li><a href="materials_bestsellers.html">MY STATUS</a></li>
+                    <li class="visible-mobile" ><a  href="#">LIVE SUPPORT</a></li>
+                </ul>            
+            </div>
+            <div class="navHeaderRight services-btn hidden-sm hidden-xs">
+                <ul class="nav nav-pills" >
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-plain orange live"><img src="img/live_support.png" >LIVE SUPPORT</button>
+                            <button id="drop-down-menu-btn" type="button" class="btn btn-plain gray serv" data-toggle="dropdown" >HOMBOO services<span class="caret"></span></button>
+                            <ul class="dropdown-menu services-list" role="menu">
+                                <li>
+                                    <a href="#"><img src="img/dropdown/land.png"></a>
+                                    <a href="#"><h4>LAND</h4></a>
+                                    <hr class="color2" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/archi.png"></a>
+                                    <a href="#"><h4>ARCHITECTURE</h4></a>
+                                    <hr class="color1" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/management.png"></a>
+                                    <a href="#"><h4>MANAGEMENT</h4></a>
+                                    <hr class="color3" />
+                                </li>
+
+                                <li>
+                                    <a href="#"><img src="img/dropdown/materials.png"></a>
+                                    <a href="#"><h4>MATERIALS</h4></a>
+                                    <hr class="color4" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/prof.png"></a>
+                                    <a href="#"><h4>PROFESSIONALS</h4></a>
+                                    <hr class="color5" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/finance.png"></a>
+                                    <a href="#"><h4>FINANCE</h4></a>
+                                    <hr class="color6" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/furniture.png"></a>
+                                    <a href="#"><h4>FURNITURE</h4></a>
+                                    <hr class="color7" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/supp.png"></a>
+                                    <a href="#"><h4>SUPPORT</h4></a>
+                                    <hr class="color8" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/com.png"></a>
+                                    <a href="#"><h4>COMMUNITY</h4></a>
+                                    <hr class="color9" />
+                                </li>
+
+                            </ul>
+                        </div>
+                </ul>       
+            </div>
+        </div>
+    </div>
+</header>
+<script>
+    /*Scrip del principio*/
+    $(document).ready(function () {
+    var scroll_menu = parseInt($('.headerIn').offset().top);
+    var scroll_banner = parseInt($('#banner').offset().top);
+    var height_nav_anim = $('.navAnim').outerHeight();
+    var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+    var header_bar = TweenLite.from($('.navAnim'), 0.5, {top:"-"+height_nav_anim+"px",paused:true});
+    var going_down = true;
+    $(window).scroll(function(){
+       var scroll_lvl = $(window).scrollTop();
+       if((scroll_lvl >= scroll_banner && going_down)){
+           going_down = false;
+           nav_bar.play();
+           header_bar.play();
+           $('.headerMenu').appendTo('.navAnim .container');
+          // tween_tabs.play();
+       }
+       
+       if((scroll_lvl < (scroll_banner)) && !going_down){
+           going_down = true;
+           nav_bar.reverse();
+           header_bar.reverse();
+           $('.headerMenu').appendTo('.headerCont');
+          //tween_tabs.reverse();
+       }
+    });
+    });
+    /*Fin Scrip del principio*/
+</script>
+
+<!-- Section Social-Links -->
+<div class="social-links">
+  <a href="https://www.facebook.com/fcbarcelona"><img src="img/icons-big/face.png"></a>
+  <a href="#"><img src="img/icons-big/print.png"></a>
+  <a href="https://twitter.com/fcbarcelona_es" target="_blank"><img src="img/icons-big/twitter.png"></a>
+  <a href="https://plus.google.com/+FCBarcelona"><img src="img/icons-big/plus.png"></a>
+</div>
+
+<!-- Section Banner -->
+<section id="banner" class="container-fluid" style="min-height: 0;">
+</section>
+
+<!-- Section Breadcrumbs -->
+<section class="breadcrumbs container">
+  <a href="#">Homboo</a> / <a href="#">Finance</a> /  <a href="06-30_finance_insurance.html">Insurance</a> / Personal Property Coverage
+</section> 
+
+<!-- Section Principal Container --> 
+<section id="banner2" class="home-css container finance">
+  <div class="img-title-container" style="background-image:url('img/home-insurance.png')">
+    <div class="img-title insurance-img">INSURANCE</div>
+  </div>
+  <h2 style="color: #333333;">Personal Property Coverage</h2>
+  <h3>HOW TO CHOOSE PERSONAL PROPERTY COVERAGE</h3>
+  <p>Do you know how much your belongings are worth? The figure is often much more than our customers initially think. Taking the time to assess what you own, and to understand how your coverage works, can help you make sure everything you value is adequately covered.</p>
+  <p>Start by walking around your home and look for items that you spent a lot of money on, or that have appreciated in value since you got them. Having a record of those items (pictures, documents, etc.) - especially those most important to you either financially or personally, is very important in working to ensure they are protected properly. Talk with your "our allies" on the types of coverages you might want to consider.</p>
+  <p>You also may want to download the Home Inventory Tool or iPhone application to help you record these items and make them more accessible to you (either on your phone or saved as an electronic file away from your home) should a disaster occur.</p>
+  <p>Finally, you will need to make a decision about how to insure your belongings and choose coverage options to suit your individual replacement needs.</p>
+  <h3>ACTUAL CASH VALUE VS. REPLACEMENT COST</h3>
+  <p>Actual Cash Value and Replacement Cost coverage options refer to different ways your belongings may be replaced in the event of a covered loss. Many of your belongings will decrease in value over time, so it's important to consider this when you purchase coverage for protecting your personal property.</p>
+  <h4>Actual Cash Value Coverage</h4>
+  <p>Your personal property is typically covered for what you might expect to get if you sold it at fair market value - possibly at a garage sale, online auction site or other sales event - as replacement cost minus depreciation.</p>
+  <p>This coverage option may allow for the insured item to be replaced with a used item but not always a new one. Premiums for Actual Cash Value insurance coverage though generally cost less than those for the Replacement Cost coverage option.</p>
+  <h4>Replacement Cost Coverage</h4>
+  <p>With Replacement Cost coverage, your insured personal property items are usually covered for what it costs to buy them again at the time of the claim as new, although premiums for this type of insurance are typically higher than the Actual Cash Value insurance coverage option.</p>
+  <h3>ITEM CATEGORIES AND LIMITS</h3>
+  <p>Insurance companies often group certain kinds of things into categories - and sometimes assign maximum amounts that can be paid to replace all of the items or even single items in the category. Your total property limit may give you the impression you have plenty of coverage, but you may find that your category limit on computers isn't nearly enough to replace all of the computers in your home.</p>
+  <p>Insuring High Value Items A common item in a category covered by your policy, such as a watch, may be worth $25 or $5,000. Because this category can vary so greatly in value, your policy may set a "per item limit."</p>
+  <p>For example: There may be a $1,000 limit per piece of jewelry and a $2,500 limit for all jewelry as a group. If you own a couple of inexpensive watches, you're in great shape. If you own a watch that has appraised for $10,000, you have an option to cover that specific watch at a higher amount.</p>
+  <p>If your valuables exceed per item limits, you may want to ask your agent about a Scheduled Personal Property coverage option to better protect more valuable items.</p>
+  <h3>INSURING GROUPS OF VALUABLE ITEMS</h3>
+  <p>You can use an Optional Coverage to raise the group limit on a category covered by your policy, such as computers — or you can use it to insure an entire category of items that are not covered by your policy because they are less commonly owned.</p>
+  <p>To make sure your belongings are adequately covered, you'll want to go over your policy's category and item limits with your agent. Find an agent now. Learn about other types of residential insurance coverage How are you covered in the event of a lawsuit? Our allies' liability insurance overview can tell you. How will you help pay for your guest's medical bills in the event of an accident? Learn more about guest medical coverage. How are you protected against flood damage? Read about flood insurance.</p>
+  <p>You can often use an Optional Coverage to raise the group limit on a category covered by your policy, such as computers — or you can use it to insure an entire category of items that are not covered by your policy because they are less commonly owned.</p>
+  <p>To help make sure your belongings are adequately covered, you'll want to go over your policy's category and item limits with our allies' agent. Find an agent now. Learn About Other Types of Residential Insurance Coverage.</p>
+  <p>Liability Insurance: How are you covered in the event of a lawsuit? Our ally's liability insurance overview may help outline some options you might not have considered.</p>
+  <p>Guest Medical Insurance: How can you help pay for your guest's medical bills in the event of any accident on your property? Consider Allstate's guest medical coverage. Flood Insurance: Can you purchase flood insurance coverage? Is it even available in your area? Not sure? Our Allies may be able to help answer these questions and offer you some recommendations.</p>
+  <p>3) Summary / Homepage: Liability Insurance</p>
+  <p>If someone accuses you of causing harm, it helps to have support in defending yourself. Discover how liability insurance can help protect your savings in the event of a lawsuit resulting from a covered loss.</p>
+  <div class="buttom_apply home-css container"> 
+    <button type="button" onClick="location.href='06-36_finance_form01.html'" class="btn btn-plain btn-finance finance center">APPLY TODAY</button>
+  </div>
+</section> 
+
+<!-- Section Community Final -->  
+<section class="container homboo-communityfinal">
+    <div class="singIn-btn row" style="border: solid 1px #999999;">
+        <div class="sign-in-text col-md-9 col-xs-7" style="text-align: left; height: 27px;">YOUR RECENTLY VIEWED ITEMS</div>
+        <button id="boton-sign-in" type="button" class="btn btn-plain col-md-3 col-xs-5" >SING IN <span class="glyphicon glyphicon-triangle-right" ></span></button>
+    </div>
+    <div id="recientes" class="materials_home-css">
+        <div class="row title" style="padding-bottom: 13px;">
+            <div class="col-md-12">
+                <h3>RECENTLY VIEWED</h3>
+            </div>  
+        </div>
+        <div id="recently" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner carrousel-cont" role="listbox">
+                <div class="item active">
+                    <div class=" myrow">
+                        <!--CUADRO DE PRODUCTO 1-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider1.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 2-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider2.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 3-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider3.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 4-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col firt-view-col4" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider4.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class=" myrow">
+                        <!--CUADRO DE PRODUCTO 1-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider1.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 2-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider2.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 3-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider3.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                        <!--CUADRO DE PRODUCTO 4-->
+                        <div class="col-md-3 col-sm-5 col-xs-3 firt-view-col firt-view-col4" >
+                            <h1>Jeld-Wen</h1>
+                            <div class="firt-view-img"><img src="img/slider/slider4.png"/></div>
+                            <h2>$139.00</h2>
+                            <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                            <div name="compare">
+                                <div class="wish">
+                                    <a href="#">
+                                        <img src="img/favorite-icon.png" />
+                                        <span>Add to Wish List</span>
+                                    </a>
+                                </div>
+                                <div class="compare-second">
+                                <div  style="float: left;">
+                                    <input type="checkbox"></input><span>Compare</span>
+                                </div>
+                                <div style="float: right;">
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-amarilla.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png"/>
+                                    <img src="img/estrella-gris.png" />
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CUADRO DE PRODUCTO-->
+
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class=" carousel-control " onclick=" $('#recently').carousel('prev');" role="button" data-slide="prev">
+                <img src="img/left.png">
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="myright carousel-control" onclick=" $('#recently').carousel('next');" role="button" data-slide="next">
+                <img src="img/right.png">
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <div id="Recentlyresponsive" class="carousel slide" data-ride="carousel">
+        <div class="row title" style="padding-bottom: 13px;">
+            <div class="col-md-12">
+                <h3>RECENTLY VIEWED</h3>
+            </div>  
+        </div>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
+        <div class="item active" style="width: 100%">
+            <div class=" ">
+                <div class="col-md-3 col-xs-12 padding-0 ">
+                    <div class="related-product productresponsive  ">
+                        <h4>Jeld-Wen</h4>
+                        <img class="img_lands" src="img/slider/slider1.png" alt="">
+                        <div class="price">$139.00</div>
+                        <button class="btn btn-hoomboo btn-f-white green2 btn-fs-10 btn-upper">Details</button>
+                        <div class="heigth-20"></div>
+                        <div class="favorite favorite-full">
+                            <div class="add-to">
+                                <img src="img/favorite-icon.png" alt=""> <a href="">Add to Wish List</a>
+                            </div>
+                            <div class="heigth-10"></div>
+                            <div class="compare"> <input type="checkbox"> <span>compare</span></div>
+                            <span class="favorites-stars">
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item " style="width: 100%">
+            <div class="">
+                <div class="col-md-3 col-xs-12 padding-0 ">
+                    <div class="related-product productresponsive  ">
+                        <h4>Jeld-Wen</h4>
+                        <img class="img_lands" src="img/slider/slider2.png" alt="">
+                        <div class="price">$139.00</div>
+                        <button class="btn btn-hoomboo btn-f-white green2 btn-fs-10 btn-upper">Details</button>
+                        <div class="heigth-20"></div>
+                        <div class="favorite favorite-full">
+                            <div class="add-to">
+                                <img src="img/favorite-icon.png" alt=""> <a href="">Add to Wish List</a>
+                            </div>
+                            <div class="heigth-10"></div>
+                            <div class="compare"> <input type="checkbox"> <span>compare</span></div>
+                            <span class="favorites-stars">
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item " style="width: 100%">
+            <div class="">
+                <div class="col-md-3 col-xs-12 padding-0 ">
+                    <div class="related-product productresponsive">
+                        <h4>Jeld-Wen</h4>
+                        <img class="img_lands" src="img/slider/slider3.png" alt="">
+                        <div class="price">$139.00</div>
+                        <button class="btn btn-hoomboo btn-f-white green2 btn-fs-10 btn-upper">Details</button>
+                        <div class="heigth-20"></div>
+                        <div class="favorite favorite-full">
+                            <div class="add-to">
+                                <img src="img/favorite-icon.png" alt=""> <a href="">Add to Wish List</a>
+                            </div>
+                            <div class="heigth-10"></div>
+                            <div class="compare"> <input type="checkbox"> <span>compare</span></div>
+                            <span class="favorites-stars">
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star on glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                                <i class="star glyphicon glyphicon-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control" onclick=" $('#Recentlyresponsive').carousel('prev');" role="button" data-slide="prev">
+            <img src="img/left.png">
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control myright" onclick=" $('#Recentlyresponsive').carousel('next');" role="button" data-slide="next">
+            <img src="img/right.png">
+            <span class="sr-only">Next</span>
+        </a>
+        </div>          
+    </div>
+</section>
+        
+<!-- Section Footer -->
+<footer class="container-fluid footer-main" style="margin-top: 25px;padding-right: 0px;padding-left: 0px;">  
+  <!-- Footer Menu -->
+  <section id="footer-menu" class="container-fluid" style="margin-bottom: 17px;margin-top: -21px; ">
+    
+    <div class="container">     
+      <div class="row">
+        <div class="col-lg-9 col-md-8 footer-text">
+          Homboo 2012- All rights reserved - <a href="#">Go to top</a> | <a href="#">About homboo</a> | <a href="#">The project</a> | <a href="#">How it works</a>| <a href="#">FAQ</a> |<a href="#">Support</a> | <a href="#">Contacts</a>
+        </div>
+        <div class="col-lg-3 col-md-4 followus" >
+          Follow Us:&nbsp;
+          <span class="social-small-list">
+            <a href="https://www.facebook.com/fcbarcelona" target="_blank" ><img src="img/social/fb.png"></a>
+            <a href="http://culepersempre.tumblr.com/" target="_blank" ><img src="img/social/tumblr.png"></a>
+            <a href="https://www.linkedin.com/company/fc-barcelona" target="_blank" ><img src="img/social/ld.png"></a>
+            <a href="https://www.youtube.com/user/fcbarcelona" target="_blank" ><img src="img/social/youtube.png"></a>
+            <a href="https://www.flickr.com/groups/fcbarcelona/" target="_blank" ><img src="img/social/social1.png"></a>
+            <a href="https://delicious.com/" target="_blank" ><img src="img/social/social2.png"></a>
+          </span>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+    <div class="container">        
+        <div class="row footer-list">     
+        <div class="col-xs-5 col-md-1">
+
+          <div class="ancho" >
+               <h4 class="fuente tam1 " >LAND</h4>
+               <hr class="color2 movhr2" />
+               <a href="#" >Documents</a> <br>
+               <a href="#" >Add Your Land</a> <br>
+               <a href="#">My Saved Land</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">ARQUITECTURE</h4>
+               <hr class="color1 movhr2"/>
+               <a href="#">Project Options</a> <br>
+               <a href="#">My Project</a> <br>
+               <a href="#">User's Guide</a><br>
+               <a href="#">Contact our Architect</a><br>
+               <a href="#">Guide Lines</a><br>
+               <a href="#">FAQ</a><br>
+               <a href="#">News</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">MANAGEMENT</h4>
+               <hr class="color3 movhr2" />
+               <a href="#">Estimating</a> <br>
+               <a href="#">Scheduling</a> <br>
+               <a href="#">My Projects</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">MATERIALS</h4>
+               <hr class="color4 movhr2"/>
+               <a  href="#">Best Sellers</a> <br>
+               <a  href="#">Deal of the Day</a> <br>
+               <a  href="#">News Arrivals</a><br>
+               <a  href="#">On sale</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">PROFESSIONALS</h4>
+               <hr class="color5 movhr2"/>
+               <a href="#">My Professionals</a> <br>
+               <a href="#">My Reviews</a> <br>
+               <a href="#">Post your Resume</a><br>
+               <a href="#">My Resume</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FINANCE</h4>
+               <hr class="color6 movhr2"/>
+               <a href="#">Loans and <br> Mortgages</a> <br>
+               <a href="#">Home Insurance</a> <br>
+
+
+          </div>
+
+        </div>
+
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FURNITURE</h4>
+               <hr class="color7 movhr2"/>
+               <a href="#"> Best Sellers</a> <br>
+               <a href="#">Deal of the Day</a> <br>
+               <a href="#">News Arrivals</a><br>
+               <a href="#">On sale</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">SUPORT</h4>
+               <hr class="color8 movhr2"/>
+               <a href="#">Clients</a> <br>
+               <a href="#">Home builders</a> <br>
+               <a href="#">Construction</a><br>
+               <a href="#">Books</a><br>
+               <a href="#">Videos</a><br>
+               <a href="#">FAQ</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">COMMUNITY</h4>
+               <hr class="color9 movhr2" />
+               <a href="#">Land</a> <br>
+               <a href="#">Architecture</a> <br>
+               <a href="#">Management</a> <br>
+               <a href="#" >Home Construction</a> <br>
+               <a href="#">Materials</a> <br>
+               <a href="#">Decorating</a> <br>
+               <a href="#">Landscaping</a> <br>
+               <a href="#">Furniture</a> <br>
+               <a href="#">Finance</a> <br>
+               <a href="#">Support</a> <br>                 
+
+          </div>
+
+        </div>
+        </div> 
+    </div>
+</footer>
+
+</div>
+
+
+<script>
+    function lista() {
+        document.getElementById("product-grid-container").style.display = "none";
+        document.getElementById("product-list-container").style.display = "block";
+
+        document.getElementById("grid").className = "gray-icon";
+        document.getElementById("list").className = "black-icon";
+    }
+
+    function grilla() {
+        document.getElementById("product-list-container").style.display = "none";
+        document.getElementById("product-grid-container").style.display = "block";
+
+        document.getElementById("grid").className = "black-icon";
+        document.getElementById("list").className = "gray-icon";
+    }
+
+    $(".title-faq").click(function() {
+        $(this).parent().find(".content-faq").toggle();
+        $(this).parent().find(".mas").toggle();
+        $(this).parent().find(".menos").toggle();
+    });
+    $('#Recentlyresponsive').carousel({
+    interval: false
+    });
+
+    $('#recently').carousel({
+    interval: false
+    });
+    $("#boton-sign-in").click(function() {
+    $(this).parent().toggle();
+    if (window.innerWidth < 447) {
+    $("#Recentlyresponsive").toggle();
+    } else {
+    $("#recientes").toggle();
+    }
+    });
+    $(document).ready(function () {
+        $("#slider-range").slider({
+          range: true,
+          min: 0,
+          max: 1000,
+          values: [ 0, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount1" ).val( "$" + ui.values[ 0 ]);
+            $( "#amount2" ).val( "$" + ui.values[ 1 ]);
+          }
+        });
+        $( "#amount1" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ));
+        $( "#amount2" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ));
+    });
+    /*Scrip del principio*/
+    $(document).ready(function () {
+    var scroll_menu = parseInt($('.headerIn').offset().top);
+    var scroll_banner = parseInt($('#banner').offset().top);
+    var height_nav_anim = $('.navAnim').outerHeight();
+    var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+    var header_bar = TweenLite.from($('.navAnim'), 0.5, {top:"-"+height_nav_anim+"px",paused:true});
+    var going_down = true;
+    $(window).scroll(function(){
+       var scroll_lvl = $(window).scrollTop();
+       if((scroll_lvl >= scroll_banner && going_down)){
+           going_down = false;
+           nav_bar.play();
+           header_bar.play();
+           $('.headerMenu').appendTo('.navAnim .container');
+          // tween_tabs.play();
+       }
+       
+       if((scroll_lvl < (scroll_banner)) && !going_down){
+           going_down = true;
+           nav_bar.reverse();
+           header_bar.reverse();
+           $('.headerMenu').appendTo('.headerCont');
+          //tween_tabs.reverse();
+       }
+    });
+    });
+    /*Fin Scrip del principio*/
+    $(document).ready(function () {
+        $('.materials-dropdown,.dropdown-title').hide();
+        var materials = {
+            displayed: false,
+            toggle_dropdown: function(e){
+                e.preventDefault();                                 
+                if(screen.width<768){
+                    return;
+                }
+                if(this.displayed){
+                    $('.materials-dropdown,.dropdown-title').hide();
+                    this.displayed = false;
+                }
+                else{
+                    $('.materials-dropdown,.dropdown-title').show();
+                    this.displayed = true;
+                }
+            }
+        };
+        
+        $('#dropdown-cat').on('click',materials.toggle_dropdown);
+        
+        $(window).on('click',function(e){
+            
+            if(screen.width<768){
+                return;
+            }
+            if(!$(e.target).is('li.dropdown-cat a')) {
+                $('.materials-dropdown,.dropdown-title').hide();
+                materials.displayed = false;
+            }
+        });
+        
+        $('button.serv').on('click',function(){
+            if(screen.width<768){
+                return;
+            }
+            $('.materials-dropdown,.dropdown-title').hide();
+            materials.displayed = false;
+        });
+    });
+</script>
+
+
+</body>
+</html>

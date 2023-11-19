@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title ng-bind="(gPage.pageTitle | available:'')">Loans Mortgages</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="author" content="">
+
+  <!-- Custom style -->
+  <link rel="stylesheet" href="css/vendors-bc42d84b.css">
+  <link rel="stylesheet" href="css/land.css">
+
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="icons/favicon.png">
+
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+    e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+    e.src='//www.google-analytics.com/analytics.js';
+    r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+  </script>
+<script
+  type="text/javascript"></script>
+  <script type="text/javascript">
+  //<![CDATA[
+  function load() {
+  if (GBrowserIsCompatible()) {
+  var map = new GMap2(document.getElementById("map"));
+  map.setCenter(new GLatLng(37.4419, -122.1419), 13);
+  map.setMapType(G_HYBRID_TYPE);
+  }
+  }
+  //]]>
+</script>
+<style>
+  #map {
+    width: 100%;
+    min-height: 1200%;
+  }
+</style>
+</head>
+
+<body>
+
+<script src="js/jquery/jquery.js"></script>
+<script src="js/jquery/jquery-ui.min.js"></script>
+<script src="js/vendors-8c770cac.js"></script>
+<script src="js/custom-vendors.min.js"></script>
+  
+  
+<!-- Main Wrapper -->
+<div class="materials_home-css fixes-css"> 
+
+<!--div id="wrapper"-->
+<div>
+<!-- Anim Container -->
+<nav class="homboo-navfinal navbar navbar-default navbar-fixed-top">
+    <div class="container">
+       <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+          </button>
+        </div>
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu lock" src="img/lock.png">MY ACCOUNT   <span class="caret"></span></a>
+           
+          </li>
+          <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu pencil" src="img/Pencil.png">MY HOMBOO <span class="caret"></a>
+          </li>
+          <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu" src="img/wishlist-white.png">MY WISHLIST</span></a>
+          </li>
+          <li class="dropdown">
+           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img class="img-menu cart" src="img/cart.png">CART <span class="badge">0</span></a>
+          </li>
+         
+          <li class="fix-img">
+            <a href="#">
+              <img class="img-menu" src="img/search.png">
+            </a>
+
+          </li>
+
+         </ul>
+      </div>
+
+    </div>
+</nav>
+
+<header class="container-fluid homboo-headerfinal">
+    <div class="container-fluid navAnim">
+        <div class="container">
+
+
+        </div>
+    </div>
+    <div class="container headerCont" >
+        <div class="row headerIn">
+            <div class="logo-cont">
+                <a href="#">
+                    <img src="img/homboo.png" alt="...">    
+                </a>  
+                <a href="materials_home.html" >LAND</a>
+            </div>
+        </div>
+
+        <div class="row headerMenu">
+            <div class="navHeader">
+                <ul class="headerList" >
+                    <li id="dropdown-cat" class="dropdown-cat"><a href="#">FIND YOUR LAND</a></li>
+                    <li><a href="#"><strong>ADD YOUR LAND</strong></a></li>
+                    <li><a href="#">MY SAVED LANDS</a></li>
+                    <li><a href="#">MY POSTED LANDS</a></li>
+                    <li><a href="#">LEGAL DOCUMENTS</a></li>
+                    <li class="visible-mobile" ><a href="#">LIVE SUPPORT</a></li>
+                </ul>            
+            </div>
+            <div class="navHeaderRight services-btn hidden-sm hidden-xs">
+                <ul class="nav nav-pills" >
+                    <div class="btn-group">
+                            <button type="button" class="btn btn-plain orange live"><img src="img/live_support.png" >LIVE SUPPORT</button>
+                            <button id="drop-down-menu-btn" type="button" class="btn btn-plain gray serv" data-toggle="dropdown" >HOMBOO services<span class="caret"></span></button>
+                            <ul class="dropdown-menu services-list" role="menu">
+                                <li>
+                                    <a href="#"><img src="img/dropdown/land.png"></a>
+                                    <a href="#"><h4>LAND</h4></a>
+                                    <hr class="color2" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/archi.png"></a>
+                                    <a href="#"><h4>ARCHITECTURE</h4></a>
+                                    <hr class="color1" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/management.png"></a>
+                                    <a href="#"><h4>MANAGEMENT</h4></a>
+                                    <hr class="color3" />
+                                </li>
+
+                                <li>
+                                    <a href="#"><img src="img/dropdown/materials.png"></a>
+                                    <a href="#"><h4>MATERIALS</h4></a>
+                                    <hr class="color4" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/prof.png"></a>
+                                    <a href="#"><h4>PROFESSIONALS</h4></a>
+                                    <hr class="color5" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/finance.png"></a>
+                                    <a href="#"><h4>FINANCE</h4></a>
+                                    <hr class="color6" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/furniture.png"></a>
+                                    <a href="#"><h4>FURNITURE</h4></a>
+                                    <hr class="color7" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/supp.png"></a>
+                                    <a href="#"><h4>SUPPORT</h4></a>
+                                    <hr class="color8" />
+                                </li>
+                                <li>
+                                    <a href="#"><img src="img/dropdown/com.png"></a>
+                                    <a href="#"><h4>COMMUNITY</h4></a>
+                                    <hr class="color9" />
+                                </li>
+
+                            </ul>
+                        </div>
+                </ul>       
+            </div>
+        </div>
+    </div>
+</header>
+<script>
+  /*Scrip del principio*/
+  $(document).ready(function () {
+  var scroll_menu = parseInt($('.headerIn').offset().top);
+  var scroll_banner = parseInt($('#banner').offset().top);
+  var height_nav_anim = $('.navAnim').outerHeight();
+  var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+  var header_bar = TweenLite.from($('.navAnim'), 0.5, {top:"-"+height_nav_anim+"px",paused:true});
+  var going_down = true;
+  $(window).scroll(function(){
+     var scroll_lvl = $(window).scrollTop();
+     if((scroll_lvl >= scroll_banner && going_down)){
+         going_down = false;
+         nav_bar.play();
+         header_bar.play();
+         $('.headerMenu').appendTo('.navAnim .container');
+        // tween_tabs.play();
+     }
+     
+     if((scroll_lvl < (scroll_banner)) && !going_down){
+         going_down = true;
+         nav_bar.reverse();
+         header_bar.reverse();
+         $('.headerMenu').appendTo('.headerCont');
+        //tween_tabs.reverse();
+     }
+  });
+  });
+  /*Fin Scrip del principio*/
+</script>
+
+<!-- Section Social-Links -->
+<div class="social-links">
+  <a href="https://www.facebook.com/fcbarcelona"><img src="img/iconos/face.png"></a>
+  <a href="#"><img src="img/iconos/print.png"></a>
+  <a href="https://twitter.com/fcbarcelona_es" target="_blank"><img src="img/iconos/twitter.png"></a>
+  <a href="https://plus.google.com/+FCBarcelona"><img src="img/iconos/plus.png"></a>
+</div>
+
+<!-- Section Banner -->
+<section id="banner" class="container-fluid" style="min-height: 0;">
+</section>
+
+<!-- Section Principal Container --> 
+<section id="banner2" class="home-css container long-container land">
+    <div class="row">
+        <div class="search-on-map-left col-md-6 col-sm-12 col-xs-12">
+          <div class="barsearch2">
+            <center>
+              <label style="color: white;">Search</label>
+              <input id="pac-input" class="controls" type="text" placeholder="Address or Zip">
+              <button type="submit" class="btn btn-default" style="background-color: #048F27 !important;"><img src="img/go.png"/></button>
+            </center>
+            <div id="map"></div>
+          </div>
+        </div>
+
+        <div id="search-on-map-right-on"class="col-md-6 col-sm-12 col-xs-12" >
+          <iframe src="01-Land_Search_on_Map_2.html" style="width:100%; height:460px;"  frameborder="0"></iframe>
+        </div>
+
+        <div id="search-on-map-right-off" class="col-md-6 col-sm-12 col-xs-12" >
+
+            <div class="remenber1" >
+                <p>Remenber: if your prefer you can refine your search with our Advanced Search Save Search for the future (this options is only for registered users). <b style="color: #036b1b;">SIGN IN Now</b> </p>
+            </div>
+
+            <div class="remenber2" >
+                <p>687 results of <b style="color: #036b1b;">"Lands in Queens Country, NY"</b> </p>
+            </div>
+
+            <div name="controls" class="controls-up" >
+                <a id="grid" href="#" onClick="grilla();" style="margin-right: 5px;"><img src="img/grid.png"/></a>
+                <a id="list" href="#" class="gray-icon" onClick="lista();"><img src="img/list.png"/></a>
+                <!--PAGINADOR-->
+                <div class="paginator" >
+                    <a href="#" class="flechas"><img src="img/flecha-izq-doble.png" /></a>
+                    <a href="#" class="flechas"><img src="img/flecha-izq.png" /></a>
+                    <div class="active"><a href="#" class="gray-text">1</a></div> 
+                    <div><a href="#" class="gray-text">2</a></div> 
+                    <div><a href="#" class="gray-text">3</a></div>  
+                    <div><a href="#" class="gray-text">4</a></div>  
+                    <div><a href="#" class="gray-text">5</a></div>  
+                    <div><a href="#" class="gray-text">...</a></div>  
+                    <a href="#" class="flechas-left" ><img src="img/flecha-der.png" /></a>
+                    <a href="#" class="flechas-left" ><img src="img/flecha-der-doble.png" /></a>
+                </div>
+                <!--FIN PAGINADOR-->
+                <div class="selectParent right" style="heigh: 24px; width:152px; position:relative; left: -47px;"> 
+                    <select class="form-element" style="width: 156px; font-family: OpenSans-Light; font-size: 12px; color: black;">
+                    <option value="" selected style="color:#ababab">sort by price</option>
+                    <option>sort by date</option>
+                    <option>sort by relevance</option>
+                    </select>
+                </div>
+            </div>
+
+            <div>
+            <div id="product-grid-container">
+                <div class="row firt-view">
+                <!--CUADRO DE PRODUCTO 1-->
+                <div class="col-md-3 col-sm-5 col-xs-4 firt-view-col" >
+                    <h1>Jeld-Wen</h1>
+                    <div class="firt-view-img"><img src="img/grid/grid1.png"/></div>
+                    <h2>$139.00</h2>
+                    <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                    <div name="compare">
+                        <div class="wish">
+                            <a href="#">
+                                <img src="img/iconos/favorite-icon.png" />
+                                <span>Add to Wish List</span>
+                            </a>
+                        </div>
+                        <div class="compare-second">
+                        <div  style="float: left;">
+                            <input type="checkbox"></input><span>Compare</span>
+                        </div>
+                        <div style="float: right;">
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN CUADRO DE PRODUCTO-->
+                
+                <!--CUADRO DE PRODUCTO 2-->
+                <div class="col-md-3 col-sm-5 col-xs-4 firt-view-col" >
+                    <h1>Jeld-Wen</h1>
+                    <div class="firt-view-img"><img src="img/grid/grid2.png"/></div>
+                    <h2>$139.00</h2>
+                    <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                    <div name="compare">
+                        <div class="wish">
+                            <a href="#">
+                                <img src="img/iconos/favorite-icon.png" />
+                                <span>Add to Wish List</span>
+                            </a>
+                        </div>
+                        <div class="compare-second">
+                        <div  style="float: left;">
+                            <input type="checkbox"></input><span>Compare</span>
+                        </div>
+                        <div style="float: right;">
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN CUADRO DE PRODUCTO-->
+                
+                <!--CUADRO DE PRODUCTO 3-->
+                <div class="col-md-3 col-sm-5 col-xs-4 firt-view-col" >
+                    <h1>Jeld-Wen</h1>
+                    <div class="firt-view-img"><img src="img/grid/grid3.png"/></div>
+                    <h2>$139.00</h2>
+                    <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                    <div name="compare">
+                        <div class="wish">
+                            <a href="#">
+                                <img src="img/iconos/favorite-icon.png" />
+                                <span>Add to Wish List</span>
+                            </a>
+                        </div>
+                        <div class="compare-second">
+                        <div  style="float: left;">
+                            <input type="checkbox"></input><span>Compare</span>
+                        </div>
+                        <div style="float: right;">
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN CUADRO DE PRODUCTO-->
+                
+                <!--CUADRO DE PRODUCTO 4-->
+                <div class="col-md-3 col-sm-5 col-xs-4 firt-view-col" >
+                    <h1>Jeld-Wen</h1>
+                    <div class="firt-view-img"><img src="img/grid/grid4.png"/></div>
+                    <h2>$139.00</h2>
+                    <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                    <div name="compare">
+                        <div class="wish">
+                            <a href="#">
+                                <img src="img/iconos/favorite-icon.png" />
+                                <span>Add to Wish List</span>
+                            </a>
+                        </div>
+                        <div class="compare-second">
+                        <div  style="float: left;">
+                            <input type="checkbox"></input><span>Compare</span>
+                        </div>
+                        <div style="float: right;">
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN CUADRO DE PRODUCTO-->
+                
+                <!--CUADRO DE PRODUCTO 5-->
+                <div class="col-md-3 col-sm-5 col-xs-4 firt-view-col" >
+                    <h1>Jeld-Wen</h1>
+                    <div class="firt-view-img"><img src="img/grid/grid5.png"/></div>
+                    <h2>$139.00</h2>
+                    <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                    <div name="compare">
+                        <div class="wish">
+                            <a href="#">
+                                <img src="img/iconos/favorite-icon.png" />
+                                <span>Add to Wish List</span>
+                            </a>
+                        </div>
+                        <div class="compare-second">
+                        <div  style="float: left;">
+                            <input type="checkbox"></input><span>Compare</span>
+                        </div>
+                        <div style="float: right;">
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN CUADRO DE PRODUCTO-->
+                
+                <!--CUADRO DE PRODUCTO 6-->
+                <div class="col-md-3 col-sm-5 col-xs-4 firt-view-col" >
+                    <h1>Jeld-Wen</h1>
+                    <div class="firt-view-img"><img src="img/grid/grid6.png"/></div>
+                    <h2>$139.00</h2>
+                    <div class="firt-view-button"><button type="button" class="btn btn-plain btn-details green center" onclick="location.href='materials_details.html'">DETAILS</button></div>
+                    <div name="compare">
+                        <div class="wish">
+                            <a href="#">
+                                <img src="img/iconos/favorite-icon.png" />
+                                <span>Add to Wish List</span>
+                            </a>
+                        </div>
+                        <div class="compare-second">
+                        <div  style="float: left;">
+                            <input type="checkbox"></input><span>Compare</span>
+                        </div>
+                        <div style="float: right;">
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-amarilla.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png"/>
+                            <img src="img/estrella-gris.png" />
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <!--FIN CUADRO DE PRODUCTO-->
+
+                </div>
+
+            </div>
+
+
+                
+            </div>
+
+            <div name="controls" class="controls-down" >
+                <!--PAGINADOR-->
+                <div class="paginator" >
+                    <a href="#" class="flechas"><img src="img/flecha-izq-doble.png" /></a>
+                    <a href="#" class="flechas"><img src="img/flecha-izq.png" /></a>
+                    <div class="active"><a href="#" class="gray-text">1</a></div> 
+                    <div><a href="#" class="gray-text">2</a></div> 
+                    <div><a href="#" class="gray-text">3</a></div>  
+                    <div><a href="#" class="gray-text">4</a></div>  
+                    <div><a href="#" class="gray-text">5</a></div>  
+                    <div><a href="#" class="gray-text">...</a></div>  
+                    <a href="#" class="flechas-left" ><img src="img/flecha-der.png" /></a>
+                    <a href="#" class="flechas-left" ><img src="img/flecha-der-doble.png" /></a>
+                </div>
+                <!--FIN PAGINADOR-->
+            </div>
+        </div>
+
+    </div>
+</section> 
+
+<!-- Section Footer -->
+<footer id="search-on-map-footer-off" class="container-fluid footer-main" style="margin-top: 25px;padding-right: 0px;padding-left: 0px;">  
+  <!-- Footer Menu -->
+  <section id="footer-menu" class="container-fluid" style="margin-bottom: 17px;margin-top: -21px; ">
+    
+    <div class="container">     
+      <div class="row">
+        <div class="col-lg-9 col-md-8 footer-text">
+          Homboo 2012- All rights reserved - <a href="#">Go to top</a> | <a href="#">About homboo</a> | <a href="#">The project</a> | <a href="#">How it works</a>| <a href="#">FAQ</a> |<a href="#">Support</a> | <a href="#">Contacts</a>
+        </div>
+        <div class="col-lg-3 col-md-4 followus" >
+          Follow Us:&nbsp;
+          <span class="social-small-list">
+            <a href="https://www.facebook.com/fcbarcelona" target="_blank" ><img src="img/social/fb.png"></a>
+            <a href="http://culepersempre.tumblr.com/" target="_blank" ><img src="img/social/tumblr.png"></a>
+            <a href="https://www.linkedin.com/company/fc-barcelona" target="_blank" ><img src="img/social/ld.png"></a>
+            <a href="https://www.youtube.com/user/fcbarcelona" target="_blank" ><img src="img/social/youtube.png"></a>
+            <a href="https://www.flickr.com/groups/fcbarcelona/" target="_blank" ><img src="img/social/social1.png"></a>
+            <a href="https://delicious.com/" target="_blank" ><img src="img/social/social2.png"></a>
+          </span>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+    <div class="container">        
+        <div class="row footer-list">     
+        <div class="col-xs-5 col-md-1">
+
+          <div class="ancho" >
+               <h4 class="fuente tam1 " >LAND</h4>
+               <hr class="color2 movhr2" />
+               <a href="#" >Documents</a> <br>
+               <a href="#" >Add Your Land</a> <br>
+               <a href="#">My Saved Land</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">ARQUITECTURE</h4>
+               <hr class="color1 movhr2"/>
+               <a href="#">Project Options</a> <br>
+               <a href="#">My Project</a> <br>
+               <a href="#">User's Guide</a><br>
+               <a href="#">Contact our Architect</a><br>
+               <a href="#">Guide Lines</a><br>
+               <a href="#">FAQ</a><br>
+               <a href="#">News</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">MANAGEMENT</h4>
+               <hr class="color3 movhr2" />
+               <a href="#">Estimating</a> <br>
+               <a href="#">Scheduling</a> <br>
+               <a href="#">My Projects</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">MATERIALS</h4>
+               <hr class="color4 movhr2"/>
+               <a  href="#">Best Sellers</a> <br>
+               <a  href="#">Deal of the Day</a> <br>
+               <a  href="#">News Arrivals</a><br>
+               <a  href="#">On sale</a>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">PROFESSIONALS</h4>
+               <hr class="color5 movhr2"/>
+               <a href="#">My Professionals</a> <br>
+               <a href="#">My Reviews</a> <br>
+               <a href="#">Post your Resume</a><br>
+               <a href="#">My Resume</a>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FINANCE</h4>
+               <hr class="color6 movhr2"/>
+               <a href="#">Loans and <br> Mortgages</a> <br>
+               <a href="#">Home Insurance</a> <br>
+
+
+          </div>
+
+        </div>
+
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">FURNITURE</h4>
+               <hr class="color7 movhr2"/>
+               <a href="#"> Best Sellers</a> <br>
+               <a href="#">Deal of the Day</a> <br>
+               <a href="#">News Arrivals</a><br>
+               <a href="#">On sale</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho">
+               <h4 class="fuente tam1" id="offs">SUPORT</h4>
+               <hr class="color8 movhr2"/>
+               <a href="#">Clients</a> <br>
+               <a href="#">Home builders</a> <br>
+               <a href="#">Construction</a><br>
+               <a href="#">Books</a><br>
+               <a href="#">Videos</a><br>
+               <a href="#">FAQ</a>
+
+          </div>
+
+        </div>
+        <div class="col-xs-12 col-md-1">
+           <div class="ancho" >
+               <h4 class="fuente tam1" id="offs">COMMUNITY</h4>
+               <hr class="color9 movhr2" />
+               <a href="#">Land</a> <br>
+               <a href="#">Architecture</a> <br>
+               <a href="#">Management</a> <br>
+               <a href="#" >Home Construction</a> <br>
+               <a href="#">Materials</a> <br>
+               <a href="#">Decorating</a> <br>
+               <a href="#">Landscaping</a> <br>
+               <a href="#">Furniture</a> <br>
+               <a href="#">Finance</a> <br>
+               <a href="#">Support</a> <br>                 
+
+          </div>
+
+        </div>
+        </div> 
+    </div>
+</footer>
+
+
+
+
+</div>
+
+</div>
+
+<script>
+    function lista() {
+        document.getElementById("product-grid-container").style.display = "none";
+        document.getElementById("product-list-container").style.display = "block";
+
+        document.getElementById("grid").className = "gray-icon";
+        document.getElementById("list").className = "black-icon";
+    }
+
+    function grilla() {
+        document.getElementById("product-list-container").style.display = "none";
+        document.getElementById("product-grid-container").style.display = "block";
+
+        document.getElementById("grid").className = "black-icon";
+        document.getElementById("list").className = "gray-icon";
+    }
+
+    $(".title-faq").click(function() {
+        $(this).parent().find(".content-faq").toggle();
+        $(this).parent().find(".mas").toggle();
+        $(this).parent().find(".menos").toggle();
+    });
+    $('#Recentlyresponsive').carousel({
+    interval: false
+    });
+
+    $('#recently').carousel({
+    interval: false
+    });
+    $("#boton-sign-in").click(function() {
+    $(this).parent().toggle();
+    if (window.innerWidth < 447) {
+    $("#Recentlyresponsive").toggle();
+    } else {
+    $("#recientes").toggle();
+    }
+    });
+    $(document).ready(function () {
+        $("#slider-range").slider({
+          range: true,
+          min: 0,
+          max: 1000,
+          values: [ 0, 300 ],
+          slide: function( event, ui ) {
+            $( "#amount1" ).val( "$" + ui.values[ 0 ]);
+            $( "#amount2" ).val( "$" + ui.values[ 1 ]);
+          }
+        });
+        $( "#amount1" ).val( "$" + $( "#slider-range" ).slider( "values", 0 ));
+        $( "#amount2" ).val( "$" + $( "#slider-range" ).slider( "values", 1 ));
+    });
+    /*Scrip del principio*/
+    $(document).ready(function () {
+    var scroll_menu = parseInt($('.headerIn').offset().top);
+    var scroll_banner = parseInt($('#banner').offset().top);
+    var height_nav_anim = $('.navAnim').outerHeight();
+    var nav_bar = TweenLite.to($('nav'), 0.5, {top:"-50px",paused:true});
+    var header_bar = TweenLite.from($('.navAnim'), 0.5, {top:"-"+height_nav_anim+"px",paused:true});
+    var going_down = true;
+    $(window).scroll(function(){
+       var scroll_lvl = $(window).scrollTop();
+       if((scroll_lvl >= scroll_banner && going_down)){
+           going_down = false;
+           nav_bar.play();
+           header_bar.play();
+           $('.headerMenu').appendTo('.navAnim .container');
+          // tween_tabs.play();
+       }
+       
+       if((scroll_lvl < (scroll_banner)) && !going_down){
+           going_down = true;
+           nav_bar.reverse();
+           header_bar.reverse();
+           $('.headerMenu').appendTo('.headerCont');
+          //tween_tabs.reverse();
+       }
+    });
+    });
+    /*Fin Scrip del principio*/
+    $(document).ready(function () {
+        $('.materials-dropdown,.dropdown-title').hide();
+        var materials = {
+            displayed: false,
+            toggle_dropdown: function(e){
+                e.preventDefault();                                 
+                if(screen.width<768){
+                    return;
+                }
+                if(this.displayed){
+                    $('.materials-dropdown,.dropdown-title').hide();
+                    this.displayed = false;
+                }
+                else{
+                    $('.materials-dropdown,.dropdown-title').show();
+                    this.displayed = true;
+                }
+            }
+        };
+        
+        $('#dropdown-cat').on('click',materials.toggle_dropdown);
+        
+        $(window).on('click',function(e){
+            
+            if(screen.width<768){
+                return;
+            }
+            if(!$(e.target).is('li.dropdown-cat a')) {
+                $('.materials-dropdown,.dropdown-title').hide();
+                materials.displayed = false;
+            }
+        });
+        
+        $('button.serv').on('click',function(){
+            if(screen.width<768){
+                return;
+            }
+            $('.materials-dropdown,.dropdown-title').hide();
+            materials.displayed = false;
+        });
+    });
+</script>
+<!--**************Google Map API*************-->
+<script>
+  // This example adds a search box to a map, using the Google Place Autocomplete
+  // feature. People can enter geographical searches. The search box will return a
+  // pick list containing a mix of places and predicted search terms.
+  function initAutocomplete() {
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -33.8688, lng: 151.2195},
+      zoom: 4,
+      mapTypeId: google.maps.MapTypeId.SATELLITE
+    });
+
+    // Create the search box and link it to the UI element.
+    var input = document.getElementById('pac-input');
+    var searchBox = new google.maps.places.SearchBox(input);
+    //map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+    // Bias the SearchBox results towards current map's viewport.
+    map.addListener('bounds_changed', function() {
+      searchBox.setBounds(map.getBounds());
+    });
+
+    var markers = [];
+    // [START region_getplaces]
+    // Listen for the event fired when the user selects a prediction and retrieve
+    // more details for that place.
+    searchBox.addListener('places_changed', function() {
+      var places = searchBox.getPlaces();
+
+      if (places.length == 0) {
+        return;
+      }
+
+      // Clear out the old markers.
+      markers.forEach(function(marker) {
+        marker.setMap(null);
+      });
+      markers = [];
+
+      // For each place, get the icon, name and location.
+      var bounds = new google.maps.LatLngBounds();
+      places.forEach(function(place) {
+        var icon = {
+          url: place.icon,
+          size: new google.maps.Size(71, 71),
+          origin: new google.maps.Point(0, 0),
+          anchor: new google.maps.Point(17, 34),
+          scaledSize: new google.maps.Size(25, 25)
+        };
+
+        // Create a marker for each place.
+        markers.push(new google.maps.Marker({
+          map: map,
+          icon: icon,
+          title: place.name,
+          position: place.geometry.location
+        }));
+
+        if (place.geometry.viewport) {
+          // Only geocodes have viewport.
+          bounds.union(place.geometry.viewport);
+        } else {
+          bounds.extend(place.geometry.location);
+        }
+      });
+      map.fitBounds(bounds);
+    });
+    // [END region_getplaces]
+  }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&callback=initAutocomplete"
+async defer></script>
+<!--************End Google Map API***********-->
+
+
+
+</body>
+</html>
