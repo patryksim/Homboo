@@ -35,3 +35,9 @@ http://www.consultoriainnova.com/blog/css/footer-siempre-abajo-css/
 
 ## Ramas de trabajo
 main: Rama con la distribución v4 de Homboo.
+
+---
+
+© 2021 CHI Technologies & Solutions. Todos los derechos reservados.
+
+Contáctanos: [contacto@chi.com.pa](mailto:contacto@chi.com.pa) | [patricia.hung@chi.com.pa](mailto:patricia.hung@chi.com.pa)
